@@ -1,4 +1,19 @@
-site_name: My Docs
-
+site_name: MARS
 theme:
   name: material
+site_url: https://marstmu.com/
+site_description: Project documentation with Markdown.
+site_author: Zeul
+repo_url: https://github.com/zeulewan/test
+edit_uri: blob/master/docs/
+
+nav:
+  - Home: index.md
+  - Avionics Guide:
+    - Avionics: avionics-guide/avionics.md
+    - Release Notes: about/release-notes.md
+    - Contributing: about/contributing.md
+    - License: about/license.md
+
+extra_css:
+  - css/extra.css
