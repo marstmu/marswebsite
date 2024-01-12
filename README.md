@@ -1,3 +1,3 @@
 # test
 
-![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
+[![ci](https://github.com/zeulewan/test/actions/workflows/ci.yml/badge.svg)](https://github.com/zeulewan/test/actions/workflows/ci.yml)
