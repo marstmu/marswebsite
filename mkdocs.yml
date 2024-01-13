@@ -1,6 +1,8 @@
 site_name: MARS
 theme:
   name: material
+  logo: img/logo-no-text.png
+  favicon: img/favicon.ico
 site_url: https://marstmu.com/
 site_description: Project documentation with Markdown.
 site_author: Zeul
@@ -8,12 +10,9 @@ repo_url: https://github.com/zeulewan/test
 edit_uri: blob/master/docs/
 
 nav:
-  - Home: index.md
   - Avionics Guide:
-    - Avionics: avionics-guide/avionics.md
-    - Release Notes: about/release-notes.md
-    - Contributing: about/contributing.md
-    - License: about/license.md
-
+    - Overview: avionics-guide/overview.md
+    - Flight Computer: avionics-guide/flight-computer.md
+    - Ground Station: avionics-guide/ground-station.md
 extra_css:
   - css/extra.css

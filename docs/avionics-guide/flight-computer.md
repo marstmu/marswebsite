@@ -1,4 +1,4 @@
-# MkDocs Installation
+# Flight computer
 
 A detailed guide.
 

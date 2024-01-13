@@ -23,10 +23,11 @@ This is the website for all our documentation. Updated jan 12th 2023.
 <a href="user-guide/" class="btn btn-primary" role="button">User Guide</a>
 </div>
 -->
-
+<!---
 <div class="jumbotron">
 <h2 class="display-4 text-center">Helpers</h2>
-
+-->
+<!---
 <div class="row">
   <div class="col-sm-6">
     <div class="card">
@@ -86,5 +87,6 @@ This is the website for all our documentation. Updated jan 12th 2023.
       </div>
     </div>
   </div>
-</div>
-</div>
+<</div>
+</div> 
+-->
