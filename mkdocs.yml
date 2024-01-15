@@ -16,8 +16,7 @@ theme:
     - navigation.sections
     - navigation.tabs
 
-plugins:
-  - blog
+
 
 extra_css:
   - css/extra.css
