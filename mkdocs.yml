@@ -1,9 +1,9 @@
 site_name: MARS
 
 site_url: https://marstmu.com/
-site_description: Project documentation with Markdown.
+site_description: MARS Documentation.
 site_author: Zeul
-repo_url: https://github.com/zeulewan/test
+repo_url: https://github.com/zeulewan/marswebsite
 edit_uri: blob/master/docs/
 
 theme:
@@ -19,11 +19,21 @@ theme:
     - navigation.instant
     - navigation.path
     - content.action.edit
-
+    - content.code.copy
 plugins:
   - blog:
       enabled: false
   - search
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+  
 extra_css:
   - css/extra.css
