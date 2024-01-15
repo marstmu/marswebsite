@@ -6,7 +6,7 @@ hide:
 
 # Home
 
-This is the website for all our documentation. Updated jan 15th 2023.
+This is the website for all our documentation. Updated jan 14th 2023.
 
 ---
 
