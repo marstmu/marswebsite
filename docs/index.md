@@ -14,7 +14,7 @@ This is the website for all our documentation. Updated jan 15th 2023.
 
 [google drive]: https://drive.google.com/drive/folders/1su8x4vkgnDxWnVwPmmk2WvCllnf5fLLx?usp=sharing
 
-[git hub]: https://github.com/zeulewan/avionics_code
+[github]: https://github.com/zeulewan/avionics_code
 
 [this repo]: https://github.com/zeulewan/marswebsite
 

@@ -7,6 +7,8 @@ repo_url: https://github.com/zeulewan/marswebsite
 edit_uri: blob/master/docs/
 
 theme:
+  palette:
+    primary: black
   icon:
     repo: fontawesome/brands/github
   name: material
