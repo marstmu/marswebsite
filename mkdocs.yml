@@ -21,7 +21,8 @@ theme:
     - content.action.edit
 
 plugins:
-  - blog
+  - blog:
+      enabled: false
   - search
 
 extra_css:
