@@ -1,5 +1,5 @@
 # Lunar Wolves
 
 <div class="image-container">
-<img src="../img/lunarwolves.jpg" />
+<img src="/docs/img/lunarwolves.jpg" />
 </div>
