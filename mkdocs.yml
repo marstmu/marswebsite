@@ -15,8 +15,13 @@ theme:
   features:
     - navigation.sections
     - navigation.tabs
-
-
+    - search.suggest
+    - navigation.instant
+    - navigation.path
+  
+plugins:
+  - blog
+  - search:
 
 extra_css:
   - css/extra.css
