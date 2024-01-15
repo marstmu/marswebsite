@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Home
 
 This is the website for all our documentation. Updated jan 12th 2023.

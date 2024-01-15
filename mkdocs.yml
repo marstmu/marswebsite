@@ -18,10 +18,11 @@ theme:
     - search.suggest
     - navigation.instant
     - navigation.path
-  
+    - content.action.edit
+
 plugins:
   - blog
-  - search:
+  - search
 
 extra_css:
   - css/extra.css
