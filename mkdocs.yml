@@ -20,7 +20,6 @@ theme:
     - navigation.tabs
     - search.suggest
     - navigation.instant
-    - navigation.path
     - content.action.edit
     - content.code.copy
     - navigation.indexes
@@ -29,6 +28,9 @@ plugins:
   - search
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
+
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
