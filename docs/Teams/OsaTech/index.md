@@ -1,5 +1,2 @@
-<div class="image-container">
-<img src="team.jpg">
-</div>
-
+![team](team.jpg)
 This is OsaTech at the PDR.
