@@ -1,1 +1,0 @@
-# Lockheed Interns

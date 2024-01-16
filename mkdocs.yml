@@ -16,15 +16,16 @@ theme:
   favicon: img/favicon.ico
   features:
     - navigation.sections
+    - navigation.top
     - navigation.tabs
     - search.suggest
     - navigation.instant
     - navigation.path
     - content.action.edit
     - content.code.copy
+    - navigation.indexes
 plugins:
-  - blog:
-      enabled: false
+  - blog
   - search
 
 markdown_extensions:
