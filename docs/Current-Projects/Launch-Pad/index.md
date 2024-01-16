@@ -1,3 +1,3 @@
 # Overview
 
-Here, Leo will be describing his launch pad project.
+We need a launch pad for our model rockets. 
