@@ -23,6 +23,3 @@ This is the website for all our documentation. Updated jan 16th 2023.
 <div class="image-container">
 <a href="https://www.linkedin.com/in/harakhmehta/"><img src="img/logo.png" /></a>
 </div>
-
-
-![](Guidelines/Avionics-Guide/avionics/3.gif)
