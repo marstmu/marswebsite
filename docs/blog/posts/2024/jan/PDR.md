@@ -5,4 +5,4 @@ comments: true
 ---
 
 ![team](PDR1.JPG)
-Today we successfully hosted the preliminary design reviews. Four out of the 9 currently registered teams showed up. There is one more on friday.
+Today we successfully hosted the preliminary design reviews. Four out of the 9 currently registered teams showed up. There is one more on friday. 
