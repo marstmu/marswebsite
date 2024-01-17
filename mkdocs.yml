@@ -7,8 +7,30 @@ repo_url: https://github.com/zeulewan/marswebsite
 edit_uri: blob/master/docs/
 
 theme:
+
   palette:
-    primary: black
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: black
+
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   icon:
     repo: fontawesome/brands/github
   name: material
@@ -32,11 +54,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - md_in_html
-  - tables
-
-
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
