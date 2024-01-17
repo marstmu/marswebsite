@@ -68,8 +68,17 @@ markdown_extensions:
   
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zeulewan/marswebsite
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/mars.tmu/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/marstmu/?originalSubdomain=ca
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/BaQZkd2TKj
 
-  
+
 extra_css:
   - css/extra.css
 
