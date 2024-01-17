@@ -45,6 +45,7 @@ theme:
     - content.action.edit
     - content.code.copy
     - navigation.indexes
+    - toc.follow
 plugins:
   - blog
   - search
