@@ -66,5 +66,10 @@ markdown_extensions:
   - pymdownx.superfences
   
   
+extra:
+  generator: false
+
+  
 extra_css:
   - css/extra.css
+

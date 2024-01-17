@@ -37,6 +37,7 @@ This is a random list of things that need to be done
 - [ ] Merch
     - [ ] stickers
 - [ ] On board Cameras for rockets
+- [ ] Create anonymous feedback page
 - [ ] Open issue on material github to describe column separation problem (below)
 
 | Syntax      | Description |
