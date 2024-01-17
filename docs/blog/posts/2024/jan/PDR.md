@@ -1,6 +1,7 @@
 ---
 title: Preliminary Design Review (PDR)
 date: 2024-01-15
+comments: true
 ---
 
 ![team](PDR1.JPG)
