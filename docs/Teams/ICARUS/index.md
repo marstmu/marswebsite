@@ -1,4 +1,4 @@
 # ICARUS
-![team](team.jpg)
+![team](ICARUS.jpg)
 
 This is ICARUS. 
