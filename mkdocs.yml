@@ -48,7 +48,6 @@ theme:
     - navigation.indexes
     - toc.follow
 plugins:
-  - git-authors
   - blog:
       authors: true
   - search
