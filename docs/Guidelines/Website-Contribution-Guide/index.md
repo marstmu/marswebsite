@@ -12,3 +12,5 @@ This website is hosted on [github].
 ## Mac
 
 ## Windows
+1. Get a computer.
+2. Call home. 
