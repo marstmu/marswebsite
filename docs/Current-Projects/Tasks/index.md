@@ -24,7 +24,8 @@ This is a list of things that need to be done
 
 
 ## Website
-- [ ] Mkdocs Documentation
+- [ ] Documentation
+    - [ ] How to contribute to this website
     - [ ] Ground Station
     - [ ] TVC
     - [ ] Launch pad
