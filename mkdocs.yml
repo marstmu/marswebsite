@@ -48,7 +48,7 @@ theme:
     - navigation.indexes
     - toc.follow
 plugins:
-  #- git-authors
+  - git-authors
   - blog:
       authors: true
   - search
