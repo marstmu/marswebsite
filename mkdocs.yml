@@ -4,7 +4,7 @@ site_url: https://marstmu.com/
 site_description: MARS Documentation.
 site_author: Zeul
 repo_url: https://github.com/zeulewan/marswebsite
-edit_uri: blob/master/docs/
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -48,6 +48,7 @@ theme:
     - navigation.indexes
     - toc.follow
 plugins:
+  - git-authors
   - blog:
       authors: true
   - search
