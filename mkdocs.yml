@@ -48,7 +48,8 @@ theme:
     - navigation.indexes
     - toc.follow
 plugins:
-  - blog
+  - blog:
+      authors: true
   - search
 
 markdown_extensions:

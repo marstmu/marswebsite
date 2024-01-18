@@ -2,6 +2,8 @@
 title: Preliminary Design Review (PDR)
 date: 2024-01-15
 comments: true
+authors:
+  - zeul
 ---
 
 ![team](PDR1.JPG)
