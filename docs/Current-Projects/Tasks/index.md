@@ -12,15 +12,15 @@ This is a list of things that need to be done
     - [ ] LC budget
     - [ ] P card
     - [ ] Cheq req everything else
-        - [ ] Micro SD cards for teensies
-        - [ ] Home hardware
-        - [ ] Switch
-        - [ ] Stand off pins
+        - [ ] Micro SD cards for teensys
+        - [ ] Home hardware switches
+        - [ ] Stand off pins from creatron
 - [x] Finalize competition date
 - [ ] Merch
     - [ ] stickers
 - [ ] On board Cameras for rockets
 - [ ] Create anonymous feedback page
+- [ ] Get HAM radio licenses
 
 
 ## Website
@@ -45,7 +45,10 @@ This is a list of things that need to be done
 - [ ] Ground station front end
 - [ ] Avionics save data flash then to SD card orr
 - [ ] Avionics states, low power, high power, dump
-- [ ] MavLink
+- [ ] MavLink with mission planner
 
 ## Structures
-- [ ] Secure motors in place
+- [ ] Secure motors in place (end retainer)
+- [ ] method of cutting phenolic tubes
+- [ ] settle on fin material
+- [ ]
