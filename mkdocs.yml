@@ -49,8 +49,8 @@ theme:
     - toc.follow
 plugins:
   - git-revision-date-localized:
-      enable_creation_date: false
-      timezone: America/Toronto
+      enable_creation_date: true
+      #timezone: America/Toronto
   - git-committers:
       repository: zeulewan/marswebsite
       branch: main
