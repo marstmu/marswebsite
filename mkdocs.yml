@@ -48,7 +48,9 @@ theme:
     - navigation.indexes
     - toc.follow
 plugins:
-  - git-authors
+  - git-committers:
+      repository: zeulewan/marswebsite
+      branch: main
   - blog:
       authors: true
   - search
