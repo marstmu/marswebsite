@@ -9,7 +9,7 @@ We will keep this page up to date with the current status of where there teams s
 ## Your status
 
 By now your team should have a decent CAD of your rocket. You should have used the BOM from the [Rocket Guide].
-Half of the teams have done the PDR, which is meant to showcase your current progress. This is not a requirement but you loose 15% on the marking if you opt out of it. Other than that optional thing, there is nothing teams need to do right now. We will be hosting tutorials 
+Half of the teams have done the PDR, which is meant to showcase your current progress. This is not a requirement but you loose 15% on the marking if you opt out of it. Other than that optional thing, there is nothing teams need to do right now. 
 
 As always feel free to reach out in your team specific discord channel if you are feeling confused about anything! 
 
