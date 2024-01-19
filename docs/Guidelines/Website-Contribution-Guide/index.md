@@ -73,7 +73,7 @@ Then type a commit message into this box that describes what changes you're tryi
 
 ![Alt text](commit.png)
 
-It's going to prompt you a few things, hit yes to everything including the popup that asks you to fork the repo. This allows you to publish your own version of the website which the MARS team can then review and combine into the main website. 
+It's going to prompt you a few things, hit yes to everything including the popup that asks you to fork the repo. This allows you to publish your own version of the website which the MARS team can then review and combine into the main website. Click sync changes once the blue button changes.
 
 10. Go to your own personal repo on GitHub and click contribute, like so:
 
