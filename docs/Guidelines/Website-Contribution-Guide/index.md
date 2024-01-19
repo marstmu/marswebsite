@@ -65,18 +65,22 @@ git clone https://github.com/zeulewan/marswebsite.git
 cd marswebsite
 code .
 ```
+If all went well, your interface should look a lot like this. **IMPORTANT: make sure the blue box in the bottom left corner says WSL: Ubuntu. If there are any issues with that, repeat step 6**
+![Alt text](finalView.png)
+
 9. You're all set! Make contributions to your teams' subfolder under marswebsite > docs > Teams. Once ready to publish to the website, click on source control (the third one in this menu): 
 
-![Alt text](sourceControl.png)
+    ![Alt text](sourceControl.png)
 
-Then type a commit message into this box that describes what changes you're trying to make to the website. Once complete, hit the big blue commit button:
+    Then type a commit message into this box that describes what changes you're trying to make to the website. Once complete, hit the big blue commit button:
 
-![Alt text](commit.png)
+    ![Alt text](commit.png)
 
-It's going to prompt you a few things, hit yes to everything including the popup that asks you to fork the repo. This allows you to publish your own version of the website which the MARS team can then review and combine into the main website. Click sync changes once the blue button changes.
+    It's going to prompt you a few things, hit yes to everything including the popup that asks you to fork the repo. This allows you to publish your own version of the website which the MARS team can then review and combine into the main website. Click sync changes once the blue button changes.
 
-10. Go to your own personal repo on GitHub and click contribute, like so. Click sync fork *before* contribute, if applicable:
+10. Go to your own personal repo on GitHub and click contribute, like so. Click sync fork *before* contribute, only necessary if you see a message saying your branch is behind the main branch:
 ![Alt text](contribute.png)
+Sync fork will open up a new button called "create pull request". Once you press that, the MARS team will see your changes and be able to merge them onto the website!
 
 
 [Install WSL]: https://learn.microsoft.com/en-us/windows/wsl/install
