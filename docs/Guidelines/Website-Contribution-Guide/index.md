@@ -10,6 +10,7 @@ This website is hosted on [github].
 [github]: repo_url
 
 ## Mac
+(Coming soon!)
 
 ## Windows
 1. Have a computer with Windows 10/11.
