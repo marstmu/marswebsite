@@ -36,7 +36,8 @@ This is a list of things that need to be done
     - [x] Section for each team to post their shit
     - [ ] Competition outline
 - [ ] Open issue on material github to describe column separation problem (below)
-- [ ] Add a way to link to things then be abl
+- [ ] Add a way to link to things then be able to update all at once
+- [ ] add github token
 
 ## Avionics
 - [ ] Connection diagram for avionics
