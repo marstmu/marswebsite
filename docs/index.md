@@ -10,7 +10,7 @@ This is the website for all our documentation. Updated jan 18th 2023.
 
 ---
 
-**MARS** stands for the Metropolitan Aerospace Rocket Society. This year (2023), 10 teams will be participating in a competition to see who can launch the best rocket (method of determining so pending). Please check out our public [google drive] and [github]. This website is run on [this repo], join our [discord]. This website is designed to last many generations, and to be as easy to contribute to as possible.
+**MARS** stands for the Metropolitan Aerospace Rocket Society. This year (2023), 10 teams will be participating in a competition to see who can launch the best rocket. Check out our [google drive] and [github]. This website is run on [this repo], join our [discord]. This website is designed to last many generations, and to be as easy to contribute to as possible.
 
 [google drive]: https://drive.google.com/drive/folders/1su8x4vkgnDxWnVwPmmk2WvCllnf5fLLx?usp=sharing
 
