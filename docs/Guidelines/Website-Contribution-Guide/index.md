@@ -93,3 +93,9 @@ Sync fork will open up a new button called "create pull request". Once you press
 [Install WSL]: https://learn.microsoft.com/en-us/windows/wsl/install
 [Install VS Code from this website.]: https://code.visualstudio.com/
 [this link]: https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+
+# things we forgot
+1. get github
+2. git config --global --get user.email
+git config --global --get user.name
+THis should be after the git clone step
