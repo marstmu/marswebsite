@@ -1,4 +1,5 @@
-# index
+# Ground Station
+
 
 The ground station is a raspberry pi with an HC-12 connected to it running [this python code]:
 [this python code]:https://github.com/zeulewan/groundstation/tree/main
@@ -44,3 +45,29 @@ with open(file_name, mode='w') as file:
             current_message += data
 
 ```
+
+## Raspberry Pi Antenna channel select:
+![rpi](rpipinout.png)
+
+
+ Using Minicom for writing a serial. Don't forget to set baud rate in [minicom] settings ($sudo minicom -s). Using the send message feature to send messages. ($^a s). Don't forget to change the serial port to serial0 in the minicom settings.
+
+To communicate with the HC-12 make sure to set the “set” pin to low. Use the ASCII protocol to communicate with it. Write your commands in .txt files in the ~ directory. Find the commands in the datasheet.
+
+[Following this guide.]: https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/
+
+[minicom]:https://www.waveshare.com/wiki/Raspberry_Pi_Tutorial_Series:_Serial
+
+To communicate with the HC-12 make sure to [set the “set” pin to low]. Use the ASCII protocol to communicate with it. Write your commands in .txt files in the ~ directory. Find the commands in the [datasheet].
+
+[set the “set” pin to low]: https://embeddedcomputing.com/technology/processing/interface-io/quick-start-raspberry-pi-gpio-terminal-interface
+
+[datasheet]: https://www.elecrow.com/download/HC-12.pdf
+
+## Teensy Antenna channel select:
+
+![teensypinout](teensypinout.png)
+
+Connected the set pin to pin 2 on the teensy. Using [this guide], write the code.
+
+[this guide]: https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/
