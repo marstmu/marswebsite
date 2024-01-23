@@ -13,7 +13,7 @@ Half of the teams have done the PDR, which is meant to showcase your current pro
 
 As always feel free to reach out in your team specific discord channel if you are feeling confused about anything! 
 
-[Rocket Guide]: Guidelines/Rocket-Guide/
+[Rocket Guide]: ../Guidelines/Rocket-Guide/
 
 ## Our status
-We are having a meeting on tuesday with Alessia to use the P card to order the rocket kits. The kits will probably be ready in a month and a half. We are currently working on getting our documentation ready.
+We have now ordered everything except the starlink. Things will arrive by latest March 5th. Once everything gets here we will be giving out the kits.
