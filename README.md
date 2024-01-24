@@ -4,10 +4,17 @@
   <br>
 </h1>
 
+<p align="center">
+  <a href="https://github.com/zeulewan/test/actions/workflows/ci.yml"><img
+    src="https://github.com/zeulewan/test/actions/workflows/ci.yml/badge.svg"
+    alt="Build"
+  /></a>
+  <a href="https://github.com/zeulewan/test/actions/workflows/pages/pages-build-deployment"><img
+    src="https://github.com/zeulewan/test/actions/workflows/pages/pages-build-deployment/badge.svg"
+    alt="Downloads"
+  /></a>
+</p>
 
-[![ci](https://github.com/zeulewan/test/actions/workflows/ci.yml/badge.svg)](https://github.com/zeulewan/test/actions/workflows/ci.yml)
-[![pages-build-deployment](https://github.com/zeulewan/test/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/zeulewan/test/actions/workflows/pages/pages-build-deployment)
+This is the website for MARS.
 
-This is the new website for mars.
-
-Made with: [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+Credit to [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
