@@ -1,7 +1,5 @@
 <h1 align="center">
-  <br>
-  <img src="docs/img/logo.png" width="300" alt="logo"/>
-  <br>
+  <img src="docs/img/logo.png" width="300" alt="logo"/>  <br>
   <b>MARS Website</b>
   <br>
 </h1>
