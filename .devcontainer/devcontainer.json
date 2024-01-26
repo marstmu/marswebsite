@@ -16,7 +16,7 @@
 			]
 		}
 	},
-	"postCreateCommand": "pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin"
+	"postCreateCommand": "pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
