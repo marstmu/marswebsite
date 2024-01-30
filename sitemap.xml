@@ -131,6 +131,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://marstmu.com/blog/2024/01/31/testing-rss/</loc>
+         <lastmod>2024-01-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://marstmu.com/blog/2024/01/16/site-updates/</loc>
          <lastmod>2024-01-30</lastmod>
          <changefreq>daily</changefreq>
