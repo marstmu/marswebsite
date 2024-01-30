@@ -57,8 +57,16 @@ plugins:
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - blog:
       authors: true
+      blog_dir: . 
   - search
-  - rss
+  - rss:
+      match_path: docs/blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
+
 
 
 markdown_extensions:
