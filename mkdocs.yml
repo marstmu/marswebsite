@@ -58,8 +58,6 @@ plugins:
   - blog:
       authors: true
   - search
-  - rss:
-      match_path: "blog/.*"
 
 markdown_extensions:
   - attr_list
