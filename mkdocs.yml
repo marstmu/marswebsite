@@ -58,7 +58,8 @@ plugins:
   - blog:
       authors: true
   - search
-  - rss
+  - rss:
+      match_path: "blog/.*"
 
 
 
