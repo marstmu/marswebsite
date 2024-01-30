@@ -58,13 +58,7 @@ plugins:
   - blog:
       authors: true
   - search
-  - rss:
-      match_path: "status.md"
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
+  - rss
 
 
 
