@@ -2,8 +2,8 @@ site_name: MARS
 
 site_url: https://marstmu.com/
 site_description: MARS Website.
-site_author: Zeul
-repo_url: https://github.com/zeulewan/marswebsite
+site_author: MARS
+repo_url: https://github.com/marstmu/marswebsite
 edit_uri: edit/main/docs/
 
 theme:
@@ -52,7 +52,7 @@ plugins:
       enable_creation_date: true
       timezone: America/Toronto
   - git-committers:
-      repository: zeulewan/marswebsite
+      repository: marstmu/marswebsite
       branch: main
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - blog:
@@ -84,7 +84,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/zeulewan/marswebsite
+      link: https://github.com/marstmu/marswebsite
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/mars.tmu/
     - icon: fontawesome/brands/linkedin
