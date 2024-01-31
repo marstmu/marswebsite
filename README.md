@@ -4,7 +4,7 @@
   <br>
 </h1>
 <p align="center">
-  <a href="https://github.com/marstmu/actions/workflows/ci.yml"><img
+  <a href="https://github.com/marstmu/marswebsite/actions/workflows/ci.yml"><img
     src="https://github.com/marstmu/marswebsite/actions/workflows/ci.yml/badge.svg"
     alt="Build"
   /></a>
