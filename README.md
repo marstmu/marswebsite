@@ -5,12 +5,12 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/zeulewan/test/actions/workflows/ci.yml"><img
-    src="https://github.com/zeulewan/test/actions/workflows/ci.yml/badge.svg"
+  <a href="https://github.com/marstmu/test/actions/workflows/ci.yml"><img
+    src="https://github.com/marstmu/test/actions/workflows/ci.yml/badge.svg"
     alt="Build"
   /></a>
-  <a href="https://github.com/zeulewan/test/actions/workflows/pages/pages-build-deployment"><img
-    src="https://github.com/zeulewan/test/actions/workflows/pages/pages-build-deployment/badge.svg"
+  <a href="https://github.com/marstmu/test/actions/workflows/pages/pages-build-deployment"><img
+    src="https://github.com/marstmu/test/actions/workflows/pages/pages-build-deployment/badge.svg"
     alt="Downloads"
   /></a>
 </p>
