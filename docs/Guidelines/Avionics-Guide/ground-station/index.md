@@ -2,7 +2,8 @@
 
 
 The ground station is a raspberry pi with an HC-12 connected to it running [this python code]:
-[this python code]:https://github.com/zeulewan/groundstation/tree/main
+
+[this python code]:https://github.com/marstmu/groundstation
 
 ``` py
 import serial
