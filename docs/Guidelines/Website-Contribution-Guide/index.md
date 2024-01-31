@@ -7,7 +7,7 @@ This website is hosted on [github].
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
-[github]: https://github.com/zeulewan/marswebsite
+[github]: https://github.com/marstmu/marswebsite
 
 ## Mac
 (Coming soon!)
