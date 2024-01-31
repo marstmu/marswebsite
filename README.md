@@ -5,11 +5,11 @@
 </h1>
 <p align="center">
   <a href="https://github.com/marstmu/actions/workflows/ci.yml"><img
-    src="https://github.com/marstmu/actions/workflows/ci.yml/badge.svg"
+    src="https://github.com/marstmu/marswebsite/actions/workflows/ci.yml/badge.svg"
     alt="Build"
   /></a>
-  <a href="https://github.com/marstmu/actions/workflows/pages/pages-build-deployment"><img
-    src="https://github.com/marstmu/actions/workflows/pages/pages-build-deployment/badge.svg"
+  <a href="https://github.com/marstmu/marswebsite/actions/workflows/pages/pages-build-deployment"><img
+    src="https://github.com/marstmu/marswebsite/actions/workflows/pages/pages-build-deployment/badge.svg"
     alt="Downloads"
   /></a>
 </p>
