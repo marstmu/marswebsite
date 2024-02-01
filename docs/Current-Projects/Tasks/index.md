@@ -38,11 +38,10 @@ This is a list of things that need to be done. Some tasks have names beside them
     - [ ] TVC - Mizi
     - [ ] Launch pad - Leo
     - [ ] Avionics - Nathan
-    - [x] Add discord, google docs
     - [ ] Competition outline - Newt
 - [x] Add domain name
 - [x] Add formatting
-- [x] Section for each team to post their shit
+- [x] Section for each team
 
 
 ## Avionics
@@ -52,8 +51,15 @@ This is a list of things that need to be done. Some tasks have names beside them
 - [ ] Avionics save data flash then to SD card orr
 - [ ] Avionics states, low power, high power, dump
 - [ ] MavLink with mission planner
+- [ ] On board Cameras
 
-## Structures - Bao
+## Tutorials
+- [ ] Figure out if DME can host
+- [ ] Github
+- [ ] Soldering
+- [ ] coding
+
+## Structures
 - [ ] Secure motors in place (end retainer)
 - [ ] method of cutting phenolic tubes
 - [ ] settle on fin material
