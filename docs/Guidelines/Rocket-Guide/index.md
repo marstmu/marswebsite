@@ -15,3 +15,12 @@ We are using F motors. We decided to go with phenolic tubes.
 <iframe width="400" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTexvXlS_TQCoj--VuakJlw2FgXEVW8qgwKOV_IwisWCGN2COxgbx17rZAPSIIpS6KMJLeDdysvlwRf/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
 
+## OpenRocket
+
+By modeling their rocket in OpenRocket, teams can get an idea of the center of pressure and the center of gravity of their rocket, as well as the resulting stability. Additionally, running simulations with the model will yield graphs such as the one below, showing elements such as the velocity over time and the expected apogee point.
+
+![simulation](sample_simulation.png)
+
+Below is an example of an acceptable OpenRocket model. The stability should be between 1 and 1.5 cal. The avionics is represented by a mass component of 85 grams.
+
+![openrocket](openrocket.png)
