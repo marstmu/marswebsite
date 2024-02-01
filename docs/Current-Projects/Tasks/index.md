@@ -8,7 +8,7 @@ This is a list of things that need to be done. Some tasks have names beside them
 - [ ] Each team gets assigned a lead
     - [ ] need a formal plan for this
 - [ ] Waitlist form
-- [ ] Get another team
+- [ ] Onboard graces, sharvani, nathaniel team (developer team)
 - [ ] Buy stuff
     - [ ] LC budget
     - [x] P card
@@ -18,14 +18,13 @@ This is a list of things that need to be done. Some tasks have names beside them
         - [x] Home hardware switches
         - [ ] Stand off pins from creatron
 - [x] Finalize competition date
-- [ ] Merch
-    - [ ] Stickers - Casper
-- [ ] On board Cameras for rockets
 - [ ] Create anonymous feedback page
 - [ ] Get HAM radio licenses - Nikolai
 - [ ] we need a way to keep track of what we've given to each team
 
-
+## Merch
+ - [ ] Stickers - Casper
+ - [ ] Sweaters - Nikolai
 
 ## Website
 - [ ] Documentation
