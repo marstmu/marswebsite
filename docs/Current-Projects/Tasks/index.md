@@ -1,55 +1,62 @@
 # Tasks
-This is a list of things that need to be done
+This is a list of things that need to be done. Some tasks have names beside them.
 
 ## Admin
 - [x] Make roles for each team for the discord server
     - [x] Team chats on discord
-    - [ ] Change discord name to real name
-- [ ] Each team gets assigned a lead need a write up for it
+    - [x] Change discord name to real name
+- [ ] Each team gets assigned a lead
+    - [ ] need a formal plan for this
 - [ ] Waitlist form
 - [ ] Get another team
 - [ ] Buy stuff
     - [ ] LC budget
-    - [ ] P card
+    - [x] P card
+    - [x] starlink
     - [ ] Cheq req everything else
         - [ ] Micro SD cards for teensys
-        - [ ] Home hardware switches
+        - [x] Home hardware switches
         - [ ] Stand off pins from creatron
 - [x] Finalize competition date
 - [ ] Merch
-    - [ ] stickers
+    - [ ] Stickers - Casper
 - [ ] On board Cameras for rockets
 - [ ] Create anonymous feedback page
-- [ ] Get HAM radio licenses
+- [ ] Get HAM radio licenses - Nikolai
+- [ ] we need a way to keep track of what we've given to each team
+
 
 
 ## Website
 - [ ] Documentation
     - [ ] How to contribute to this website
-    - [ ] Ground Station
-    - [ ] TVC
-    - [ ] Launch pad
-    - [ ] Avionics
-    - [ ] Add discord, google docs
-    - [x] Add domain name
-    - [ ] Add formatting
-    - [x] Section for each team to post their shit
-    - [ ] Competition outline
-- [ ] Open issue on material github to describe column separation problem (below)
-- [ ] Add a way to link to things then be able to update all at once
-- [ ] add github token
+        - [ ] mac guide
+        - [ ] container usage guide
+        - [x] windows guide
+            - [ ] refine it - Nate
+    - [ ] Ground Station - Ace
+    - [ ] TVC - Mizi
+    - [ ] Launch pad - Leo
+    - [ ] Avionics - Nathan
+    - [x] Add discord, google docs
+    - [ ] Competition outline - Newt
+- [x] Add domain name
+- [x] Add formatting
+- [x] Section for each team to post their shit
+
 
 ## Avionics
-- [ ] Connection diagram for avionics
-    - [ ] Get help from graphic designer or online tool
+- [ ] Connection diagram for avionics - Nathan
 - [ ] Get small GPS antenna
 - [ ] Ground station front end
 - [ ] Avionics save data flash then to SD card orr
 - [ ] Avionics states, low power, high power, dump
 - [ ] MavLink with mission planner
 
-## Structures
+## Structures - Bao
 - [ ] Secure motors in place (end retainer)
 - [ ] method of cutting phenolic tubes
 - [ ] settle on fin material
-- [ ]
+- [ ] Build a test rocket
+    - [ ] 3d print nose
+    - [ ] fins
