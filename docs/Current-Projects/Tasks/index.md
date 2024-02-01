@@ -53,7 +53,7 @@ This is a list of things that need to be done. Some tasks have names beside them
 - [ ] On board Cameras
 
 ## Tutorials
-- [ ] Figure out if DME can host
+- [x] Figure out if DME can host
 - [ ] Github
 - [ ] Soldering
 - [ ] coding
