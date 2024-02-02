@@ -27,9 +27,6 @@ This is a list of things that need to be done. Some tasks have names beside them
     - [ ] Research Division
     - [ ] Competition
 
-
-
-
 ## Merch
  - [ ] Stickers - Casper
  - [ ] Sweaters - Nikolai
@@ -67,7 +64,8 @@ This is a list of things that need to be done. Some tasks have names beside them
 - [ ] coding
 
 ## Structures
-- [ ] Secure motors in place (end retainer)
+The competition is on may 18th, but we should launch a test rocket on April 20th at CRC.
+- [ ] Secure motors in place (end retainer) 
 - [ ] method of cutting phenolic tubes
 - [ ] settle on fin material
 - [ ] Build a test rocket
