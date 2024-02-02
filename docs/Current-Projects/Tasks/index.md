@@ -23,6 +23,11 @@ This is a list of things that need to be done. Some tasks have names beside them
 - [ ] we need a way to keep track of what we've given to each team
 - [ ] we need those space place glasses for the eclipse on april 8th
 - [ ] Mount camera in rocketry room
+- [ ] Mission statement write up
+    - [ ] Research Division
+    - [ ] Competition
+
+
 
 
 ## Merch
