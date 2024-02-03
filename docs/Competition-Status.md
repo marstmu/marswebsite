@@ -3,10 +3,10 @@ hide:
   - navigation
 ---
 
-# Status
-We will keep this page up to date with the current status of where there teams should be at, and where the leads are at. **Check the bottom of this page to see when it was last updated.**
+# Status Page
+We will keep this page up to date with the current status of where there teams should be at, and where the logistics are at. **Check the bottom of this page to see when it was last updated.**
 
-## Your status
+## Teams Status
 
 By now your team should have a decent CAD of your rocket. You should have used the BOM from the [Rocket Guide].
 Half of the teams have done the PDR, which is meant to showcase your current progress. This is not a requirement but you loose 15% on the marking if you opt out of it. 
