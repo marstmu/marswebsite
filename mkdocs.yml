@@ -6,6 +6,8 @@ site_author: MARS
 repo_url: https://github.com/marstmu/marswebsite
 edit_uri: edit/main/docs/
 
+copyright: mars.group@torontomu.ca
+
 theme:
   name: material
   custom_dir: overrides
