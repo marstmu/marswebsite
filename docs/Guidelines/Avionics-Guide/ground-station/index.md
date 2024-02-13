@@ -1,7 +1,7 @@
 # Ground Station
 
 
-The ground station is a raspberry pi with an HC-12 connected to it running [this python code]:
+The ground station is a Raspberry Pi with an HC-12 wireless transceiver connected to it running [this python code]:
 
 [this python code]:https://github.com/marstmu/groundstation
 
@@ -51,9 +51,15 @@ with open(file_name, mode='w') as file:
 ![rpi](rpipinout.png)
 
 
- Using Minicom for writing a serial. Don't forget to set baud rate in [minicom] settings ($sudo minicom -s). Using the send message feature to send messages. ($^a s). Don't forget to change the serial port to serial0 in the minicom settings.
+ Using Minicom is recommended for writing to serial ports on the Raspberry Pi:  
+ - Don't forget to set the baud rate in the [minicom] settings (`$sudo minicom -s`).  
+ - Use the send message feature to send messages (`$^a s`)!  
+ - Don't forget to change the serial port to `serial0` in the minicom program settings.  
 
-To communicate with the HC-12 make sure to set the “set” pin to low. Use the ASCII protocol to communicate with it. Write your commands in .txt files in the ~ directory. Find the commands in the datasheet.
+To communicate with the HC-12 make sure to set the “set” pin to **LOW**:  
+- Use the ASCII protocol to communicate with it.  
+- Write your commands in `.txt` files in the `~` (home) directory.   
+- Find the commands in the datasheet.  
 
 [Following this guide.]: https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/
 

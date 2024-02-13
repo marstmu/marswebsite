@@ -1,3 +1,4 @@
 # Guidelines
 
-We have various documentation that teems will likely want to reference when they are setting up their avionics and rocket. In this section we will document it.
+We have various documentation pages that teams will likely want to reference when they are setting up their avionics systems and rocket.  
+Check out the topic-specific guides on the sidebar to read it!
