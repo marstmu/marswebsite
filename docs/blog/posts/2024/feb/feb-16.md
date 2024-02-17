@@ -3,7 +3,7 @@ title: PCB Update
 date: 2024-02-16
 comments: true
 authors:
-  - nathan
+  - Nathan
 categories:
   - Info
 ---
