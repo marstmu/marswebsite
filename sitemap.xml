@@ -2,142 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://marstmu.com/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Competition-Status/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/Avionics-Guide/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/Avionics-Guide/ground-station/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/Competition-Guidelines/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://marstmu.com/Guidelines/PCB-Guide/</loc>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/Rocket-Guide/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Guidelines/Website-Contribution-Guide/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Research-and-Logistics/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Research-and-Logistics/TVC/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Research-and-Logistics/Tasks/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/ICARUS/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/Lockheed-Interns/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/Los-Alamos-Laboratory/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/Lunar-Wolves/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/OsaTech/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/Teams/Planetes/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://marstmu.com/blog/2024/02/16/pcb-update/</loc>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/2024/02/05/weekly-general-meetings/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/2024/01/15/preliminary-design-review-pdr/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/2024/01/17/updates-for-jan-17th/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/2024/01/18/updates-for-jan-18th/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/2024/01/23/updates-for-jan-23rd/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/2024/01/30/team-update/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/archive/2024/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://marstmu.com/blog/category/info/</loc>
-         <lastmod>2024-02-05</lastmod>
+         <lastmod>2024-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
