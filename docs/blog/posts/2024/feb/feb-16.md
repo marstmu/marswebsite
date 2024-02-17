@@ -1,6 +1,6 @@
 ---
 title: PCB Update
-date: 2024-02-016
+date: 2024-02-16
 comments: true
 authors:
   - nathan
