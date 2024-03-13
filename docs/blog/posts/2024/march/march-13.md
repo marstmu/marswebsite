@@ -1,6 +1,6 @@
 ---
 title: Giving Out Avionics Kits At Rocketry Conference 
-date: 2024-02-05
+date: 2024-03-13
 comments: true
 authors:
   - zeul
