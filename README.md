@@ -14,4 +14,4 @@
   /></a>
 </p>
 
-This is the website for MARS. test commit
+This is the website for MARS.
