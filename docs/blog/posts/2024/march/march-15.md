@@ -11,4 +11,4 @@ categories:
 We launched a D12 engine in the quad today!
 
 ![Launch](launch.png)
-[download the video](launch.MOV)
+[watch the video](launch.MOV)
