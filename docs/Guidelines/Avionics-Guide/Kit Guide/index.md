@@ -27,16 +27,3 @@ Stuff in the kit:
     - [PCB](photos/parts/pcb.JPG)
     - [Bag of stand off pins and headers](photos/parts/pins.JPG)
 
-## Soldering
-
-### Intro
-This is the PCB.
-![boardfront](photos/1.JPG)
-
-This is the finished PCB.
-
-PLACEHOLDER
-
-
-
-## Programming
