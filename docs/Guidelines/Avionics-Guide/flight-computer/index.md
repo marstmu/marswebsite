@@ -17,11 +17,6 @@ You are supplied a bunch of [pins](photos/pins.jpg). Solder the pins onto you [b
 
 **NOTE!** The best way to solder the [voltage regulator](../kits/photos/parts/bucknswitch.jpg) is with just one pin on each corner. Yes there are 8 holes for pins, but just use the 4 outer most. (Yes the picture above has all the pins on it soldered. don't do that) You can solder the voltage regulator directly to the board. This is the only break out board you cam solder directly to the board.
 
-### Step 2
-This is the [PCB](../kits/photos/parts/pcb.jpg). Cut down the [stand off pins](photos/standoff.jpg) to the right size to line up with the holes on your PCB. 
-![alt text](photos/1.jpg)
-![alt text](photos/2.jpg)
-
 
 ### Step 3
 Solder your barrel jack, switch, resistor, and LED directly to the board.
