@@ -24,8 +24,8 @@ Stuff in the kit:
     - Heat sinks
     - 9v battery
     - GPS battery
-    - uSD card, uSD card adapter with uSD card in it, resistor, LED, barrel jack
-    - PCB
+    - [uSD card, uSD card adapter with uSD card in it, resistor, LED, barrel jack](photos/parts/randybag.JPG)
+    - [PCB](photos/parts/pcb.JPG)
     - [Bag of stand off pins and headers](photos/parts/pins.JPG)
 
 ## Soldering
