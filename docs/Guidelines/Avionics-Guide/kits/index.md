@@ -5,6 +5,7 @@ This is what's inside the kit:
 ![alt text](photos/exview.JPG)
 
 Stuff in the kit:
+
 - Cables and cables
     - Micro USB 
     - Ethernet 
