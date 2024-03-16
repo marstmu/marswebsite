@@ -37,4 +37,4 @@ Plug in all your components. It should look like this:
 - Download the [flightcomputer](https://github.com/marstmu/flightcomputer) code from github. Go to src, then main.cpp, take that code and paste it into the arduino IDE and upload it.
 - Open the serial monitor to view it, you should also be logging data to the SD card at this point.
 ### Setting your antenna channel
-Each team gets their own antenna channel. Use the github code to change the channel. Program both of your antennas this way.
+Each team gets their own antenna channel. Use the [github code](https://github.com/marstmu/flightcomputerchannelselect) to change the channel. Program both of your antennas this way.
