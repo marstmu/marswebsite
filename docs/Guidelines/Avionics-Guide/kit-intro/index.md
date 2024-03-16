@@ -1,6 +1,7 @@
 # Avionics Kits
 This is an avionics kit:
 ![alt text](photos/icaruskit.JPG)
+
 This is what's inside the kit:
 ![alt text](photos/exview.JPG)
 
