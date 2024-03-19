@@ -4,7 +4,7 @@ hide:
 ---
 
 # Status Page
-We will keep this page up to date with the current status of where there teams should be at, and where the logistics are at. **Check the bottom of this page to see when it was last updated.**
+**Check the bottom of this page to see when it was last updated.**
 
 ## Status
 
