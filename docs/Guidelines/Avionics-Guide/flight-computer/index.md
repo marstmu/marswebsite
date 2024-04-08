@@ -14,6 +14,8 @@ You are supplied a bunch of [pins](photos/pins.jpg).
 Solder the pins onto you [break out boards](photos/breakoutboards.jpg). Make sure you solder them on the correct side.
 **The pins have to be soldered just as shown in the photo below.**
 
+- The Teensy only needs the outer pins soldered. Leave the ones in the middle unsoldered. 
+
 ![alt text](photos/breakoutboards.jpg)
 
  Short side into the break out boards. Make sure the pins are at 90 degrees, and all the way in. Don't forget to solder the spring antenna onto the HC-12 in the *ANT* hole. (Don't worry about the GPS battery for now, unless you think you can figure it out. Don't lose the part though).
