@@ -13,6 +13,8 @@ This is the [PCB](../kits/photos/parts/pcb.jpg). Cut down the [stand off pins](p
 solder it
 ![alt text](photos/2.jpg)
 
+**This is incorrect in a few ways, do not do this:** ![alt text](photos/dontdothis.jpg)
+
 ### Step 2
 You are supplied a bunch of [pins].
 Solder the pins onto your [break out boards]. 
@@ -24,7 +26,7 @@ Tips:
  - The short side of the [pins] go into the [break out boards].  Make sure the pins are at 90 degrees, and all the way in. 
  - Don't forget to solder the [spring antenna onto the HC-12](photos/antenna.jpg) in the *ANT* hole.
  - Don't worry about the [GPS battery](photos/gpsbattery.jpg) for now.
- - The best way to solder the [buck converter]is with just one pin on each outter corner. Yes there are 8 holes for pins, but just use the 4 outer most. Also this is the only [break out board] you can solder directly to the board.
+ - The best way to solder the [buck converter] is with just one pin on each outter corner. Yes there are 8 holes for pins, but just use the 4 outer most. Also this is the only [break out board] you can solder directly to the board.
 
 
 ### Step 3
@@ -35,6 +37,12 @@ Plug in all your components. It should look like this:
 ![alt text](photos/avionics.jpg)
  **Never plug in the battery and the USB at the same time!**
  Don't plug in the battery for now, we still have to set the [buck converter] to the right voltage which we will do at the avionics session.
+
+
+
+
+
+
 
 ## Software Section
 - [Following this guide](https://www.pjrc.com/teensy/td_download.html), get the arduino IDE, add the teensy to additional boards manager and install teensyduino.
