@@ -29,7 +29,7 @@
     
     
       
-        <title>How to set up your avionics - MARS</title>
+        <title>How To Set Up Your Flight Computer - MARS</title>
       
     
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-set-up-your-avionics" class="md-skip">
+        <a href="#how-to-set-up-your-flight-computer" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to set up your avionics
+              How To Set Up Your Flight Computer
             
           </span>
         </div>
@@ -1678,13 +1678,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#hardware" class="md-nav__link">
+  <a href="#hardware-section" class="md-nav__link">
     <span class="md-ellipsis">
-      Hardware
+      Hardware Section
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Hardware">
+    <nav class="md-nav" aria-label="Hardware Section">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1729,13 +1729,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#software" class="md-nav__link">
+  <a href="#software-section" class="md-nav__link">
     <span class="md-ellipsis">
-      Software
+      Software Section
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Software">
+    <nav class="md-nav" aria-label="Software Section">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1775,9 +1775,12 @@
   
 
 
-<h1 id="how-to-set-up-your-avionics">How to set up your avionics</h1>
-<h2 id="hardware">Hardware</h2>
-<p>DO NOT SOLDER THE COMPONENTS DIRECTLY TO THE BOARD. YOU MUST USE STAND OFF PINS.</p>
+<h1 id="how-to-set-up-your-flight-computer">How To Set Up Your Flight Computer</h1>
+<p>These are final flight computers! <img alt="alt text" src="photos/avionics3.jpg" /></p>
+<h2 id="hardware-section">Hardware Section</h2>
+<p>YOU MUST USE STAND OFF PINS. DO NOT SOLDER THE PARTS DIRECTLY TO THE BOARD</p>
+<p>DO NOT PLUG IN THE BATTERY UNTIL THE AVIONICS SESSION YOU WILL FRY THE BOARD.</p>
+<p>Read this whole thing briefly before you start soldering. </p>
 <h3 id="step-1">Step 1</h3>
 <p>This is the <a href="../kits/photos/parts/pcb.jpg">PCB</a>. Cut down the <a href="photos/standoff.jpg">stand off pins</a> to the right size to line up with the holes on your PCB. You can use pliers to pull out the metal pins instead of cutting the small ones.
 <img alt="alt text" src="photos/1.jpg" />
@@ -1785,21 +1788,24 @@ solder it
 <img alt="alt text" src="photos/2.jpg" /></p>
 <h3 id="step-2">Step 2</h3>
 <p>You are supplied a bunch of <a href="photos/pins.jpg">pins</a>.
-Solder the pins onto you <a href="photos/breakoutboards.jpg">break out boards</a>. Make sure you solder them on the correct side.
-<strong>The pins have to be soldered just as shown in the photo below.</strong></p>
+Solder the pins onto your <a href="photos/breakoutboards.jpg">break out boards</a>. 
+- Make sure you solder them on the correct side: <img alt="alt text" src="photos/correctside.jpg" /> Zoom in on this image to see which side they they should be soldered <img alt="alt text" src="photos/final.jpg" /></p>
 <ul>
-<li>The Teensy only needs the outer pins soldered. Leave the ones in the middle unsoldered. </li>
+<li>The Teensy only needs the outer pins soldered. Leave the ones in the middle unsoldered. <img alt="alt text" src="photos/teensytip.jpg" /></li>
 </ul>
-<p><img alt="alt text" src="photos/breakoutboards.jpg" /></p>
-<p>Short side into the break out boards. Make sure the pins are at 90 degrees, and all the way in. Don't forget to solder the spring antenna onto the HC-12 in the <em>ANT</em> hole. (Don't worry about the GPS battery for now, unless you think you can figure it out. Don't lose the part though).</p>
-<p><strong>NOTE!</strong> The best way to solder the <a href="../kits/photos/parts/bucknswitch.jpg">voltage regulator</a> is with just one pin on each corner. Yes there are 8 holes for pins, but just use the 4 outer most. (Yes the picture above has all the pins on it soldered. don't do that) You can solder the voltage regulator directly to the board. This is the only break out board you can solder directly to the board.</p>
+<p>Tips:
+ - The short side of the <a href="photos/pins.jpg">pins</a> go into the <a href="photos/breakoutboards.jpg">break out boards</a>.  Make sure the pins are at 90 degrees, and all the way in. 
+ - Don't forget to solder the <a href="photos/antenna.jpg">spring antenna onto the HC-12</a> in the <em>ANT</em> hole.
+ - Don't worry about the <a href="photos/gpsbattery.jpg">GPS battery</a> for now.
+ - The best way to solder the <a href="../kits/photos/parts/bucknswitch.jpg">buck converter</a>is with just one pin on each outter corner. Yes there are 8 holes for pins, but just use the 4 outer most. Also this is the only <a href="photos/breakoutboards.jpg">break out board</a> you can solder directly to the board.</p>
 <h3 id="step-3">Step 3</h3>
-<p>Solder your barrel jack, switch, resistor, and LED directly to the board.</p>
+<p>Solder the barrel jack, switch, resistor, and LED (and <a href="../kits/photos/parts/bucknswitch.jpg">buck converter</a> if you want to) directly to the board.</p>
 <h3 id="step-4">Step 4</h3>
 <p>Plug in all your components. It should look like this:
 <img alt="alt text" src="photos/avionics.jpg" />
- <strong>Never plug in the battery and the USB at the same time!</strong></p>
-<h2 id="software">Software</h2>
+ <strong>Never plug in the battery and the USB at the same time!</strong>
+ Don't plug in the battery for now, we still have to set the <a href="../kits/photos/parts/bucknswitch.jpg">buck converter</a> to the right voltage which we will do at the avionics session.</p>
+<h2 id="software-section">Software Section</h2>
 <ul>
 <li><a href="https://www.pjrc.com/teensy/td_download.html">Following this guide</a>, get the arduino IDE, add the teensy to additional boards manager and install teensyduino.</li>
 <li>Make sure you can run a blink test.</li>
@@ -1830,7 +1836,7 @@ Solder the pins onto you <a href="photos/breakoutboards.jpg">break out boards</a
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 8, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 10, 2024</span>
   </span>
 
     
