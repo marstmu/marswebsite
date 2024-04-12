@@ -17,8 +17,7 @@ We're gonna be haveing our major avionics tutorial on April 25th from 2-6pm at t
     - Adding documentation to your teams repo
 - Setting up the groundstations
 
-We'll have free pizza for everyone who is on a team and who clicked intersted on the discrod event!
-https://discord.gg/KNCHEXu3?event=1227018763862540392
+We'll have free pizza for everyone who is on a team and who clicked intersted on the [discord event](https://discord.gg/KNCHEXu3?event=1227018763862540392)!
 
 **What you need for the session**
 - Laptop
