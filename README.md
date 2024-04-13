@@ -17,4 +17,3 @@
 This is the website for MARS.
 
 This website has all the documentation on it.
-update
