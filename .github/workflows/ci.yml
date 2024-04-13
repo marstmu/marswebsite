@@ -1,7 +1,7 @@
 name: ci 
 on:
   push:
-  paths:
+    paths:
       - 'docs/Teams/submoduletest/**'
     branches:
       - master 
