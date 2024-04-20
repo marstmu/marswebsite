@@ -8,7 +8,7 @@ categories:
   - Info
 ---
 
-We're going to have our major avionics tutorial on April 25th from 2-6pm at the DME.
+We're going to have our major avionics tutorial on April 25th from 2-6pm at the DME. We'll have free pizza for everyone who is on a team and who clicked interested on the [Discord event](https://discord.gg/KNCHEXu3?event=1227018763862540392)!
 
 **What you need for the session:**
   - Laptop
@@ -43,8 +43,6 @@ We will be going over:
 
 ## Part 2
 1. **Committing to your team's documentation repo**
-
-We'll have free pizza for everyone who is on a team and who clicked interested on the [Discord event](https://discord.gg/KNCHEXu3?event=1227018763862540392)!
 
 ## Notes for the leads
 - Each team gets their own submodule on the website repo for their docs
