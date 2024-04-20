@@ -11,12 +11,12 @@ categories:
 We're going to have our major avionics tutorial on April 25th from 2-6pm at the DME.
 
 **What you need for the session:**
-- Laptop
-- Your avionics kit
+  - Laptop
+  - Your avionics kit
 
 **What you should do before the session:**
-- [Solder your avionics](https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/)
-- [Sign up for a GitHub account](https://github.com/)
+  - [Solder your avionics](https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/)
+  - [Sign up for a GitHub account](https://github.com/)
 
 We will be going over:
 
