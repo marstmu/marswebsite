@@ -1789,30 +1789,48 @@
   <div class="md-post__content md-typeset">
     <h2 id="avionics-session-on-april-25th"><a class="toclink" href="../../2024/04/12/avionics-session-on-april-25th/">Avionics Session on April 25th</a></h2>
 <p>We're gonna be haveing our major avionics tutorial on April 25th from 2-6pm at the DME. We will be going over:</p>
-<ul>
-<li>Programming flight computers<ul>
-<li>Exporting data from the SD card</li>
-<li>Setting the antenna channel</li>
+<h3 id="part-1"><a class="toclink" href="../../2024/04/12/avionics-session-on-april-25th/#part-1">Part 1</a></h3>
+<ol>
+<li>Setting up flight computers<ul>
+<li>Set voltage level</li>
 </ul>
 </li>
-<li>Committing to the MARS website GitHub repo<ul>
-<li>Adding documentation to your teams repo</li>
+<li><a href="https://www.pjrc.com/teensy/td_download.html">Install teensy software</a></li>
+<li>Programming boards<ul>
+<li>Download code from <a href="https://github.com/marstmu/flightcomputer">github</a>, load it onto the arduino</li>
 </ul>
 </li>
-<li>Setting up the groundstations</li>
+<li>Record data from the SD and check it on your computers</li>
+<li>Set both antennas channel</li>
+<li>Setting up the groundstations<ul>
+<li>Make a fork of the <a href="https://github.com/marstmu/groundstation">goundstation</a> repo</li>
+<li>git clone it</li>
+<li>run the code with python</li>
 </ul>
+</li>
+</ol>
+<h3 id="part-2"><a class="toclink" href="../../2024/04/12/avionics-session-on-april-25th/#part-2">Part 2</a></h3>
+<ol>
+<li>Committing to your team's documentation repo</li>
+</ol>
 <p>We'll have free pizza for everyone who is on a team and who clicked intersted on the <a href="https://discord.gg/KNCHEXu3?event=1227018763862540392">discord event</a>!</p>
+<p><strong>What you need for the session:</strong>
+  - Laptop
+  - Your avionics kit</p>
+<p><strong>What you should do before the session:</strong>
+  - <a href="https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/">Solder your avionics</a>
+  - <a href="https://github.com/">Sign up for a GitHub account</a></p>
+<h4 id="notes-for-us"><a class="toclink" href="../../2024/04/12/avionics-session-on-april-25th/#notes-for-us">Notes for us</a></h4>
 <ul>
-<li><strong>What you need for the session</strong></li>
-<li>Laptop</li>
-<li>
-<p>Your avionics kit</p>
-</li>
-<li>
-<p><strong>What you should do before the session</strong></p>
-</li>
-<li><a href="https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/">Solder your avionics</a></li>
-<li><a href="https://github.com/">Sign up for a GitHub account</a></li>
+<li>Each team gets their own submodule on the website repo for their docs</li>
+<li>ci.yml needs to include getting updating to the latest commit for submodules</li>
+<li>Pizza for people</li>
+<li>Oppurtuinity for teams to solder before hand</li>
+<li>Solder surface mounted battery holder</li>
+<li>need multimeters, screw drivers</li>
+<li>pis all need host names and label on them</li>
+<li>need UDR and both switches</li>
+<li>dry run</li>
 </ul>
     
   </div>

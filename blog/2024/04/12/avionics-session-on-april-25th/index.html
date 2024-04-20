@@ -80,6 +80,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#part-1" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1723,6 +1728,47 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#part-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Part 2
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Part 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes-for-us" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes for us
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1830,30 +1876,48 @@
   <h1>Avionics Session on April 25th</h1>
 
 <p>We're gonna be haveing our major avionics tutorial on April 25th from 2-6pm at the DME. We will be going over:</p>
-<ul>
-<li>Programming flight computers<ul>
-<li>Exporting data from the SD card</li>
-<li>Setting the antenna channel</li>
+<h2 id="part-1">Part 1</h2>
+<ol>
+<li>Setting up flight computers<ul>
+<li>Set voltage level</li>
 </ul>
 </li>
-<li>Committing to the MARS website GitHub repo<ul>
-<li>Adding documentation to your teams repo</li>
+<li><a href="https://www.pjrc.com/teensy/td_download.html">Install teensy software</a></li>
+<li>Programming boards<ul>
+<li>Download code from <a href="https://github.com/marstmu/flightcomputer">github</a>, load it onto the arduino</li>
 </ul>
 </li>
-<li>Setting up the groundstations</li>
+<li>Record data from the SD and check it on your computers</li>
+<li>Set both antennas channel</li>
+<li>Setting up the groundstations<ul>
+<li>Make a fork of the <a href="https://github.com/marstmu/groundstation">goundstation</a> repo</li>
+<li>git clone it</li>
+<li>run the code with python</li>
 </ul>
+</li>
+</ol>
+<h2 id="part-2">Part 2</h2>
+<ol>
+<li>Committing to your team's documentation repo</li>
+</ol>
 <p>We'll have free pizza for everyone who is on a team and who clicked intersted on the <a href="https://discord.gg/KNCHEXu3?event=1227018763862540392">discord event</a>!</p>
+<p><strong>What you need for the session:</strong>
+  - Laptop
+  - Your avionics kit</p>
+<p><strong>What you should do before the session:</strong>
+  - <a href="https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/">Solder your avionics</a>
+  - <a href="https://github.com/">Sign up for a GitHub account</a></p>
+<h3 id="notes-for-us">Notes for us</h3>
 <ul>
-<li><strong>What you need for the session</strong></li>
-<li>Laptop</li>
-<li>
-<p>Your avionics kit</p>
-</li>
-<li>
-<p><strong>What you should do before the session</strong></p>
-</li>
-<li><a href="https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/">Solder your avionics</a></li>
-<li><a href="https://github.com/">Sign up for a GitHub account</a></li>
+<li>Each team gets their own submodule on the website repo for their docs</li>
+<li>ci.yml needs to include getting updating to the latest commit for submodules</li>
+<li>Pizza for people</li>
+<li>Oppurtuinity for teams to solder before hand</li>
+<li>Solder surface mounted battery holder</li>
+<li>need multimeters, screw drivers</li>
+<li>pis all need host names and label on them</li>
+<li>need UDR and both switches</li>
+<li>dry run</li>
 </ul>
 
 
@@ -1877,7 +1941,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 16, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 20, 2024</span>
   </span>
 
     
