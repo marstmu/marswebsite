@@ -40,7 +40,7 @@ We will be going over:
     - **Mini Linux lesson:**
       - `ssh username@hostname`
       - `ls`, `ls -al`, `cd`, `mkdir`, `rm`, `rm -r`, `sudo`, permissions, users, groups
-      - `git clone [ground station](https://github.com/marstmu/groundstation)`
+      - `git clone https://github.com/marstmu/groundstation.git`
       - Run `gs.py` with Python
 
 ## Part 2
