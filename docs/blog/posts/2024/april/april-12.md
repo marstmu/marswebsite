@@ -11,8 +11,9 @@ categories:
 We're going to have our major avionics tutorial on April 25th from 2-6pm at the DME. We'll have free pizza for everyone who is on a team and who clicked interested on the [Discord event](https://discord.gg/KNCHEXu3?event=1227018763862540392)!
 
 **What you need for the session:**
-  * Laptop
-  * Your avionics kit
+
+  - Laptop
+  - Your avionics kit
 
 **What you should do before the session:**
 
