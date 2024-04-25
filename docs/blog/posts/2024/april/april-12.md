@@ -38,7 +38,7 @@ We will be going over:
       - Plug in SD card, select it, click write.
     - Plug in Pis to network
     - **Mini Linux lesson:**
-      - `ssh username@hostname`
+      - `ssh username@hostname.local`
       - `ls`, `ls -al`, `cd`, `mkdir`, `rm`, `rm -r`, `sudo`, permissions, users, groups
       - `git clone https://github.com/marstmu/groundstation.git`
       - Run `gs.py` with Python
