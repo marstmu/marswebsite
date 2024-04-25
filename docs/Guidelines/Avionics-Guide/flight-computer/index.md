@@ -38,19 +38,13 @@ Plug in all your components. It should look like this:
  **Never plug in the battery and the USB at the same time!**
  Don't plug in the battery for now, we still have to set the [buck converter] to the right voltage which we will do at the avionics session.
 
-
-
-
-
-
-
 ## Software Section
-- [Following this guide](https://www.pjrc.com/teensy/td_download.html), get the arduino IDE, add the teensy to additional boards manager and install teensyduino.
+- [Following this guide](https://www.pjrc.com/teensy/td_download.html), get the arduino IDE, add the teensy to additional boards manager and install the teensy loader.
 - Make sure you can run a blink test.
 - Download the [flightcomputer](https://github.com/marstmu/flightcomputer) code from github. Go to src, then main.cpp, take that code and paste it into the arduino IDE and upload it.
 - Open the serial monitor to view it, you should also be logging data to the SD card at this point.
 ### Setting your antenna channel
-Each team gets their own antenna channel. Use the [github code](https://github.com/marstmu/flightcomputerchannelselect) to change the channel. Program both of your antennas this way.
+Each team gets their own antenna channel. Use the [github code](https://github.com/marstmu/flightcomputerchannelselect) to change the channel. Program both of your antennas this way (One for hte ground station, and one for the flight computer).
 
 [pins]: photos/pins.jpg
 
