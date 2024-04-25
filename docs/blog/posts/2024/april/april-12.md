@@ -43,6 +43,7 @@ We will be going over:
       - install git `sudo apt install git`
       - clone repo `git clone https://github.com/marstmu/groundstation.git`
       - install python library `sudo apt install python3-serial`
+      - `sudo raspi-config`
       - Run gs.py with python `python gs.py`
 
 ## Part 2
