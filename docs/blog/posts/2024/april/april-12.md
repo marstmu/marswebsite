@@ -58,3 +58,4 @@ We will be going over:
 - Need UDR and both switches
 - Dry run
 - Adapter
+- soldering irons and fume hoods
