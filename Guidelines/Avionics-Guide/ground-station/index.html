@@ -1732,32 +1732,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#raspberry-pi-antenna-channel-select" class="md-nav__link">
-    <span class="md-ellipsis">
-      Raspberry Pi Antenna channel select:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#teensy-antenna-channel-select" class="md-nav__link">
-    <span class="md-ellipsis">
-      Teensy Antenna channel select:
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1780,13 +1754,12 @@
 
 
 <h1 id="ground-station">Ground Station</h1>
-<p>The ground station is a raspberry pi with an HC-12 connected to it running <a href="https://github.com/marstmu/groundstation">this python code</a>:</p>
-<h2 id="raspberry-pi-antenna-channel-select">Raspberry Pi Antenna channel select:</h2>
+<p>The ground station is a raspberry pi with an HC-12.</p>
 <p>Connect the HC-12 to pins in the image below no need for the set pin, set the channel using the flight computer.
 <img alt="Screenshot 2024-04-24 at 11 18 13 PM" src="https://github.com/marstmu/marswebsite/assets/55005377/e7b791ba-5f0e-448d-ab0e-44565b3c4eed" /></p>
-<h2 id="teensy-antenna-channel-select">Teensy Antenna channel select:</h2>
-<p><img alt="teensypinout" src="teensypinout.png" /></p>
-<p>Connected the set pin to pin 2 on the teensy. Using <a href="https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-12-long-range-wireless-communication-module/">this guide</a>, write the code.</p>
+<p>Enable the pins on the raspberry pi
+<code>sudo raspi-config</code></p>
+<p>Download this <a href="https://github.com/marstmu/groundstation">code</a>.</p>
 
 
 
