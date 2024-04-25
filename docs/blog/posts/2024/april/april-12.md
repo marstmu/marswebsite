@@ -49,9 +49,12 @@ We will be going over:
 ## Part 2
 1. Soldering GPS battery
 2. **Committing to your team's documentation repo**
+  - clone
+  - change, commit
+  - PR
 
 ## Notes for the leads
-- Each team gets their own submodule on the website repo for their docs
+- Each team will 
 - `ci.yml` needs to include updating to the latest commit for submodules
 - Pizza for people
 - Opportunity for teams to solder beforehand
