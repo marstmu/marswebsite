@@ -44,7 +44,8 @@ We will be going over:
       - Run `gs.py` with Python
 
 ## Part 2
-1. **Committing to your team's documentation repo**
+1. Soldering GPS battery
+2. **Committing to your team's documentation repo**
 
 ## Notes for the leads
 - Each team gets their own submodule on the website repo for their docs
