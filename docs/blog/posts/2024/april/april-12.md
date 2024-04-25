@@ -37,11 +37,13 @@ We will be going over:
       - Click the gear icon in the bottom right. Set hostname to your team name. Set password, and send it to your team's Discord chat on the Mars competition server. Enable SSH. Everything else is optional.
       - Plug in SD card, select it, click write.
     - Plug in Pis to network
-    - **Mini Linux lesson:**
+    - ** Linux :**
       - `ssh username@hostname.local`
       - `ls`, `ls -al`, `cd`, `mkdir`, `rm`, `rm -r`, `sudo`, permissions, users, groups
-      - `git clone https://github.com/marstmu/groundstation.git`
-      - Run `gs.py` with Python
+      - install git `sudo apt install git`
+      - clone repo `git clone https://github.com/marstmu/groundstation.git`
+      - install python library `sudo apt install python3-serial`
+      - Run gs.py with python `python gs.py`
 
 ## Part 2
 1. Soldering GPS battery
