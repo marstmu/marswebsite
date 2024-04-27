@@ -111,6 +111,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://marstmu.com/blog/2024/04/27/mars-meeting/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://marstmu.com/blog/2024/02/16/pcb-update/</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
@@ -162,6 +167,16 @@
     </url>
     <url>
          <loc>https://marstmu.com/blog/category/info/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://marstmu.com/blog/page/2/</loc>
+         <lastmod>2024-04-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://marstmu.com/blog/archive/2024/page/2/</loc>
          <lastmod>2024-04-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
