@@ -29,4 +29,8 @@ Select finish, and reboot it now, you'll have to ssh into it again
 - install python library `sudo apt install python3-serial`
 - Run gs.py with python `python gs.py`
 
+If it says something like this: 
+![ssh-remote-host-identification-has-changed](https://github.com/marstmu/marswebsite/assets/55005377/4a9797a5-6097-42b2-bb67-7d5683c53684)
+Delete the known_hosts file your .ssh folder
+
 
