@@ -10,6 +10,7 @@ S.R.A.G teams first meeting in November after kick off meeting to discuss possib
 <br>
 
 The team created possible designs utilising the CAD software *Onshape*.
+<br>
 ![alt text](fuselag.png)
 ![alt text](<centering rings.png>)
 ![alt text](<cad rocket.png>)
@@ -20,6 +21,7 @@ The team created possible designs utilising the CAD software *Onshape*.
 <br>
 
 The team completed soldering the avionics which included a gps, radio, barometer and altimeter.
+<br>
 ![alt text](IMG_20240411_145304.jpg)
 
 <br>
@@ -28,5 +30,30 @@ The team completed soldering the avionics which included a gps, radio, barometer
 <br>
 
 The team set up a radio connection between the ground station and avionics on board the rocket.
+<br>
 ![alt text](avionics.jpg)
 ![alt text](<avnionics pt 2.jpg>)
+
+<br>
+<br>
+<br>
+<br>
+
+Collecting parts to manufacture the rocket.
+<br>
+![alt text](<laser cutting.jpg>)
+
+<br>
+<br>
+<br>
+<br>
+
+Team during manufacturing process.
+<br>
+![alt text](manufac6.jpg)
+![alt text](manufac5.jpg)
+![alt text](manufac1.jpg)
+![alt text](manufac2.jpg)
+![alt text](manufac3.jpg)
+![alt text](manufac4.jpg)
+
