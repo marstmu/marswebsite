@@ -57,3 +57,18 @@ Team during manufacturing process.
 ![alt text](manufac3.jpg)
 ![alt text](manufac4.jpg)
 
+<br>
+<br>
+<br>
+<br>
+
+The team began with the cosmetics by prepping and applying the first coat of paint to the rocket.
+<br>
+![alt text](prepaintt.jpg)
+![alt text](paint.jpg)
+![alt text](paint2.jpg)
+![alt text](paint4.jpg)
+![alt text](paint3.jpg)
+
+
+
