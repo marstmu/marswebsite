@@ -3,7 +3,7 @@
 This is Los Alamos Laboratory at the PDR.
 
 ![alt text](IMG_9560.jpg)
-Obbtained the avionics components!
+Obtained the avionics components!
 
 ![IMG_0671](https://github.com/marstmu/marswebsite/assets/164195315/42cd2487-fcaf-4136-a4fd-a2a68d064a72)
 Obtained Structural components!
