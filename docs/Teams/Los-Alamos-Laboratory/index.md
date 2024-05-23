@@ -22,3 +22,10 @@ When you get Epoxy on your pants :(
 
 ![DSCF5102](https://github.com/marstmu/marswebsite/assets/164195315/c7ceb037-df9e-4daf-bbc1-b91ad308d970)
 We pushing hard on the Github.
+
+![2CA33551-9B23-46F5-82AE-563A4E77C1FD](https://github.com/marstmu/marswebsite/assets/164195315/8af6272c-7fa2-4fd2-a8fb-59297a8371d3)
+"Ah, its all coming together."
+
+![IMG_4097](https://github.com/marstmu/marswebsite/assets/164195315/d1204073-8702-46f5-9b2e-61a2a4f71305)
+![IMG_4099](https://github.com/marstmu/marswebsite/assets/164195315/a177b714-444f-4a36-acb9-56b168f92faf)
+# Shes ready baby!!!
