@@ -70,5 +70,25 @@ The team began with the cosmetics by prepping and applying the first coat of pai
 ![alt text](paint4.jpg)
 ![alt text](paint3.jpg)
 
+<br>
+<br>
+<br>
+<br>
+
+The team worked on the cosmetics of the rocket including applying the team name in decals aswell as drawing flags.
+<br>
+![alt text](cosmetics1.jpg)
+
+<br>
+<br>
+<br>
+<br>
+
+The team finished cosmetics and the rocket is ready for competition.
+<br>
+![alt text](finished2.jpg)
+![alt text](finished.jpg)
+
+
 
 
