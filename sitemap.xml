@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://marstmu.com/Teams/BDC/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://marstmu.com/Teams/ICARUS/</loc>
          <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
@@ -61,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://marstmu.com/Teams/M%26M-Enterprise/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://marstmu.com/Teams/OsaTech/</loc>
          <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
@@ -72,6 +82,11 @@
     </url>
     <url>
          <loc>https://marstmu.com/Teams/S.R.A.G/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://marstmu.com/Teams/test/</loc>
          <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
