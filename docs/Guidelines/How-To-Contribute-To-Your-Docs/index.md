@@ -37,7 +37,6 @@ This will show up:
 
 ![alt text](<Screenshot 2024-05-27 at 8.25.06 PM.png>)
 
-#### Commit messages
 Enter a commit message using [this grammer](https://github.com/joelparkerhenderson/git-commit-message):
 
   * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
@@ -54,3 +53,12 @@ Enter a commit message using [this grammer](https://github.com/joelparkerhenders
   Enter your message and click the green "Commit & Push button
   
   ![alt text](<Screenshot 2024-05-27 at 8.31.05 PM.png>)
+
+Your changes will be live on [the website](https://marstmu.com/) after 40 seconds. Shift-reload the page to see the changes.
+
+## Important Tips 
+- If it says this:
+    ![alt text](<Screenshot 2024-05-27 at 8.34.42 PM.png>)
+    most of the time you should click continue.
+
+- Click this button ![alt text](<Screenshot 2024-05-27 at 8.35.47 PM.png>) in the bottom left before making changes 
