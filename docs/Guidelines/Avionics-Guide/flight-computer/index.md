@@ -37,13 +37,15 @@ Plug in all your components. It should look like this:
 ![alt text](photos/avionics.jpg)
 
 ### Step 5
-Set the voltage level of the buck converter by screwing this until the downsteam voltage (use a multimeter) reads 3.3 volts.
+Set the voltage level of the buck converter by screwing this clockwise until the downsteam voltage (use a multimeter) reads 3.3 volts.
 ![alt text](<Screenshot 2024-05-28 at 8.18.27 AM.png>)
 
  **Never plug in the battery and the USB at the same time!**
  Don't plug in the battery for now, we still have to set the [buck converter] to the right voltage which we will do at the avionics session.
 
 ## Software Section
+
+
 - [Following this guide](https://www.pjrc.com/teensy/td_download.html), get the arduino IDE, add the teensy to additional boards manager and install the teensy loader.
 - Make sure you can run a blink test.
 - Download the [flightcomputer](https://github.com/marstmu/flightcomputer) code from github. Go to src, then main.cpp, take that code and paste it into the arduino IDE and upload it.
