@@ -19,7 +19,6 @@ The team created possible designs utilising the CAD software *Onshape*.
 <br>
 <br>
 <br>
-![alt text](<laser cutting.jpg>)
 
 The team completed soldering the avionics which included a gps, radio, barometer and altimeter.
 <br>
