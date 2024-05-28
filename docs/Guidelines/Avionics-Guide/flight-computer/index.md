@@ -35,6 +35,11 @@ Solder the barrel jack, switch, resistor, and LED (and [buck converter] if you w
 ### Step 4 
 Plug in all your components. It should look like this:
 ![alt text](photos/avionics.jpg)
+
+### Step 5
+Set the voltage level of the buck converter by screwing this until the downsteam voltage (use a multimeter) reads 3.3 volts.
+![alt text](<Screenshot 2024-05-28 at 8.18.27 AM.png>)
+
  **Never plug in the battery and the USB at the same time!**
  Don't plug in the battery for now, we still have to set the [buck converter] to the right voltage which we will do at the avionics session.
 
