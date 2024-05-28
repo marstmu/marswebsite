@@ -26,6 +26,6 @@
 
     Open rocket, components.
 
-    [:octicons-arrow-right-24: Customization](Rocket-Guide)
+    [:octicons-arrow-right-24: Rocket Guide](Rocket-Guide)
 
 </div>
