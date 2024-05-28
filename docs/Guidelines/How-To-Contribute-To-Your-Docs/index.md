@@ -39,16 +39,16 @@ This will show up:
 
 Enter a commit message using [this grammer](https://github.com/joelparkerhenderson/git-commit-message):
 
-  * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
-  * Use up to 50 characters.
-  * Finish without a period.
+- Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
+- Use up to 50 characters.
+- Finish without a period.
 
 **Examples**
-  * Add foo
-  * Drop foo
-  * Fix foo
-  * Refactor foo
-  * Optimize foo
+- Add foo
+- Drop foo
+- Fix foo
+- Refactor foo
+- Optimize foo
 
   Enter your message and click the green "Commit & Push button
   
