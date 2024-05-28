@@ -14,12 +14,16 @@ Ten teams compete to launch the best rocket. Workshops are held to teach the tea
 
 Check out our [google drive] and [github]. This website is run on [this repo], join our [discord].
 
+<figure markdown="span">
+  ![alt text](img/avionics.jpg){ width="800" }
+  <br>
+  ![alt text](img/IMG_5183.jpg){ width="800" }
+  <br>
+  ![alt text](img/IMG_0260-min.jpg){ width="800" }
+</figure>
+
 <div class="image-container">
   
-![IMG_5183](https://github.com/marstmu/marswebsite/assets/55005377/ca5c5453-011a-45aa-b794-9de52ebb22c3)
-
-![avionics](https://github.com/marstmu/marswebsite/assets/55005377/259c7a71-533a-4f5e-833c-c2fe28cc7e1b)
-
 <a href="https://www.linkedin.com/in/harakhmehta/"><img src="img/logo.png" /></a>
 </div>
 
