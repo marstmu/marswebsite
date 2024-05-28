@@ -1676,6 +1676,71 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#raspberry-pi-set-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      Raspberry Pi Set Up
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Raspberry Pi Set Up">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flash-and-connect-to-raspberry-pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flash and Connect to Raspberry Pi
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-the-pins-on-the-raspberry-pi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable the pins on the raspberry pi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Enable the pins on the raspberry pi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-a-few-things-in-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install a few things in Linux
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1701,8 +1766,18 @@
 <p>The ground station is a raspberry pi with an HC-12.</p>
 <p>Connect the HC-12 to pins in the image below no need for the set pin, set the channel using the flight computer.
 <img alt="Screenshot 2024-04-24 at 11 18 13 PM" src="https://github.com/marstmu/marswebsite/assets/55005377/e7b791ba-5f0e-448d-ab0e-44565b3c4eed" /></p>
-<p>Enable the pins on the raspberry pi
-<code>sudo raspi-config</code>
+<h3 id="raspberry-pi-set-up">Raspberry Pi Set Up</h3>
+<h4 id="flash-and-connect-to-raspberry-pi">Flash and Connect to Raspberry Pi</h4>
+<ol>
+<li>Download <a href="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a></li>
+<li>Select RASPBERRY PI OS LITE (64-BIT)</li>
+<li>Click the gear icon in the bottom right. Set hostname to your team name. Set password, and send it to your team's Discord chat on the Mars competition server. Enable SSH. Everything else is optional.</li>
+<li>Plug in SD card, select it, click write.</li>
+<li>Plug in Pi to network, and connect computer to same network</li>
+<li>Connect to your pi by running this in the termnial pi: <code>ssh username@hostname.local</code></li>
+</ol>
+<h3 id="enable-the-pins-on-the-raspberry-pi">Enable the pins on the raspberry pi</h3>
+<p><code>sudo raspi-config</code>
 You should see this
 <img width="900" alt="Screenshot 2024-04-24 at 11 32 10 PM" src="https://github.com/marstmu/marswebsite/assets/55005377/82de4186-5f41-4d2c-a7cc-cf23c46ca27b">
 Select 3 Interface options
@@ -1716,13 +1791,17 @@ Select yes enable serial port hardware to be enabled</p>
 <img width="653" alt="Screenshot 2024-04-24 at 11 34 24 PM" src="https://github.com/marstmu/marswebsite/assets/55005377/8b52e4f7-4cfd-4c9e-970d-079b82f22de7"></p>
 <p>Select finish, and reboot it now, you'll have to ssh into it again
 <img width="903" alt="Screenshot 2024-04-24 at 11 34 49 PM" src="https://github.com/marstmu/marswebsite/assets/55005377/8f62ebfc-4b9c-4fb6-88fc-a2488e5b48b7"></p>
-<ul>
-<li>install git <code>sudo apt install git</code></li>
-<li>clone repo <code>git clone https://github.com/marstmu/groundstation.git</code></li>
-<li>install python library <code>sudo apt install python3-serial</code></li>
+<h4 id="install-a-few-things-in-linux">Install a few things in Linux</h4>
+<ol>
+<li>First familiarize youself with <code>ls</code>, <code>ls -al</code>, <code>cd</code>, <code>mkdir</code>, <code>rm</code>, <code>rm -r</code>, <code>sudo</code></li>
+<li>Install git <code>sudo apt install git</code></li>
+<li>Clone repo <code>git clone https://github.com/marstmu/groundstation.git</code></li>
+<li>Install python library <code>sudo apt install python3-serial</code></li>
+<li>cd into groundstation <code>cd groundstation</code></li>
 <li>Run gs.py with python <code>python gs.py</code></li>
-</ul>
-<p>If it says something like this: 
+</ol>
+<h3 id="tips">Tips</h3>
+<p>If it says something like this while trying to SSH: 
 <img alt="ssh-remote-host-identification-has-changed" src="https://github.com/marstmu/marswebsite/assets/55005377/4a9797a5-6097-42b2-bb67-7d5683c53684" />
 Delete the known_hosts file your .ssh folder</p>
 
@@ -1747,7 +1826,7 @@ Delete the known_hosts file your .ssh folder</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 3, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">May 28, 2024</span>
   </span>
 
     
