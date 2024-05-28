@@ -32,3 +32,25 @@ Add content. Upload images by dragging and dropping image into the editor while 
 Commit your changed by clicking this on the left:
 
 ![alt text](<Screenshot 2024-05-27 at 8.23.50 PM.png>)
+
+This will show up:
+
+![alt text](<Screenshot 2024-05-27 at 8.25.06 PM.png>)
+
+#### Commit messages
+Enter a commit message using [this grammer](https://github.com/joelparkerhenderson/git-commit-message):
+
+  * Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
+  * Use up to 50 characters.
+  * Finish without a period.
+
+**Examples**
+  * Add foo
+  * Drop foo
+  * Fix foo
+  * Refactor foo
+  * Optimize foo
+
+  Enter your message and click the green "Commit & Push button
+  
+  ![alt text](<Screenshot 2024-05-27 at 8.31.05 PM.png>)
