@@ -6,7 +6,7 @@ hide:
 
 # Home
 
-**MARS**, [TMU's] Model Rocket Society
+**MARS** is [TMU's] Model Rocket Society
 
 ---
 
