@@ -98,9 +98,11 @@ Launch was successful with the rocket recovered in a successful state.
 ![alt text](DSCF5682.jpg)
 ![alt text](DSCF5535.JPG)
 ![alt text](DSCF5533.JPG)
+![alt text](DSCF5673.jpg)
+![alt text](DSCF5554.jpg)
+
 
 Preview of launch is shown here. The full video with more angles can be found [here](https://www.youtube.com/watch?v=jFPGU56kXCg) on Kedrons Youtube channel.
-
 <video controls src="Untitled video - Made with Clipchamp (3).mp4" title="Title"></video>
 
 
