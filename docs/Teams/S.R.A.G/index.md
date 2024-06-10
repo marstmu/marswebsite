@@ -11,12 +11,19 @@ Here you can find Kedrons [Youtube Channel](https://www.youtube.com/channel/UCLv
 ### Jan
 ### Ryan
 
+## Design Process
 
-### S.R.A.G teams first meeting in November after kick off meeting to discuss possible designs.
+### Members of SRAG attended tutorials provided by the MARS organizers on Open Rocket and Onshape
+![alt text](IMG_20231101_185302.jpg)
+![alt text](IMG_20231101_191156.jpg)
+![alt text](IMG_20231101_190630.jpg)
+![alt text](IMG_20231108_194757.jpg)
+
+### Team SRAG's first meeting in November after kick off meeting to discuss possible designs.
 ![alt text](<team meeting.png>) 
 
 
-The team created possible designs utilising the CAD software *Onshape*.
+### The team created possible designs utilising the CAD software *Onshape*.
 
 ![alt text](fuselag.png)
 ![alt text](<centering rings.png>)
