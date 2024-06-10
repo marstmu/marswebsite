@@ -1,5 +1,15 @@
 # S.R.A.G
 
+## Meet the team
+### Kedron
+![alt text](kedron.jpg)
+"Aerospace engineering student who enjoys making stupid youtube videos, building random things and launching rockets"
+
+Here you can find Kedrons [Youtube Channel](https://www.youtube.com/channel/UCLv_qCGiw9wcaPLcR9sBKPw) 
+
+### Miguel
+### Jan
+### Ryan
 
 
 ### S.R.A.G teams first meeting in November after kick off meeting to discuss possible designs.
@@ -79,6 +89,14 @@ The team created possible designs utilising the CAD software *Onshape*.
 ![alt text](finished2.jpg)
 ![alt text](finished.jpg)
 
+## Launch Day
+
+
+
+
+Preview of launch is shown here. The full video with more angles can be found [here](https://www.youtube.com/watch?v=jFPGU56kXCg) on Kedrons Youtube channel.
+
+<video controls src="Untitled video - Made with Clipchamp (3).mp4" title="Title"></video>
 
 
 
