@@ -91,7 +91,10 @@ The team created possible designs utilising the CAD software *Onshape*.
 
 ## Launch Day
 
-
+Launch was successful with the rocket recovered in a successful state.
+![alt text](DSCF5665.jpg)
+![alt text](DSCF5666.jpg)
+![alt text](DSCF5667.jpg)
 
 
 Preview of launch is shown here. The full video with more angles can be found [here](https://www.youtube.com/watch?v=jFPGU56kXCg) on Kedrons Youtube channel.
