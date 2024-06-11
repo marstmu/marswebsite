@@ -10,6 +10,8 @@ Here you can find Kedrons [Youtube Channel](https://www.youtube.com/channel/UCLv
 ### Miguel
 ### Jan
 ### Ryan
+![alt text](ryan.jpg)
+"I do not want to add a quote because I won't be able to think of anything"
 
 ## Design Process
 
