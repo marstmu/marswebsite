@@ -84,7 +84,7 @@ Here you can find Kedrons [Youtube Channel](https://www.youtube.com/channel/UCLv
 
 
 
-### The team worked on the cosmetics of the rocket including applying the team name in decals aswell as drawing flags.
+### The team applied a second coat of paint then worked on the cosmetics of the rocket, including applying the team name in decals aswell as drawing flags.
 
 ![alt text](cosmetics1.jpg)
 
