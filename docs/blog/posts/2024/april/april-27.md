@@ -2,6 +2,7 @@
 title: MARS Meeting
 date: 2024-04-27
 comments: true
+draft: true
 authors:
   - kolya
 categories:
