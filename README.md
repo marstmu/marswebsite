@@ -17,3 +17,6 @@
 This is the website for MARS.
 
 This website has all the documentation on it.
+
+Built from:
+https://squidfunk.github.io/mkdocs-material/
