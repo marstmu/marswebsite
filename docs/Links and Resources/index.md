@@ -8,8 +8,11 @@
 
 [Mars Github]: https://github.com/marstmu
 
-[Team Sign-Up Form] 
+[MARS LinkedIn]
 
+[MARS LinkedIn]: https://www.linkedin.com/company/marstmu/?originalSubdomain=ca
+
+[Team Sign-Up Form] 
 
 [Team Sign-up Form]: https://forms.gle/Y5gghUxajzJMCKTW9
 
