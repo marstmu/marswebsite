@@ -32,7 +32,7 @@ Check out our [google drive] and [github]. This website is run on [this repo], j
 
 [google drive]: https://drive.google.com/drive/folders/1su8x4vkgnDxWnVwPmmk2WvCllnf5fLLx?usp=sharing
 
-[github]: https://github.com/marstmu/avionics_code
+[github]: https://github.com/marstmu
 
 [this repo]: https://github.com/marstmu/marswebsite
 
