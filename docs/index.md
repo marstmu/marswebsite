@@ -14,6 +14,11 @@ Ten teams compete to launch the best rocket. Workshops are held to teach the tea
 
 Check out our [google drive] and [github]. This website is run on [this repo], join our [discord].
 
+<div class="image-container">
+  
+<a href="https://www.linkedin.com/in/harakhmehta/"><img src="img/logo.png" /></a>
+</div>
+
 <figure markdown="span">
   ![alt text](img/avionics.jpg){ width="800" }
   <br>
@@ -21,11 +26,6 @@ Check out our [google drive] and [github]. This website is run on [this repo], j
   <br>
   ![alt text](img/IMG_0260-min.jpg){ width="800" }
 </figure>
-
-<div class="image-container">
-  
-<a href="https://www.linkedin.com/in/harakhmehta/"><img src="img/logo.png" /></a>
-</div>
 
 
 [TMU's]: https://www.torontomu.ca/engineering-architectural-science/programs/undergraduate/programs/

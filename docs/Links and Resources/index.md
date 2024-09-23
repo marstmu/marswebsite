@@ -1,5 +1,7 @@
 # Links
 
+SOCIALS
+
 [MARS Discord]
 
 [Mars Discord]: https://discord.gg/jYD8hPQQRr
@@ -12,9 +14,14 @@
 
 [MARS LinkedIn]: https://www.linkedin.com/company/marstmu/?originalSubdomain=ca
 
-[Team Sign-Up Form] 
+[MARS Instagram]
 
-[Team Sign-up Form]: https://forms.gle/Y5gghUxajzJMCKTW9
+[MARS Instagram]: https://www.instagram.com/mars.tmu/
+
+Tutorial Recordings can be found on the [MARS Youtube channel].
+
+[MARS Youtube channel]: https://www.youtube.com/channel/UCn9Oa6NjO_Gsd0_fHeAxYIw
+
 
 # Resources
 
@@ -22,7 +29,7 @@ ONSHAPE
 
 OnShape provides a variety of free [courses] covering many aspects of the software for self-paced learning.
 
-[This] is a quick guide to the main tools and features in OnShape (not complete yet) for your reference.
+[This] is a quick guide to the main tools and features in OnShape for your reference.
 
 [courses]: https://learn.onshape.com/catalog?labels=%5B%22Learning%20Format%22%5D&values=%5B%22Course%22%5D
 
