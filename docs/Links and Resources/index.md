@@ -1,5 +1,4 @@
 # Links
-
 SOCIALS
 
 [MARS Discord]
@@ -22,9 +21,13 @@ Tutorial Recordings can be found on the [MARS Youtube channel].
 
 [MARS Youtube channel]: https://www.youtube.com/channel/UCn9Oa6NjO_Gsd0_fHeAxYIw
 
+IMPORTANT DOCUMENTS
+
+The [Mission Overview Document] contains all of the parameters for your rocket design
+
+[Mission Overview Document]: https://docs.google.com/document/d/1gzwNll4eEA1leyUJSgyUj4RG9JcreUXQiUTYZX1pW9U/edit?usp=drive_link
 
 # Resources
-
 ONSHAPE
 
 OnShape provides a variety of free [courses] covering many aspects of the software for self-paced learning.
