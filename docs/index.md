@@ -10,7 +10,16 @@ hide:
 
 ---
 
-Ten teams compete to launch the best rocket. Workshops are held to teach the teams CAD, Open Rocket, GitHub, KiCad, Linux, soldering, Arduino, and ANSYS. Teams have to go through design reviews and are scored based on their documentation. The competition is geared towards beginners/first-years, but experienced rocketeers are welcome to join and make their own rocket too.
+30 teams compete to launch the best rocket. Workshops are held to teach the teams OnShape, Open Rocket, and Kicad. Teams have to go through design reviews and are scored based on their documentation. The competition is geared towards beginners/first-years. We also have a team of people developing avionics for the rockets.
+
+<div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LEXekLoZZro?si=LyrtVf8yEVynB0X8" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+</div>
+
+
 
 Check out our [github]. This website is run on [this repo], join our [discord].
 
