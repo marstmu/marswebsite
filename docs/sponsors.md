@@ -8,8 +8,6 @@ hide:
 
 Thank you to our sponsors!
 
-[Sponsorship package](package.pdf) 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +29,7 @@ Thank you to our sponsors!
             padding: 20px;
         }
         .logo {
-            width: 200px;
+            width: 400px;
             height: auto;
             transition: transform 0.3s;
         }
@@ -47,7 +45,6 @@ Thank you to our sponsors!
     </style>
 </head>
 <body>
-    <h1>Our Sponsors</h1>
     <div class="container">
         <div class="logo-wrapper">
             <a href="http://www.cesaronitech.com/" target="_blank">
@@ -72,3 +69,5 @@ Thank you to our sponsors!
     </div>
 </body>
 </html>
+
+[Sponsorship package](package.pdf) 
