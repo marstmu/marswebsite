@@ -39,7 +39,7 @@ theme:
   logo: img/logo-no-text.png
   favicon: img/favicon.ico
   features:
-    - navigation.sections
+   # - navigation.sections
     - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
