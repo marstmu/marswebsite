@@ -13,7 +13,7 @@ Mars 2024-2025 Winter Break Avionics Challenge
 
 ## Who is this for?
 
-This challenge is for anyone with some or no experience in PCB design who wants to learn more. No commitments and no other requirements are needed. Priority will be given to 1st and 2nd year students. 
+This challenge is for anyone with some or no experience in PCB design who wants to learn more. Must be a 1st or 2nd year student.  No commitments and no other requirements are needed.
 
 [Sign up link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUBgUmTJmOR8HCJTWi-2iwKz4vOlpNkXhPdT7K4GSJgenw/viewform?usp=sf_link)
 
