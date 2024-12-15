@@ -5,16 +5,7 @@ hide:
 
 # Meet the teams!
 
-## 2024 - 2025
-
-<!-- - [__BDC__](2023_2024/BDC)
-- [__ICARUS__](2023_2024/ICARUS)
-- [__Lockheed Interns__](2023_2024/Lockheed-Interns)
-- [__Los Alamos Laboratory__](2023_2024/Los-Alamos-Laboratory)
-- [__Lunar Wolves__](2023_2024/Lunar-Wolves)
-- [__OsaTech__](2023_2024/OsaTech)
-- [__Planetes__](2023_2024/Planetes)
-- [__S.R.A.G__](2023_2024/S.R.A.G) -->
+<!-- ## 2024 - 2025 -->
 
 ## 2023 - 2024
 
