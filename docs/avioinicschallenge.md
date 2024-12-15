@@ -21,7 +21,7 @@ This challenge is for anyone with some or no experience in PCB design who wants 
 
 ## What you have to do
 
-Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) and order it from [JLCPCB](https://jlcpcb.com/).
+Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) or [Altium](https://www.altium.com/) and order it from [JLCPCB](https://jlcpcb.com/).
 
 We can provide feedback on your design, but there won’t be any tutorials for this challenge.  
 
