@@ -23,8 +23,8 @@ hide:
 
 </div>
 
-![alt text](2023_2024/IMG_6775.jpg)
-![alt text](2023_2024/IMG_5183.jpg)
+![alt text](2023_2024/1.jpg)
+![alt text](2023_2024/2.jpg)
 
 
 <div style="display: flex; justify-content: center;">
