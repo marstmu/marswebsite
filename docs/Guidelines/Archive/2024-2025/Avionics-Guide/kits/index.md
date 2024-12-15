@@ -1,4 +1,4 @@
-# Avionics Kits
+# Avionics Kits 2023-2024
 This is an avionics kit:
 ![alt text](photos/icaruskit.jpg)
 
