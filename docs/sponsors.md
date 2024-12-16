@@ -48,7 +48,7 @@ Thank you to our sponsors!
     <div class="container">
         <div class="logo-wrapper">
             <a href="http://www.cesaronitech.com/" target="_blank">
-                <img src="cti.png" alt="CTI Logo" class="logo">
+                <img src="cti2.png" alt="CTI Logo" class="logo">
             </a>
         </div>
         <div class="logo-wrapper">
