@@ -51,6 +51,8 @@ You may work in a team, however solo is recommended, and the prize will be split
 
 ## Prizes 
 
+The challenge is biased towards first and second years.
+
 ### First place:
 
 Free mars sweater and $50 cash
