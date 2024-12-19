@@ -80,7 +80,7 @@ Free mars sweater
 
 ## Deadlines
 
-### January 10th
+### January 13th
 
 All boards must be ordered from JLCPCB before or on monday, January 13th.
 
