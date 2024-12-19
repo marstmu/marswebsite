@@ -7,21 +7,24 @@ hide:
 
 Mars 2024-2025 Winter Break Avionics Challenge
 
-**WIN $50 for Designing a PCB!**
+**WIN $50, and some MARS merch for Designing a PCB!**
 
 ---
 
 ## Who is this for?
 
-This challenge is for anyone with some or no experience in PCB design who wants to learn more. Must be a 1st or 2nd year student.  No commitments and no other requirements are needed.
+This challenge is for anyone with some or no experience in PCB design who wants to learn more. 1st and 2nd year students are prioritized. No commitments and no other requirements are needed.
 
-[Sign up link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUBgUmTJmOR8HCJTWi-2iwKz4vOlpNkXhPdT7K4GSJgenw/viewform?usp=sf_link)
+Please sign up using [this link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUBgUmTJmOR8HCJTWi-2iwKz4vOlpNkXhPdT7K4GSJgenw/viewform?usp=sf_link)
 
 ---
 
 ## What you have to do
 
-Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) or [Altium](https://www.altium.com/) and order it from [JLCPCB](https://jlcpcb.com/).
+- Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) or [Altium](https://www.altium.com/) and order it from [JLCPCB](https://jlcpcb.com/).
+- Document as much as you see fit.
+- Order you PCB on January 13th, submit your documentation and PCB in person to KHN03 on January 30th.
+
 
 We can provide feedback on your design, but there won’t be any tutorials for this challenge.  
 
@@ -33,10 +36,32 @@ Ask questions on our [Discord!](https://discord.com/invite/BaQZkd2TKj)
 
 ---
 
+## Teams?
+
+You may work in a team, however solo is recommended, and the prize will be split between you if you do it in a team.
+
+---
+
 ## PCB Ideas
 
 - An acceleration logger using an MPU6050
 - An air quality monitor using a BME680
+
+---
+
+## Prizes 
+
+### First place:
+
+Free mars sweater and $50 cash
+
+### Second and third place
+
+Free mars sweater
+
+### Participants
+
+20% off a merch purchase.
 
 ---
 
@@ -46,16 +71,28 @@ Ask questions on our [Discord!](https://discord.com/invite/BaQZkd2TKj)
 
 ## Extra Things You Can Do to Win
 
-- Document your project thoroughly.
 - Post everything on GitHub.
 - Use components from [this blog post](https://zeuldocs.com/blog/2024/12/12/chip-selection/).
 
 ---
 
-## Deadline
+## Deadlines
 
-The challenge will close at the end of winter break.  
-If needed, we may extend the deadline by a day or two. The winner will be announced shortly after, and the prize money will be awarded.
+### January 10th
+
+All boards must be ordered from JLCPCB before or on monday, January 13th.
+
+Assuming boards take 15 days to arrive, soldering or testing begins on January 28th
+
+If your board doesn't arrive on January 28th we may extend your deadline.
+
+### January 30th
+
+The documentation and PCB should be submitted on January 30th in person to KHN07.
+
+### February 2nd
+
+All documentation and PCBs will be graded, and the top 3 PCBs will be announced on February 3rd.
 
 ---
 
