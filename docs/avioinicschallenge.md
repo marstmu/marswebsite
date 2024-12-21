@@ -90,7 +90,7 @@ If your board doesn't arrive on January 28th we may extend your deadline.
 
 ### January 30th
 
-The documentation and PCB should be submitted on January 30th in person to KHN07.
+The documentation and PCBs should be submitted on January 30th in person to KHN07.
 
 ### February 2nd
 
