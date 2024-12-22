@@ -6,11 +6,8 @@ hide:
 
 # Home
 
-**MARS** is [TMU's] Model Rocket Society
-
+The Metropolitan Aerospace Rocket Society or **MARS**, is [TMU's] Rocket Society
 ---
-
-30 teams compete to launch the best rocket. Workshops are held to teach the teams OnShape, Open Rocket, and Kicad. Teams have to go through design reviews and are scored based on their documentation. The competition is geared towards beginners/first-years. We also have a team of people developing avionics for the rockets.
 
 <div style="text-align: center;">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LEXekLoZZro?si=LyrtVf8yEVynB0X8" 
