@@ -3,11 +3,11 @@ hide:
   - navigation
 ---
 
-# Avionics Challenge
+# Challenges
 
-Mars 2024-2025 Winter Break Avionics Challenge
+The Mars 2024-2025 Winter Break Avionics Challenge is live!
 
-**WIN $50, and some MARS merch for Designing a PCB!**
+**WIN $50, and some MARS merch for Designing a PCB**
 
 ---
 
