@@ -70,4 +70,4 @@ Thank you to our sponsors!
 </body>
 </html>
 
-[Sponsorship package](package.pdf) 
+[Sponsorship package](sponsors/package.pdf) 
