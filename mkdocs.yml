@@ -50,6 +50,11 @@ theme:
     - navigation.indexes
     - toc.follow
 plugins:
+  - exclude:
+      glob:
+        - '.*/**'  # Excludes all directories and files starting with a dot
+        - '.*'     # Excludes all top-level files starting with a dot
+
   - git-revision-date-localized:
       enable_creation_date: true
       timezone: America/Toronto
