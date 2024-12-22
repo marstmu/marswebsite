@@ -7,6 +7,7 @@ hide:
 # Home
 
 The Metropolitan Aerospace Rocket Society or **MARS**, is [TMU's] Rocket Society
+
 ---
 
 <div style="text-align: center;">
