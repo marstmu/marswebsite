@@ -63,7 +63,7 @@ Free mars sweater
 
 ### Participants
 
-20% off a merch purchase.
+20% off a merch purchase. You must make a unique functioning PCB to be eligible.
 
 ---
 
