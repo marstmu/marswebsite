@@ -24,7 +24,7 @@ Please sign up using [this link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUB
 - Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) or [Altium](https://www.altium.com/) and order it from [JLCPCB](https://jlcpcb.com/).
 - Document as much as you see fit.
 - Order your PCB on January 13th, submit your documentation and PCB in person to KHN03 on January 30th.
-
+- I recommend [DigiKey](https://www.digikey.ca/) for components
 
 We can provide feedback on your design, but there won’t be any tutorials for this challenge.  
 
