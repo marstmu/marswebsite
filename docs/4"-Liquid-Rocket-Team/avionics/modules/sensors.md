@@ -42,7 +42,7 @@ The 3.3v buck it called for 22.1kΩ on R_FBB.
 
 ![alt text](sensors/1.png)
 
-22.1kΩ is **not** a [standard resistor](/avionics/dfmguide/#jlcpcb-basic-part-0603-resistors). However, *22kΩ* <u>is</u>. So changing that to 22 will change the output voltage a tad.
+22.1kΩ is **not** a [standard resistor](../dfmguide/#jlcpcb-basic-part-0603-resistors). However, *22kΩ* <u>is</u>. So changing that to 22 will change the output voltage a tad.
 
 For the resistor divider:
 
