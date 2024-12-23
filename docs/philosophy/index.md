@@ -20,10 +20,9 @@ Things will get progressively easier the longer the team is around, and the comm
 
 The student rocketry community is quite open to sharing ideas. This makes it easier for new student teams such as MARS to get started. The end goal is to have a thriving space industry. The bottom line is that the more people we have that are knowledgeable in rocketry the better chance humanity has. This is largely the philosophy the rocketry teams I've spoken to have. This is one reason why MARS strives to open source everything we do. We stand on the shoulders of giants. As a small organization it is unfeasible to donate to every single open source project we gain knowledge from, so the least we can do is to contribute back the the community by open sourcing everything we do. We have everything to gain from the success of others. We strive to learn from and contribute to each step of the process. 
 
-#### What we open source and plans to sell kits
+#### What we open source
 
 All code, PCB schematics, and CAD files should be made open source on github. 
-For all teams, we should strive to create a open source product that we could sell kits for in the same spirit as [Ben Eater](https://eater.net/about) and [Comma](https://comma.ai/). The code and hardware is open source, we sell hardware kits. 
 
 ### Documentation
 
