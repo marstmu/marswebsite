@@ -1,6 +1,6 @@
 # Competition Team
 
-The competition team runs two launches during the fall and winter semesters. 
+The competition team runs two launches during the fall and winter semesters. The team should expand to have as many groups as possible. In order to accommodate growth participants may be required to pay for half their rocket. In the past MARS had a motor sponsor, this will not longer be the case.
 
 ## Timeline and Deliverables
 

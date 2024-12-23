@@ -1,5 +1,7 @@
 # MARS Philosophy and Constitution
 
+**THIS DOCUMENTATION IS A WORK IN PROGRESS**
+
 The end goal of MARS is to make TMU have the best student rocketry in Canada. The founders of the team have come up with a long term mission to make this happen. 
 
 The MARS teams which will push the boundaries of student rocketry will only exist with a really strong community, that is constantly teaching and hiring people. This is why we make model rocketry our priority. It is the easiest to get into, and it invites you to competitions such as Launch Canada that will bring you close to experts. The 4" rocket team would not exist without the model rockets.
@@ -16,7 +18,14 @@ Things will get progressively easier the longer the team is around, and the comm
 
 ### Open Source
 
-All code, PCB schematics, and CAD files should be made open source on github.
+The student rocketry community is quite open to sharing ideas. This makes it easier for new student teams such as MARS to get started. The end goal is to have a thriving space industry. The bottom line is that the more people we have that are knowledgeable in rocketry the better chance humanity has. This is largely the philosophy the rocketry teams I've spoken to have. This is one reason why MARS strives to open source everything we do. We stand on the shoulders of giants. As a small organization it is unfeasible to donate to every single open source project we gain knowledge from, so the least we can do is to contribute back the the community by open sourcing everything we do. We have everything to gain from the success of others. We strive to learn from and contribute to each step of the process. 
+
+#### What we open source and plans to sell kits
+
+All code, PCB schematics, and CAD files should be made open source on github. 
+For all teams, we should strive to create a open source product that we could sell kits for in the same spirit as [Ben Eater](https://eater.net/about) and [Comma](https://comma.ai/). The code and hardware is open source, we sell hardware kits. 
+
+### Documentation
 
 Open source isn’t as beginner friendly as it sounds, so as the team is growing there will be documentation that never gets transferred into markdown and put on the website. But this is something we must always strive to do. 
 A few of the reasons for this are:
@@ -26,12 +35,14 @@ A few of the reasons for this are:
 3. The website is the first thing sponsors look at when checking out whether or not to sponsor us. 
 4. If you have someone watching you, you are less likely to be janky. Jankyness one of our major enemies.
 
-#### We copy 
+#### Software
 
-We are proudly taking inspiration from a number of student teams and organizations. The very text you're reading is being ran with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) which we use for free. 
+KiCad > Altium, but nothing foss rivals solidworks.
 
+#### Inspiration
 
-The leads of the competition team and advanced team have to meet with Steven, running meetings from time to time, and ensure there is an up to date website and sponsorship package. 
+We are proudly taking inspiration from a number of student teams and organizations. The very text you're reading is being ran with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) which we use for free. WE
+
 
 ### Keep the team alive, and growing
 
@@ -60,17 +71,3 @@ One of the primary goals of leads on the team is to find younger years to replac
         - **L3 Candidates**
   
 There are other roles such as sponsorship coordinator, merch lead, social media person. These roles will not be listed here.
-
-## Key Principles
-
-1. **Community First**: Emphasis on collaboration, open communication, and fostering strong bonds between team members.
-2. **Open Source Philosophy**: Maintain thorough documentation to ease onboarding, increase transparency, and attract sponsors.
-3. **Continuous Improvement**: Each semester’s goal is to advance the team’s technology and knowledge.
-4. **Failure Modes**: Prioritize minimum viable outcomes:
-   - Launch model rockets in December and May.
-   - Develop avionics for model rockets.
-   - Advance the high-power team.
-
-
-
----

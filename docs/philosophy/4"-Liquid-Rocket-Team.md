@@ -16,8 +16,6 @@ The 2025 4" Liquid Rocket Team will builds a mojave spinx-esque rocket. The moja
 - robust ground station
 
 ## Team Structure
-
-- **4"-Liquid-Rocket-Team Team**
-    - **Captain** Leads the Advanced (4” Liquid) Team. Should have best general understanding of avionics, and liquid rocketry.
-    - **Avionics Member**
-    - **Structures Member**
+- **Captain**
+- **Avionics lead**
+- **Structures lead**
