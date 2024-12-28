@@ -44,6 +44,7 @@ You may work in a team, however solo is recommended, and the prize will be split
 
 ## PCB Ideas
 
+- Blinking led with 555 timer
 - An acceleration logger using an MPU6050
 - An air quality monitor using a BME680
 
