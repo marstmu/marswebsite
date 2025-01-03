@@ -24,7 +24,7 @@ Please sign up using [this link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUB
 - Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) or [Altium](https://www.altium.com/) and order it from [JLCPCB](https://jlcpcb.com/).
 - Document as much as you see fit.
 - Order your PCB on January 13th, submit your documentation and PCB in person to KHN03 on January 30th.
-- I recommend [DigiKey](https://www.digikey.ca/) for components
+- [DigiKey](https://www.digikey.ca/) is recommended for components
 
 We can provide feedback on your design, but there won’t be any tutorials for this challenge.  
 
@@ -45,6 +45,7 @@ You may work in a team, however solo is recommended, and the prize will be split
 ## PCB Ideas
 
 - Blinking led with 555 timer
+- Variable brightness LED
 - An acceleration logger using an MPU6050
 - An air quality monitor using a BME680
 
@@ -75,7 +76,6 @@ Free mars sweater
 ## Extra Things You Can Do to Win
 
 - Post everything on GitHub.
-- Use components from [this blog post](https://zeuldocs.com/blog/2024/12/12/chip-selection/).
 
 ---
 
