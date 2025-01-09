@@ -56,7 +56,7 @@ One of the primary goals of leads on the team is to find younger years to replac
     - **Director in Training: Eve Thamir**
 
 - **Logistics Team**
-    - **Lead: Eve Thamir**
+    - **Lead: Eve Thamir** Use notion
         - **Merch Lead**
         - **Media Lead**
         - **Sponsorship Lead**
