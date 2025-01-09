@@ -51,22 +51,31 @@ One of the primary goals of leads on the team is to find younger years to replac
 
 ## Team Structure
 
-- **Captain of MARS**: Oversees all activities, sets direction, and ensures smooth functioning of all teams. Sets major goals. Claims credit for success, and is responsible for failure.
+- **Director of MARS: Nikolai Sydorenko** Oversees all activities, sets direction, and ensures smooth functioning of all teams. Sets major goals. Claims credit for success, and is responsible for failure. 
+- **Co-Director: Zeul** 
+    - **Director in Training: Eve Thamir**
+
+- **Logistics Team**
+    - **Lead: Eve Thamir**
+        - **Merch Lead**
+        - **Media Lead**
+        - **Sponsorship Lead**
 
 - **Sub-Teams**:
     - **Competition Team**
-        - **Captain**: Leads the Competition Team. Sets deadlines, manages budget
-        - **Technical Director** In charge of CAD, 3D printing, altitude calculations, and composite layup. 
-        - **Avionics lead**  
-        - **Leads** 
-        - **Leads in training** 
-        - **L3 Candidates** after leads graduate to L3 candidates. They must make design proposal to MARS, which will then approve or deny funding a portion of the rocket. This position will open in september 2025.
-        - **General Members**
+        - **Technical Director: Miguel Gutierrz** In charge of CAD, 3D printing, altitude calculations, and composite layup. 
+            - **Avionics Manager: Eduardo**  
+            - **Avionics Maintainer: Anthony**  
+                - **Avionics Lead: Nathan, Kasper**  
+            - **Leads: Newt, Ivan** 
+                - **Leads in training** 
+                    - **General Members**
+
     - **4"-Liquid-Rocket-Team Team**
-        - **Captain** Leads the Advanced (4” Liquid) Team. Should have best general understanding of avionics, and liquid rocketry.
-        - **Avionics Member**
-        - **Structures Member**
-    - **L3 rockets**
-        - **L3 Candidates**
+        - **Lead: Zeul** Leads the Advanced (4” Liquid) Team. Should have general understanding of avionics, and liquid rocketry.
+
+    - **Certification Team**
+        - **L3 Capitan: Miguel Gutierrz** Acquiring L2 in summer in 2025
+        - **L3 Candidates** Competition team leads graduate to L3 candidates. They must make design proposal to MARS, which will then approve or deny funding a portion of the rocket. This position will open in september 2025.
   
 There are other roles such as sponsorship coordinator, merch lead, social media person. These roles will not be listed here.
