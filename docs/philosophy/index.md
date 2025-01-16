@@ -67,7 +67,7 @@ One of the primary goals of leads on the team is to find younger years to replac
             - **Avionics Manager: Eduardo**  
             - **Avionics Maintainer: Anthony**  
                 - **Avionics Lead: Nathan, Kasper**  
-            - **Leads: Newt, Ivan, Kedron...** 
+            - **Leads: Newt, Ivan, Kedron** 
                 - **Leads in training** 
                     - **General Members**
 
