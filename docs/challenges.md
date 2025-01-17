@@ -40,15 +40,20 @@ Ask questions on our [Discord!](https://discord.com/invite/BaQZkd2TKj)
 
 ### Documentation
 
-There are no requirements for formatting, length for documentation, however the ideal documentation uses Markdown.
+There are no requirements for formatting, length for documentation, however the ideal documentation includes the following:
+
+- Design process, component selection
+- What went right, and wrong
+- What you learnt
+- Uses [Markdown](https://www.markdownguide.org/) for writing
 
 ### Originality
 
-No requirements, but the ideal board is fully custom.
+No requirements, but the ideal board is fully custom. You can use an off the shelf board but it must make up less than 10%ish of all components on your board.
 
 ## Teams
 
-You may work in a team, however solo is recommended, and the prize will be split between you if you do it in a team.
+You may work in a team, however solo is recommended, and the prize will be split between team members.
 
 ---
 
@@ -58,6 +63,7 @@ You may work in a team, however solo is recommended, and the prize will be split
 - Variable brightness LED
 - An acceleration logger using an MPU6050
 - An air quality monitor using a BME680
+- Servo controller
 
 ---
 
