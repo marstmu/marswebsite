@@ -27,11 +27,15 @@ Check out our [github]. This website is run on [this repo], join our [discord].
 </div>
 
 <figure markdown="span">
-  ![alt text](img/avionics.jpg){ width="800" }
+  ![alt text](img/group_pic.jpg){ width="800" }
   <br>
   ![alt text](img/IMG_5183.jpg){ width="800" }
   <br>
-  ![alt text](img/IMG_0260-min.jpg){ width="800" }
+  ![alt text](img/launch.JPG){ width="800" }
+  <br>
+  ![alt text](img/drone_shot.JPG){ width="800" }
+  <br>
+  ![alt text](img/pcb.jpg){ width="800" }
 </figure>
 
 

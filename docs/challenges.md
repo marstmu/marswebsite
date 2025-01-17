@@ -24,19 +24,29 @@ Please sign up using [this link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUB
 - Design something fun (doesn't have to be avionics related) in [KiCad](https://www.kicad.org/) or [Altium](https://www.altium.com/) and order it from [JLCPCB](https://jlcpcb.com/).
 - Document as much as you see fit.
 - Order your PCB on January 13th, submit your documentation and PCB in person to KHN03 on January 30th.
-
+- [DigiKey](https://www.digikey.ca/) is recommended for components
 
 We can provide feedback on your design, but there won’t be any tutorials for this challenge.  
 
-You can buy the components from suppliers like DigiKey or have JLCPCB assemble them for you.
-
 Keep in mind, it takes about two weeks for a PCB to arrive from JLCPCB.
+
+MARS does not pay or reimburse you for your PCB.
 
 Ask questions on our [Discord!](https://discord.com/invite/BaQZkd2TKj)
 
 ---
 
-## Teams?
+## Requirements
+
+### Documentation
+
+There are no requirements for formatting, length for documentation, however the ideal documentation uses Markdown.
+
+### Originality
+
+No requirements, but the ideal board is fully custom.
+
+## Teams
 
 You may work in a team, however solo is recommended, and the prize will be split between you if you do it in a team.
 
@@ -44,6 +54,8 @@ You may work in a team, however solo is recommended, and the prize will be split
 
 ## PCB Ideas
 
+- Blinking led with 555 timer
+- Variable brightness LED
 - An acceleration logger using an MPU6050
 - An air quality monitor using a BME680
 
@@ -63,7 +75,7 @@ Free mars sweater
 
 ### Participants
 
-20% off a merch purchase.
+20% off a merch purchase. You must make a unique functioning PCB to be eligible.
 
 ---
 
@@ -74,7 +86,6 @@ Free mars sweater
 ## Extra Things You Can Do to Win
 
 - Post everything on GitHub.
-- Use components from [this blog post](https://zeuldocs.com/blog/2024/12/12/chip-selection/).
 
 ---
 
@@ -82,9 +93,9 @@ Free mars sweater
 
 ### January 13th
 
-All boards must be ordered from JLCPCB before or on monday, January 13th.
+All boards must be ordered from JLCPCB before or on monday, January 13th at 11:59PM.
 
-Assuming boards take 15 days to arrive, soldering or testing begins on January 28th
+Assuming boards take 15 days to arrive, soldering or testing begins on January 28th.
 
 If your board doesn't arrive on January 28th we may extend your deadline.
 
@@ -98,9 +109,15 @@ All documentation and PCBs will be graded, and the top 3 PCBs will be announced 
 
 ---
 
+### Marking Scheme
+
+There is no official marking scheme. The most impressive PCB, and documentation will win. There are bonus points for submitting early. All boards and documentation will be posted online, and will be marked publicly. There will eventually be examples of past winners who's files can be downloaded. 
+
+---
+
 ## Why is MARS Hosting This?
 
-We need help with our avionics projects! This event is a way to discover talented individuals who are skilled in PCB design.  
+We need help with our avionics projects! This event is a way to discover talented individuals who are skilled in PCB design. We will be doing many many more of these challenges. The next one will begin sometime in February
 
 We may also use this opportunity to recruit for the Mars Avionics Team.  
 Good luck, and happy designing!
