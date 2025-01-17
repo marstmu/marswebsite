@@ -63,10 +63,10 @@ One of the primary goals of leads on the team is to find younger years to replac
 
 - **Sub-Teams**:
     - **Competition Team**
-        - **Technical Director: Miguel Gutierrz** In charge of CAD, 3D printing, altitude calculations, and composite layup. 
+        - **Technical Director: Miguel Gutierrz** In charge of CAD, and composite layup. 
             - **Avionics Manager: Eduardo**  
             - **Avionics Maintainer: Anthony**  
-                - **Avionics Lead: Nathan, Kasper**  
+                - **Avionics Lead: Nathan, Kasper** In charge of altitude calculations, 3D printing avionics bays
             - **Leads: Newt, Ivan, Kedron, Baron, Jan** 
                 - **Leads in training** 
                     - **General Members**
