@@ -11,15 +11,15 @@ hide:
 
 <div class="grid cards" markdown>
 
-- [__BDC__](2023_2024/BDC/index.md)
-- [__ICARUS__](2023_2024/ICARUS/index.md)
-- [__Lockheed Interns__](2023_2024/Lockheed-Interns/index.md)
-- [__Los Alamos Laboratory__](2023_2024/Los-Alamos-Laboratory/index.md)
-- [__Lunar Wolves__](2023_2024/Lunar-Wolves/index.md)
+- [__BDC__](BDC/index.md)
+- [__ICARUS__](ICARUS/index.md)
+- [__Lockheed Interns__](Lockheed-Interns/index.md)
+- [__Los Alamos Laboratory__](Los-Alamos-Laboratory/index.md)
+- [__Lunar Wolves__](Lunar-Wolves/index.md)
 <!-- - [__M&M Enterprise__](M%26M-Enterprise) -->
-- [__OsaTech__](2023_2024/OsaTech/index.md)
-- [__Planetes__](2023_2024/Planetes/index.md)
-- [__S.R.A.G__](2023_2024/S.R.A.G/index.md)
+- [__OsaTech__](OsaTech/index.md)
+- [__Planetes__](Planetes/index.md)
+- [__S.R.A.G__](S.R.A.G/index.md)
 
 </div>
 
