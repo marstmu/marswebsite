@@ -13,9 +13,11 @@ The Mars 2024-2025 Winter Break Avionics Challenge is live!
 
 ## Who is this for?
 
-This challenge is for anyone with some or no experience in PCB design who wants to learn more. 1st and 2nd year students are prioritized. No commitments and no other requirements are needed.
+This challenge is for anyone with some or no experience in PCB design who wants to learn more. 1st and 2nd year students are prioritized. No commitments and no other requirements are needed. 
 
-Please sign up using [this link](https://docs.google.com/forms/d/e/1FAIpQLSdvOUBgUmTJmOR8HCJTWi-2iwKz4vOlpNkXhPdT7K4GSJgenw/viewform?usp=sf_link)
+The point of this challenge is to learn as much as possible, so even if your PCB doesn't work properly, you may still have a chance of winning if your documentation is good.
+
+Sign ups are currently closed. The next challenge may happen in February.
 
 ---
 
