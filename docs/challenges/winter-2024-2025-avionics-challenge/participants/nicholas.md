@@ -11,3 +11,5 @@
 ![alt text](nicholas/sch.png)
 
 ![alt text](nicholas/pcb.png)
+
+![](nicholas/3.png)

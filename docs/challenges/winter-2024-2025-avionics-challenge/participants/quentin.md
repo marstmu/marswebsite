@@ -67,3 +67,7 @@ The scope at the bottom side of the simulation shows the waveforms of each phase
 - PCB layout 
 - Better system design and defined requirements 
 - Better simulations
+
+## Images
+
+![alt text](<quentin/3d_render_pcb - Quentin Dela Torre.jpg>)

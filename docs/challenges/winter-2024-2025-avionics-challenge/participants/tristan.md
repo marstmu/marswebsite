@@ -50,3 +50,9 @@ The rest of the values are then calculated from these chosen values, the gain of
 The value of 4700uF for the input and output capacitors was chosen to set the -3dB cutoff frequency to be less than 2Hz. C3 is there to add some noise filtering for VCC. The value was chosen based on how much physical space was available.
 
 All resistors are either thin film or metal film to reduce noise and increase linearity.
+
+## Images
+
+![alt text](tristan/4.jpg)
+
+![alt text](tristan/3.jpg)
