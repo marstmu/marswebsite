@@ -46,11 +46,11 @@ Thank you to our sponsors!
 </head>
 <body>
     <div class="container">
-        <div class="logo-wrapper">
+        <!-- <div class="logo-wrapper">
             <a href="http://www.cesaronitech.com/" target="_blank">
                 <img src="cti2.png" alt="CTI Logo" class="logo">
             </a>
-        </div>
+        </div> -->
         <div class="logo-wrapper">
             <a href="https://www.prattwhitney.com/en" target="_blank">
                 <img src="pratt.png" alt="Pratt Logo" class="logo">
