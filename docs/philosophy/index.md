@@ -63,19 +63,15 @@ One of the primary goals of leads on the team is to find younger years to replac
 
 - **Sub-Teams**:
     - **Competition Team**
-        - **Technical Director: Miguel Gutierrz** In charge of CAD, and composite layup. 
-            - **Avionics Manager: Eduardo**  
-            - **Avionics Maintainer: Anthony**  
-                - **Avionics Lead: Nathan, Kasper** In charge of altitude calculations, 3D printing avionics bays
-            - **Leads: Newt, Ivan, Kedron, Baron, Jan** 
-                - **Leads in training** 
-                    - **General Members**
+        - **Avionics Manager: Eduardo**  
+            - **Technical Lead: Anthony**  
+            - **Avionics Lead: Nathan, Kasper** In charge of altitude calculations, 3D printing avionics bays
+        - **Technical Director: Miguel Gutierrz** In charge of CAD, and composite layup.         
+        - **Leads: Newt, Ivan, Kedron, Baron, Jan** 
+            - **Leads in training** 
+                - **General Members**
 
     - **4"-Liquid-Rocket-Team Team**
         - **Lead: Zeul** Leads the Advanced (4” Liquid) Team. Should have general understanding of avionics, and liquid rocketry.
-
-    - **Certification Team**
-        - **L3 Capitan: Miguel Gutierrz** Acquiring L2 in summer in 2025
-        - **L3 Candidates** Competition team leads graduate to L3 candidates. They must make design proposal to MARS, which will then approve or deny funding a portion of the rocket. This position will open in september 2025.
   
 There are other roles such as sponsorship coordinator, merch lead, social media person. These roles will not be listed here.
