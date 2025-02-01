@@ -1,9 +1,4 @@
----
-hide:
-  - navigation
----
-
-# Challenges
+# Winter 2024-2025 Avionics Challenge
 
 The Mars 2024-2025 Winter Break Avionics Challenge is live!
 
