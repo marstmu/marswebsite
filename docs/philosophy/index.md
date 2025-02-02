@@ -52,7 +52,7 @@ One of the primary goals of leads on the team is to find younger years to replac
 ## Team Structure
 
 - **Director of MARS: Nikolai Sydorenko** Oversees all activities, sets direction, and ensures smooth functioning of all teams. Sets major goals. Claims credit for success, and is responsible for failure. 
-- **Co-Director: Zeul** 
+- **Co-Director: Zeul**
     - **Director in Training: Eve Thamir**
 
 - **Logistics Team**
@@ -65,13 +65,13 @@ One of the primary goals of leads on the team is to find younger years to replac
     - **Competition Team**
         - **Avionics Manager: Eduardo**  
             - **Technical Lead: Anthony**  
-            - **Avionics Lead: Nathan, Kasper** In charge of altitude calculations, 3D printing avionics bays
-        - **Technical Director: Miguel Gutierrz** In charge of CAD, and composite layup.         
+            - **Avionics Lead: Nathan, Kasper** In charge of altitude calculations and designing and 3D printing avionics bays
+        - **Technical lead: Miguel Gutierrz**        
         - **Leads: Newt, Ivan, Kedron, Baron, Jan** 
             - **Leads in training** 
                 - **General Members**
 
-    - **4"-Liquid-Rocket-Team Team**
+    - **4"-Liquid-Rocket Team**
         - **Lead: Zeul** Leads the Advanced (4” Liquid) Team. Should have general understanding of avionics, and liquid rocketry.
   
 There are other roles such as sponsorship coordinator, merch lead, social media person. These roles will not be listed here.
