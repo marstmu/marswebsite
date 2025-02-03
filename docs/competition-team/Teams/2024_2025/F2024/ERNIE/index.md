@@ -11,3 +11,5 @@ Below is ERNIE's Post-Flight Report, detailing the design, manufacturing, and la
 
 ![alt text](IMG_3804.jpg)
 
+This team had an amazing rocket design and were very patient.
+
