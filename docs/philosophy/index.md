@@ -34,7 +34,7 @@ A few of the reasons for this are:
 
 #### Software
 
-KiCad > Altium, but nothing foss rivals solidworks.
+KiCad > Altium, but nothing foss rivals solidworks (except fusion360).
 
 #### Inspiration
 
@@ -56,7 +56,7 @@ One of the primary goals of leads on the team is to find younger years to replac
 - **Logistics Team**
     - **Lead: Eve Thamir**
         - **Merch Lead:**
-        - **Media Lead: Maryelle**
+        - **Media Lead: Mary Elle**
         - **Sponsorship Lead**
 
 - **Sub-Teams**:
