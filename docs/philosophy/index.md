@@ -4,7 +4,7 @@
 
 The end goal of MARS is to make TMU have the best student rocketry in Canada. The founders of the team have come up with a long term mission to make this happen. 
 
-The MARS teams which will push the boundaries of student rocketry will only exist with a really strong community, that is constantly teaching and hiring people. This is why we make model rocketry our priority. It is the easiest to get into, and it invites you to competitions such as Launch Canada that will bring you close to experts. The 4" rocket team would not exist without the model rockets.
+The MARS teams, which aim to push the boundaries of student rocketry, will only thrive with a strong community that is constantly teaching and recruiting new members. This is why we make model rocketry our priority. It is the easiest to get into, and it invites you to competitions such as Launch Canada that will bring you close to experts. The 4" rocket team would not exist without the model rockets.
 
 ## Mission Statements
 
@@ -12,7 +12,7 @@ The MARS teams which will push the boundaries of student rocketry will only exis
 
 We will not develop any technology without a strong community of friends. People should hang out have disagreements, discuss and even fight, but resolve their problems. 
 
-Tips for leads: Do not discuss important matters over discord or text message, in person or call to discuss issues.
+Tips for leads: Do not discuss important matters over Discord or text messages; instead, discuss issues in person or via a call.
 
 Things will get progressively easier the longer the team is around, and the community and technology will draw people in.
 
@@ -22,7 +22,7 @@ The student rocketry community is quite open to sharing ideas. This makes it eas
 
 #### What we open source
 
-All code, PCB schematics, and CAD files should be made open source on github. 
+All code, PCB schematics, and CAD files should be made open source on GitHub. 
 
 ### Documentation
 
@@ -32,7 +32,7 @@ A few of the reasons for this are:
 1. It makes the team easier to join if you know what is going on.
 2. The website is the way we build our reputation, and compete with other schools.
 3. The website is the first thing sponsors look at when checking out whether or not to sponsor us. 
-4. If you have someone watching you, you are less likely to be janky. Jankyness one of our major enemies.
+4. If you have someone watching you, you are less likely to be janky. Jankiness is one of our major enemies.
 
 #### Software
 
@@ -40,12 +40,12 @@ KiCad > Altium, but nothing foss rivals solidworks.
 
 #### Inspiration
 
-We are proudly taking inspiration from a number of student teams and organizations. The very text you're reading is being ran with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) which we use for free. WE
+We are proudly taking inspiration from a number of student teams and organizations. The very text you're reading is being ran with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) which we use for free.
 
 
 ### Keep the team alive, and growing
 
-Lots will change a long the way. The most important thing is keeping the team alive, not getting stressed, and keeping an open as well as open source community. Mars should also foster a bond between leads.
+Lots will change a long the way. The most important thing is keeping the team alive, not getting stressed, and keeping an open as well as open source community. MARS should also foster a bond between leads.
 One of the primary goals of leads on the team is to find younger years to replace themselves.
 
 
@@ -57,7 +57,7 @@ One of the primary goals of leads on the team is to find younger years to replac
 
 - **Logistics Team**
     - **Lead: Eve Thamir**
-        - **Merch Lead: Amir**
+        - **Merch Lead:**
         - **Media Lead: Maryelle**
         - **Sponsorship Lead**
 
@@ -73,5 +73,3 @@ One of the primary goals of leads on the team is to find younger years to replac
 
     - **4"-Liquid-Rocket Team**
         - **Lead: Zeul** Leads the Advanced (4” Liquid) Team. Should have general understanding of avionics, and liquid rocketry.
-  
-There are other roles such as sponsorship coordinator, merch lead, social media person. These roles will not be listed here.
