@@ -9,3 +9,7 @@ There will be two sections for your documentation. Use markdown for documentatio
 
 - One for everything you learnt, what went right, what went wrong and so on. 
 - The other section will be for the end result. It will be posted as a guideline for how to build parachutes step by step, what material to use, where to acquire it, as well as the various types of parachutes, and parachute sizing for different rockets with different masses, how to calculate the descent rate and more.
+
+## Deadline
+
+The deadline for completing the parachute fabrication and documentation is **March 20th 2025**
