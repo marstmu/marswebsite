@@ -1,4 +1,4 @@
-# 4" Liquid Rocket Team
+# 4" Liquid Rocket
 
 **This year we will be building a modified [Mojave Sphinx](https://www.halfcatrocketry.com/mojave-sphinx).**
 

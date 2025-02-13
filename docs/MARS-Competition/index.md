@@ -1,4 +1,4 @@
-# Competition Team
+# MARS Competition
 
 The MARS Competition is a student design team at Toronto Metropolitan University with the goal of educating students about model rocketry.
 
