@@ -63,9 +63,9 @@ plugins:
   #     branch: main
   #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - blog:
-      blog_dir: competition-team/blog
+      blog_dir: MARS-Competition/blog
   - blog:
-      blog_dir: Liquid-Rocket-Team/blog
+      blog_dir: 4in-Liquid-Rocket/blog
   - search
   # - rss:
   #     match_path: blog/posts/.* 
