@@ -63,12 +63,14 @@ plugins:
   #     branch: main
   #     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - blog:
-      authors: true
+      blog_dir: MARS-Competition/blog
+  - blog:
+      blog_dir: 4in-Liquid-Rocket/blog
   - search
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
+  # - rss:
+  #     match_path: blog/posts/.* 
+  #     date_from_meta:
+  #       as_creation: date
 
 markdown_extensions:
   - attr_list
@@ -91,7 +93,7 @@ extra:
   generator: true
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/marstmu/marswebsite
+      link: https://github.com/marstmu/
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/mars.tmu/
     - icon: fontawesome/brands/linkedin
