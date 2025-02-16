@@ -100,7 +100,8 @@ extra:
       link: https://www.linkedin.com/company/marstmu/?originalSubdomain=ca
     - icon: fontawesome/brands/discord
       link: https://discord.com/invite/BaQZkd2TKj
-
+    - icon: custom/notion
+      link: https://marstmu.notion.site/MARS-Notion-1912fcb069e2804d92e6dc49248b4dbb
 
 extra_css:
   - css/extra.css
