@@ -5,9 +5,13 @@
 ![alt text](Assem1.PNG)
 
 
-## Documents
+## Links
 
-- Our [BOM](https://docs.google.com/spreadsheets/d/14efr8l9_zVHHuwc9b49hxxgiD6_vnU3ExFUFa4B9Yjg/edit?usp=sharing)
+- [BOM](https://docs.google.com/spreadsheets/d/14efr8l9_zVHHuwc9b49hxxgiD6_vnU3ExFUFa4B9Yjg/edit?usp=sharing)
+
+- [CAD files](https://github.com/marstmu/4in-liquid-rocket)
+
+## Documents
 
 - Mojave Sphinx book: [HCR-5100](HCR-5100%20-%20Mojave%20Sphinx%20Build,%20Integration,%20and%20Launch%20Guidebook%20-%20R01-2.pdf)
 
