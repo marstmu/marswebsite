@@ -1,4 +1,4 @@
-# COTS
+# COTS Avionics
 
 ## Requirements
 
@@ -16,12 +16,12 @@ From the [Launch Canada 2025 Rules & Requirements Guide](Launch+Canada+Rules+and
 
 ## Selection
 
-### GPS
+The selection is in progress.
 
-
+<!-- ### GPS
 
 ### Altimeter
 
 We'll be going with the EasyMini v3 for the altimeter 
 
-![alt text](cots/easy-mini_lrg.png){ width=400px }
+![alt text](cots/easy-mini_lrg.png){ width=400px } -->

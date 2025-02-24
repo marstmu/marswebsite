@@ -1,32 +1,35 @@
 # Open Challenges
 
-These are challenges open to anyone to complete. All challenges expect really good documentation.
+These challenges are open to anyone. All challenges require really good documentation.
 
-## Open challenges
-
-### [O-Ring Sizing](o-ring-sizing.md)
-
-- Use the [Parker O-Ring Handbook](o-ring-sizing/ORD-5700.pdf) to size o-rings
+## Open Challenges
 
 ### [Composite Layup](compositelayup.md)
 
-- Design methods for and do composite layup for fuselage. 
+- Develop methods for performing composite layup for the fuselage.
+
+### [O-Ring Sizing](o-ring-sizing.md)
+
+- Use the [Parker O-Ring Handbook](o-ring-sizing/ORD-5700.pdf) to determine appropriate o-ring sizes.
 
 ### [Parachute](parachute.md)
 
-- Design, and fabricate a parachute.
+- Design and fabricate a parachute.
 
+### [Sourcing Components](sourcing-components.md)
 
+- Identify metal suppliers offering prices lower than McMaster-Carr.
+
+### [Test Stand](test-stand.md)
+
+- Design a test stand for static firings.
+
+### [Thrust Chamber Sizing](thrust-chamber.md)
+
+- Determine the sizes for the thrust chamber.
 
 ## Joining
 
-To join the MARS liquid rocket team you must complete an open design challenge. The process generally as follows:
+After completing a challenge, you are expected to upload all documentation to this website. You can do so by following the [Join Guide](../joinguide.md).
 
-- Submit initial design/documentation
-- Upon approval, begin Git training
-- Submit documentation to website
-
-Joining the liquid rocket team generally consists of doing a challenge, documenting everything in markdown, submitting your results, then formally joining. In order to keep everything we do open and extremely well documented, everyone joining should be well versed in Git and GitHub usage. 
-Coders, and MCAD, and ECAD designers must go through the [Git branching tutorial](https://learngitbranching.js.org/).
-
-All work done for challenges shall be documented using markdown, and posted on the website. 
+For more information, refer to the [Git Branching Tutorial](https://learngitbranching.js.org/).
