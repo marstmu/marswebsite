@@ -1,6 +1,6 @@
 # Composite Layup
 
-The Mojave Sphinx does not necessitate composite layup, but it would be good to know how to do for the future, as well as for potentially making our own body tubes for the competition team
+The Mojave Sphinx does not necessitate composite layup, but it would be good to know how to do for the future, as well as for potentially making our own body tubes for the competition team.
 
 You're expected to document everything throughout the entire process. This includes all processes, material choices, everything you learnt, what went right, what went wrong and more. The higher the quality the better.
 
