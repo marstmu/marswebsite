@@ -1,4 +1,4 @@
-# Composite Layup Challenge
+# Composite Layup
 
 The Mojave Sphinx does not necessitate composite layup, but it would be good to know how to do for the future, as well as for potentially making our own body tubes for the competition team
 

@@ -4,7 +4,7 @@
 
 **Suppliers in Ontario**
 
-For a local supplier to make sense it has to be cheaper than McMaster-Carr with a 101% duty.
+For a local supplier to make sense it has to be cheaper than McMaster-Carr with a 101% duty. It should be easy to find cheaper metal.
 
 - [Russel Metals](https://www.russelmetals.com/en/)
 - [Sigma Metals](https://www.sigmametals.ca/)

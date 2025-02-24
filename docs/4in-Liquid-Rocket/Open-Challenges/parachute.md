@@ -1,4 +1,4 @@
-# Parachute Challenge
+# Parachute
 
 1. Build a parachute similar to [this one](https://www.allrockets.ca/Build/Parachutes/36). Document all materials you use, and processes in markdown. We will provide you with a template parachute. 
 2. Create a comprehensive guide on how to fabricate parachutes. 

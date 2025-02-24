@@ -1,4 +1,7 @@
-# Join
+# Open Challenges
+
+To join the MARS liquid rocket team you must complete
+
 
 Joining the liquid rocket team generally consists of doing a challenge, documenting everything in markdown, submitting your results, then formally joining. In order to keep everything we do open and extremely well documented, everyone joining should be well versed in Git and GitHub usage. 
 Coders, and MCAD, and ECAD designers must go through the [Git branching tutorial](https://learngitbranching.js.org/).
