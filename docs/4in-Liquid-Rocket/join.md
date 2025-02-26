@@ -1,4 +1,4 @@
-# Join Guide
+# Join
 
 ## How To Join?
 
