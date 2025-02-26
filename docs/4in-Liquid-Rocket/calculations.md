@@ -2,10 +2,12 @@
 
 This page will cover how to size the thrust chamber for the Mojave Sphinx.
 
-<!-- ## Terms:
+### How to Size the Throat?
 
-- $L^\ast$ : Characteristic length.
-- $c^\ast$ : Characteristic velocity. -->
+1. Create an injector and target a specific discharge coefficient based on an expected pressure drop of approximately 20% of the feed pressure.
+2. Characterize the injector’s discharge coefficient using a cold flow test, which involves measuring the mass flow rate.
+3. Use the discharge coefficient along with a target chamber pressure to calculate the mass flow rate, then determine the throat size based on this value. Alternatively, you can start with a target mass flow rate, then compute the required chamber pressure and throat size.
+
 
 ## Oxidizer:Fuel Ratio 
 
@@ -34,7 +36,7 @@ Mass ratio = $(6 \times 44) : (1 \times 46) = 264 : 46 \approx 5.74:1$.
 
 To get volumetric ratio, use molar ratio and liquid densities:
 
-- $N_2O$: 6 moles, density = 1.22 g/cm³ (at 20°C), molar mass = 44 g/mol
+- $N_2O$: 6 moles, density = 1.22 g/cm³ (assume liquid state at 20°C), molar mass = 44 g/mol
 - $C_2H_5OH$: 1 mole, density = 0.789 g/cm³, molar mass = 46 g/mol
 
 Volume $N_2O$ = $\frac{6 \times 44}{1.22} = 216.39 \, \text{cm}^3$  
@@ -46,6 +48,10 @@ Volumetric ratio = $216.39 : 58.30 \approx 3.71:1$
 $$
 \text{Volumetric ratio} = \frac{\frac{6 \times 44}{1.22}}{\frac{1 \times 46}{0.789}} \approx 3.71:1
 $$
+
+## Injector Characterization 
+
+The pressure drop across the injector should be kept high enough that any abnormalities do not cause back flow. A recommended value if P_c is 60% of feed pressure.
 
 
 
