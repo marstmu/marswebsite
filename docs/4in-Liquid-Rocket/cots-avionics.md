@@ -14,14 +14,8 @@ From the [Launch Canada 2025 Rules & Requirements Guide](Launch+Canada+Rules+and
 
 *At the launch site, there will be a designated area used for judges. Each team must report directly to their assigned judges at the competition once they return after recovering their rocket, bring any necessary equipment to show judges their recovery data (e.g., laptop and cable), and be prepared to also email this same information to Launch Canada at competition@launchcanada.org. Some altimeters are designed to report apogee through a series of beeps, but beeps shall NOT be accepted except as a last resort. Failure of a team to provide their recovery data to Launch Canada will result in them receiving no score for this aspect of the Launch Challenge.*
 
-## Selection
+## GPS and Altimeter Selection
 
-The selection is in progress.
+One of the the only COTS GPS and altitude transmitters it the [Featherweight GPS Tracker](https://www.allrockets.ca/Altimeters/Full-System-Tracker) which costs $581.90.
 
-<!-- ### GPS
-
-### Altimeter
-
-We'll be going with the EasyMini v3 for the altimeter 
-
-![alt text](cots/easy-mini_lrg.png){ width=400px } -->
+![alt text](cots/fwa-fs_lrg.png)
