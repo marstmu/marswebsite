@@ -21,7 +21,8 @@
         "streetsidesoftware.code-spell-checker",
         "github.vscode-github-actions",
         "mechatroner.rainbow-csv",
-        "MS-vsliveshare.vsliveshare"
+        "MS-vsliveshare.vsliveshare",
+        "GitHub.vscode-pull-request-github"
       ]
     }
   }
