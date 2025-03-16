@@ -16,10 +16,6 @@ From the [Launch Canada 2025 Rules & Requirements Guide](Launch+Canada+Rules+and
 
 ## GPS and Altimeter Selection
 
-One of the the only COTS GPS and altitude transmitters it the Featherweight GPS Tracker which costs $581.90.
+One of the the only COTS GPS and altitude transmitters it the Featherweight GPS Tracker.
 
 [featherweightaltimeters.com](https://www.featherweightaltimeters.com/featherweight-gps-tracker.html)
-
-[allrockets.ca](https://www.allrockets.ca/Altimeters/Full-System-Tracker)
-
-![alt text](cots/fwa-fs_lrg.png)
