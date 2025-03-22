@@ -2,8 +2,8 @@
 
 ## How To Join?
 
-- Do a [challenge](Open-Challenges/index.md).
-- Read: [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html).
+- Do a [challenge](https://marstmu.notion.site/Projects-Open-Challenges-1b82fcb069e280fdaa63f3a509fd741e).
+<!-- - Read: [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html).
 - Do the [Git branching tutorial](https://learngitbranching.js.org/).
 - Post everything you did for the challenge on the website.
 
@@ -18,4 +18,4 @@ Before doing the [Git branching tutorial](https://learngitbranching.js.org/), it
 
 ## Writing documentation
 
-All our documentation is written in markdown. We use [MathJax for material for Mkdocs ](https://squidfunk.github.io/mkdocs-material/reference/math/?h=math#mathjax-docsjavascriptsmathjaxjs).
+All our documentation is written in markdown. We use [MathJax for material for Mkdocs ](https://squidfunk.github.io/mkdocs-material/reference/math/?h=math#mathjax-docsjavascriptsmathjaxjs). -->
