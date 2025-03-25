@@ -12,7 +12,7 @@ Challenges can be found on our [notion page](https://marstmu.notion.site/Open-Ch
 
 - [BOM](https://docs.google.com/spreadsheets/d/14efr8l9_zVHHuwc9b49hxxgiD6_vnU3ExFUFa4B9Yjg/edit?usp=sharing)
 
-- [CAD files](https://github.com/marstmu/4in-liquid-rocket)
+- [CAD](https://github.com/marstmu/4in-liquid-rocket)
 
 ## Documents
 
