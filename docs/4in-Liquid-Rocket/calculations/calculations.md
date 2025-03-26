@@ -60,6 +60,8 @@ The max chamber pressure based off of the mechanical design will be calculated. 
 
 The chamber pressure is 250, area is x. choke area is x and expansion area is x~
 
+[appendices](appendix.pdf)
+
 ## Scope
 
 What are we looking for? 
