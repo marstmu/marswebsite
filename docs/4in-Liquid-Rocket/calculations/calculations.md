@@ -50,15 +50,21 @@ $$
 
 ## Injector Characterization 
 
-The pressure drop across the injector should be kept high enough that any abnormalities do not cause back flow. A recommended value if P_c is 60% of feed pressure. We will size the injector such that 
+The pressure drop across the injector should be kept high enough that any abnormalities do not cause back flow. A recommended value if P_c is 60% of feed pressure. We however will size the injector such that the chamber pressure targets 250 PSI. For this rocket we don't want to deviate too much from the original design of the MS. We will however calculate the theoretical max chamber pressure.
 
+## Theoretical Max Chamber Pressure
 
+The max chamber pressure based off of the mechanical design will be calculated. Max axial and hoop stress will be calculated.
 
-## Goal
+## Expansion Ratio
+
+The chamber pressure is 250, area is x. choke area is x and expansion area is x~
+
+## Scope
 
 What are we looking for? 
 
-We want the exit mach number to be as high as possible. This is will be achieved by matching the exit pressure as close to the atmospheric pressure as possible. It known that the chamber we have is only tested at 250 PSI. 
+We want the exit mach number to be as high as possible. This is will be achieved by matching the exit pressure as close to the atmospheric pressure as possible. It known that the chamber we have is tested at 250 PSI. Therefore, we need to know 
 
 ## Misc
 
