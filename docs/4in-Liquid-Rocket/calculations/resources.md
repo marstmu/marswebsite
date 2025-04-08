@@ -10,7 +10,12 @@
 
 - [Design of Two-Phase Injectors Using Analytical and Numerical Methods with Application to Hybrid Rockets](https://web.stanford.edu/~cantwell/AA284A_Course_Material/AA284A_Resources/Nino%20and%20Razavi,%20Design%20of%20Two-Phase%20Injectors%20Using%20Analytical%20and%20Numerical%20Methods%20with%20Application%20to%20Hybrid%20Rockets%202019-4154.pdf)
 
-- ![MACH 2025 LC PDR](machpdr2025.pdf)
+- [MACH 2025 LC PDR](machpdr2025.pdf)
+
+## Textbooks
+
+- [Design of Liquid Propellant Rocket Engines](https://ntrs.nasa.gov/api/citations/19710019929/downloads/19710019929.pdf)
+
 
 ## References
 
