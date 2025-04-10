@@ -10,7 +10,9 @@
 
 - [Design of Two-Phase Injectors Using Analytical and Numerical Methods with Application to Hybrid Rockets](https://web.stanford.edu/~cantwell/AA284A_Course_Material/AA284A_Resources/Nino%20and%20Razavi,%20Design%20of%20Two-Phase%20Injectors%20Using%20Analytical%20and%20Numerical%20Methods%20with%20Application%20to%20Hybrid%20Rockets%202019-4154.pdf)
 
-- [MACH 2025 LC PDR](machpdr2025.pdf)
+- [MACH 2025 LC PDR](resources/machpdr2025.pdf)
+
+- [Solomon, Brian J., "Engineering Model to Calculate Mass Flow Rate of a Two-Phase Saturated Fluid Through An Injector Orifice" (2011).](https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1110&context=gradreports)
 
 ## Textbooks
 
@@ -20,5 +22,5 @@
 ## References
 
 - [Parker O-Ring Handbook](https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf)
-- [AER622 Appendix](appendix.pdf)
+- [AER622 Appendix](resources/appendix.pdf)
 
