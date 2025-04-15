@@ -26,12 +26,15 @@
 
 ## Textbooks
 
-### Free
-
 - [Design of Liquid Propellant Rocket Engines](https://ntrs.nasa.gov/api/citations/19710019929/downloads/19710019929.pdf)
 - [Sutton, G. and Biblarz, O., Rocket Propulsion Elements, Wiley and Sons, New York, 9th ed., 2017](https://ftp.idu.ac.id/wp-content/uploads/ebook/tdg/DESIGN%20SISTEM%20DAYA%20GERAK/Rocket%20Propulsion%20Elements.pdf)
 
-### 
+## Software
+
+- [HalfCatSim](https://www.halfcatrocketry.com/halfcatsim)
+- [CEARUN](https://cearun.grc.nasa.gov/)
+- [REFPROP](https://www.nist.gov/srd/refprop)
+- [RPA](https://www.rocket-propulsion.com/index.htm)
 
 
 ## References
