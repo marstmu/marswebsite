@@ -1,0 +1,275 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+    @import url('https://fonts.cdnfonts.com/css/horizon');
+    
+    :root {
+      --mars-red: #a22117;
+      --mars-red-light: #a4534c;
+      --mars-gold: #bc9b22;
+      --mars-white: #ffffff;
+      --mars-offwhite: #f1f0f0;
+    }
+    
+    /* Basic resets */
+    *, *::before, *::after { box-sizing: border-box; }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Space Mono', monospace;
+      color: var(--mars-offwhite);
+    }
+    
+    /* Hide default MkDocs header */
+    .md-header, .md-tabs, nav.md-tabs, header.md-header {
+      display: none !important;
+    }
+    
+    /* Full-screen hero image */
+    .hero {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: url('assets/images/hero.jpg') center/cover no-repeat;
+      z-index: 1;
+    }
+    
+    /* Overlay to make text more readable */
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+      z-index: 2;
+    }
+    
+    /* Hero content */
+    .hero-content {
+      position: absolute;
+      bottom: 20%;
+      left: 10%;
+      z-index: 3;
+      max-width: 800px;
+    }
+    
+    .hero-title {
+      font-family: 'Horizon', sans-serif;
+      font-size: 4rem;
+      color: var(--mars-red);
+      margin-bottom: 1rem;
+      text-shadow: 0 0 15px rgba(162, 33, 23, 0.7);
+      letter-spacing: 2px;
+    }
+    
+    .hero-subtitle {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.5rem;
+      color: var(--mars-offwhite);
+      margin-bottom: 2rem;
+      text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    }
+    
+    .hero-btn {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      background: linear-gradient(90deg, var(--mars-red), var(--mars-red-light));
+      color: var(--mars-white);
+      text-decoration: none;
+      border-radius: 5px;
+      font-family: 'Space Mono', monospace;
+      font-weight: 700;
+      font-size: 1rem;
+      border: 2px solid var(--mars-gold);
+      transition: all 0.3s ease;
+      text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    
+    .hero-btn:hover {
+      background: linear-gradient(90deg, var(--mars-red-light), var(--mars-red));
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      color: var(--mars-gold);
+    }
+    
+    /* Custom navigation */
+    .custom-nav {
+      position: fixed;
+      top: 2rem;
+      left: 2rem;
+      z-index: 100;
+    }
+    
+    .custom-nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+    
+    .custom-nav-link {
+      color: var(--mars-offwhite);
+      text-decoration: none;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-shadow: 0 0 10px rgba(0,0,0,0.8);
+      transition: color 0.3s ease;
+      position: relative;
+    }
+    
+    .custom-nav-link:hover {
+      color: var(--mars-gold);
+    }
+    
+    .custom-nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: var(--mars-gold);
+      transition: width 0.3s ease;
+    }
+    
+    .custom-nav-link:hover::after {
+      width: 100%;
+    }
+    
+    /* Add gallery section styles */
+    .gallery-section {
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      padding: 0;
+      background-color: #080202;
+      z-index: 10;
+      margin-top: 100vh;
+    }
+    
+    .gallery-title {
+      font-family: 'Horizon', sans-serif;
+      font-size: 2.5rem;
+      color: var(--mars-gold);
+      margin-bottom: 2rem;
+      text-align: center;
+      text-shadow: 0 0 10px rgba(188, 155, 34, 0.5);
+    }
+    
+    .vertical-photos {
+      display: flex;
+      justify-content: stretch;
+      margin: 0;
+      padding: 0;
+      flex-wrap: nowrap;
+      width: 100vw;
+      max-width: 100vw;
+      gap: 0;
+      overflow: hidden;
+    }
+    
+    .vertical-photo {
+      height: 400px;
+      width: 33.333%;
+      object-fit: cover;
+      transition: all 0.3s ease;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .vertical-photo:hover {
+      transform: scale(1.02);
+    }
+    
+    .group-photo-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    
+    .group-photo {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      border: 2px solid var(--mars-red);
+      transition: all 0.3s ease;
+    }
+    
+    .group-photo:hover {
+      box-shadow: 0 15px 30px rgba(162, 33, 23, 0.4);
+      border-color: var(--mars-gold);
+    }
+    
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 2.5rem;
+      }
+      
+      .hero-subtitle {
+        font-size: 1.2rem;
+      }
+      
+      .hero-content {
+        left: 5%;
+        max-width: 90%;
+      }
+      
+      .vertical-photos {
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      
+      .vertical-photo {
+        width: 100%;
+        height: auto;
+        max-width: none;
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <!-- Hero Image -->
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Metropolitan Aerospace Rocket Society</h1>
+      <p class="hero-subtitle">TMU's premier student-led rocketry team dedicated to innovation and exploration.</p>
+      <a href="https://discord.gg/BaQZkd2TKj" class="hero-btn">Join Our Discord</a>
+    </div>
+  </div>
+  
+  <!-- Navigation -->
+  <nav class="custom-nav">
+    <div class="custom-nav-links">
+      <a href="#rocket" class="custom-nav-link">4in Liquid Rocket</a>
+      <a href="#competition" class="custom-nav-link">MARS Competition</a>
+      <a href="#philosophy" class="custom-nav-link">Philosophy</a>
+    </div>
+  </nav>
+  
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="vertical-photos">
+      <img src="assets/images/1.jpg" alt="Vertical Photo 1" class="vertical-photo">
+      <img src="assets/images/2.jpg" alt="Vertical Photo 2" class="vertical-photo">
+      <img src="assets/images/3.jpg" alt="Vertical Photo 3" class="vertical-photo">
+    </div>
+    <div class="group-photo-container">
+      <img src="assets/images/group_photo.jpg" alt="Group Photo" class="group-photo">
+    </div>
+  </section>
+{% endblock %}
