@@ -91,7 +91,7 @@
       position: fixed;
       top: 2rem;
       left: 2rem;
-      z-index: 100;
+      z-index: 1;
     }
     .custom-nav-links {
       display: flex;
@@ -135,20 +135,47 @@
     }
     .vertical-photos {
       display: flex;
-      justify-content: space-between;
-      gap: 1rem;
-      padding: 0 2rem;
       flex-wrap: nowrap;
+      overflow-x: auto;
+      padding: 0 2rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--mars-red) var(--mars-offwhite);
+    }
+    .vertical-photos::-webkit-scrollbar {
+      height: 8px;
+    }
+    .vertical-photos::-webkit-scrollbar-track {
+      background: var(--mars-offwhite);
+    }
+    .vertical-photos::-webkit-scrollbar-thumb {
+      background: var(--mars-red);
+      border-radius: 4px;
     }
     .vertical-photo {
-      flex: 0 0 auto;
-      width: 300px;
-      height: 400px;
+      flex: 0 0 250px;
+      height: 500px;
       object-fit: cover;
+      margin-right: 1rem;
       transition: transform 0.3s ease;
     }
     .vertical-photo:hover {
       transform: scale(1.02);
+    }
+    .about-section {
+      padding: 2rem;
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .about-section h2 {
+      font-size: 2rem;
+      color: var(--mars-red);
+      margin-bottom: 1rem;
+    }
+    .about-section p {
+      font-size: 1.2rem;
+      color: var(--mars-offwhite);
+      max-width: 800px;
+      margin: 0 auto;
     }
     .group-photo-container {
       display: flex;
@@ -190,18 +217,24 @@
         gap: 1rem;
         padding: 0.5rem;
       }
-      .vertical-photos {
-        flex-direction: row;
-        overflow-x: auto;
-        padding: 0 1rem;
-        gap: 1rem;
-      }
-      .vertical-photo {
-        width: 250px;
-        height: 350px;
-      }
       .group-photo-container {
         padding: 0 1rem;
+      }
+      .vertical-photos {
+        padding: 0 1rem;
+      }
+      .vertical-photo {
+        flex: 0 0 200px;
+        height: 350px;
+      }
+      .about-section {
+        padding: 1rem;
+      }
+      .about-section h2 {
+        font-size: 1.5rem;
+      }
+      .about-section p {
+        font-size: 1rem;
       }
     }
   </style>
@@ -210,7 +243,7 @@
   <!-- Hero Section -->
   <div class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">Metropolitan Aerospace Rocket Society</h1>
+      <h1 class="hero-title">Metropolitan<br>Aerospace<br>Rocket<br>Society</h1>
       <p class="hero-subtitle">TMU's premier student-led rocketry team.</p>
       <a href="https://discord.gg/BaQZkd2TKj" class="hero-btn">Join Us</a>
     </div>
@@ -219,7 +252,7 @@
   <!-- Navigation -->
   <nav class="custom-nav">
     <div class="custom-nav-links">
-      <a href="4in-Liquid-Rocket/" class="custom-nav-link">Rocket</a>
+      <a href="4in-Liquid-Rocket/" class="custom-nav-link">4" Liquid Rocket</a>
       <a href="MARS-Competition/" class="custom-nav-link">Competition</a>
       <a href="philosophy/" class="custom-nav-link">Philosophy</a>
     </div>
@@ -229,8 +262,19 @@
   <section class="gallery-section">
     <div class="vertical-photos">
       <img src="assets/images/1.jpg" alt="Photo 1" class="vertical-photo">
+      <img src="assets/images/8.png" alt="Photo 1" class="vertical-photo">
+      <img src="assets/images/3.jpg" alt="Photo 1" class="vertical-photo">
+      <img src="assets/images/11.png" alt="Photo 1" class="vertical-photo">
+      <img src="assets/images/12.png" alt="Photo 1" class="vertical-photo">
+      <img src="assets/images/2.jpg" alt="Photo 1" class="vertical-photo">
+      <img src="assets/images/zn.png" alt="Photo 2" class="vertical-photo">
+      <img src="assets/images/6.png" alt="Photo 2" class="vertical-photo">
       <img src="assets/images/2.jpg" alt="Photo 2" class="vertical-photo">
-      <img src="assets/images/3.jpg" alt="Photo 3" class="vertical-photo">
+      <img src="assets/images/15.png" alt="Photo 3" class="vertical-photo">
+    </div>
+    <div class="about-section">
+      <h2>About Us</h2>
+      <p>The Metropolitan Aerospace Rocket Society is TMU's premier student-led rocketry team, dedicated to pushing the boundaries of aerospace engineering through innovation and teamwork. Our mission is to design, build, and launch cutting-edge rockets while fostering a community of passionate engineers and scientists.</p>
     </div>
     <div class="group-photo-container">
       <img src="assets/images/group_photo.jpg" alt="Group Photo" class="group-photo">
