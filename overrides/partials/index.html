@@ -258,12 +258,24 @@
         will-change: transform;
       }
     }
+
+    @media (max-height: 600px) {
+      .hero-content {
+        bottom: 5%;
+      }
+      .hero-title {
+        font-size: 2rem;
+      }
+      .hero-subtitle {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">Metropolitan<br>Aerospace<br>Rocket<br>Society</h1>
+      <h1 class="hero-title">Metropolitan Aerospace Rocket Society</h1>
       <p class="hero-subtitle">
         25 rocket launches per semester at a self-hosted competition.<br>
         Tripoli certifications at <a href="https://www.launchcanada.org/" target="_blank" rel="noopener">Launch Canada</a> and <a href="https://urrg.us/" target="_blank" rel="noopener">URRG.</a><br>
@@ -312,6 +324,7 @@
   <script>
     const hero = document.querySelector('.hero');
     const heroContent = document.querySelector('.hero-content');
+    const customNav = document.querySelector('.custom-nav');
     let lastScrollY = window.scrollY;
     let ticking = false;
 
@@ -322,6 +335,7 @@
 
       hero.style.transform = `translateY(${-lastScrollY * heroFactor}px)`;
       heroContent.style.transform = `translateY(${-lastScrollY * contentFactor}px)`;
+      customNav.style.transform = `translateY(${-lastScrollY * contentFactor}px)`;
       ticking = false;
     }
 
