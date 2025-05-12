@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark"> 
   <title>Metropolitan Aerospace Rocket Society</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -13,10 +14,10 @@
       --mars-gold: #bc9b22;
       --mars-white: #ffffff;
       --mars-offwhite: #f1f0f0;
-      --mars-red-bright: #c7362a; /* Brighter red for hero title */
+      --mars-red-bright: #c7362a;
+      color-scheme: dark;
     }
 
-    /* Resets */
     *, *::before, *::after {
       box-sizing: border-box;
     }
@@ -31,7 +32,6 @@
       font-family: 'Orbitron', sans-serif;
     }
 
-    /* Hero Section */
     .hero {
       position: fixed;
       top: 0;
@@ -49,7 +49,7 @@
       width: 100%;
       height: 100%;
       background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
-      z-index: 2;
+      z-index: 1;
     }
     .hero-content {
       position: absolute;
@@ -61,24 +61,22 @@
     }
     .hero-title {
       font-size: 4rem;
-      color: var(--mars-red-bright); /* Brighter red for vibrancy */
+      color: #cb3126;
       margin-bottom: 1rem;
-      text-shadow: 
-        0 0 5px rgba(188, 155, 34, 0.5), /* Subtle gold glow */
-        0 0 10px rgba(164, 33, 23, 0.7), /* Soft red shadow */
-        0 0 20px rgba(0, 0, 0, 0.4); /* Dark outline for depth */
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     }
     .hero-subtitle {
       font-size: 1.5rem;
       color: var(--mars-offwhite);
       margin-bottom: 2rem;
-      text-shadow: 0 0 5px rgba(164, 33, 23, 0.3); /* Faint red shadow */
+      text-shadow: 0 0 5px rgba(164, 33, 23, 0.3);
     }
     .hero-subtitle a {
-      color: var(--mars-red-light);
+      color: #ff5500;
       text-decoration: none;
       transition: color 0.3s ease;
-      text-shadow: 0 0 3px rgba(164, 33, 23, 0.2);
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+      font-weight: bold;
     }
     .hero-subtitle a:hover {
       color: var(--mars-gold);
@@ -94,7 +92,7 @@
       border-radius: 5px;
       font-weight: 700;
       border: 2px solid var(--mars-gold);
-      box-shadow: 0 0 10px rgba(164, 33, 23, 0.4); /* Red shadow for cohesion */
+      box-shadow: 0 0 10px rgba(164, 33, 23, 0.4);
       transition: all 0.3s ease;
     }
     .hero-btn:hover {
@@ -104,7 +102,6 @@
       color: var(--mars-gold);
     }
 
-    /* Navigation */
     .custom-nav {
       position: fixed;
       top: 2rem;
@@ -143,12 +140,12 @@
       width: 100%;
     }
 
-    /* Gallery Section */
     .gallery-section {
       position: relative;
       margin-top: 100vh;
       padding: 2rem 0;
       background-color: #080202;
+      background: linear-gradient(45deg, #390f0f, #340303);
       z-index: 10;
     }
     .vertical-photos {
@@ -215,13 +212,12 @@
       box-shadow: 0 10px 20px rgba(162, 33, 23, 0.4);
     }
 
-    /* Responsive Design */
     @media (max-width: 768px) {
       .hero-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       .hero-subtitle {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
       .hero-content {
         left: 5%;
@@ -262,12 +258,11 @@
   </style>
 </head>
 <body>
-  <!-- Hero Section -->
   <div class="hero">
     <div class="hero-content">
       <h1 class="hero-title">Metropolitan<br>Aerospace<br>Rocket<br>Society</h1>
       <p class="hero-subtitle">
-        25 rocket launches per semester at self-hosted competition.<br>
+        25 rocket launches per semester at a self-hosted competition.<br>
         Tripoli certifications at <a href="https://www.launchcanada.org/" target="_blank" rel="noopener">Launch Canada</a> and <a href="https://urrg.us/" target="_blank" rel="noopener">URRG.</a><br>
         Liquid rocket and advanced avionics development.<br>
         <em>That's MARS.</em>
@@ -276,16 +271,14 @@
     </div>
   </div>
 
-  <!-- Navigation -->
   <nav class="custom-nav">
     <div class="custom-nav-links">
-      <a href="4in-Liquid-Rocket/" class="custom-nav-link">4" Liquid Rocket</a>
+      <a href="4in-Liquid-Rocket/" class="custom-nav-link">Liquid Rocket</a>
       <a href="MARS-Competition/" class="custom-nav-link">Competition</a>
       <a href="philosophy/" class="custom-nav-link">Philosophy</a>
     </div>
   </nav>
 
-  <!-- Gallery Section -->
   <section class="gallery-section">
     <div class="vertical-photos">
       <img src="assets/images/1.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
@@ -313,7 +306,6 @@
     </div>
   </section>
 
-  <!-- Parallax Script -->
   <script>
     const hero = document.querySelector('.hero');
     const heroContent = document.querySelector('.hero-content');
