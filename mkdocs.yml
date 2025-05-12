@@ -6,7 +6,7 @@ site_author: MARS
 repo_url: https://github.com/marstmu/marswebsite
 edit_uri: edit/main/docs/
 
-copyright: mars.group@torontomu.ca
+copyright: Metropolitan Aerospace Rocket Society © 2025 
 
 theme:
   name: material
@@ -117,3 +117,9 @@ markdown_extensions:
 
   - pymdownx.arithmatex:
       generic: true
+
+
+watch:
+  - docs     
+  - overrides/partials
+  - mkdocs.yml
