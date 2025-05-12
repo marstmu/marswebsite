@@ -63,4 +63,4 @@ The expansion ratio will be calculated to achieve optimal performance at our ope
 - Combustion efficiency and stability will be evaluated against this ratio
 - Thermal management requirements will be assessed based on selected O:F ratio
 
-[Isentropic Flow Tables](appendix.pdf)
+[Isentropic Flow Tables](resources/appendix.pdf)

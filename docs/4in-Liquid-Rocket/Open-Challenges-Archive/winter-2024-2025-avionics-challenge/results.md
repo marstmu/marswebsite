@@ -1,4 +1,4 @@
-## Results
+# Results
 
 **First Place:** Cihad Khaled - Acceleration Monitor PCB (AMP)  
 
