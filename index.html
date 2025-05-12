@@ -212,10 +212,14 @@
       .custom-nav {
         top: 1rem;
         left: 1rem;
+        right: 1rem;
       }
       .custom-nav-links {
+        width: 100%;
         gap: 1rem;
-        padding: 0.5rem;
+        padding: 0.5rem 1rem;
+        overflow-x: auto;
+        flex-wrap: nowrap;
       }
       .group-photo-container {
         padding: 0 1rem;
@@ -244,7 +248,12 @@
   <div class="hero">
     <div class="hero-content">
       <h1 class="hero-title">Metropolitan<br>Aerospace<br>Rocket<br>Society</h1>
-      <p class="hero-subtitle">TMU's premier student-led rocketry team.</p>
+      <p class="hero-subtitle">
+        25 rocket launches per semester at self-hosted competition.<br>
+        Tripoli certifications at <a href="https://www.launchcanada.org/" target="_blank" rel="noopener">Launch Canada</a> and <a href="https://urrg.us/" target="_blank" rel="noopener">URRG.</a><br>
+        Liquid rocket and advanced avionics development.<br>
+        <em>That's MARS.</em>
+      </p>
       <a href="https://discord.gg/BaQZkd2TKj" class="hero-btn">Join Us</a>
     </div>
   </div>
@@ -261,23 +270,28 @@
   <!-- Gallery Section -->
   <section class="gallery-section">
     <div class="vertical-photos">
-      <img src="assets/images/1.jpg" alt="Photo 1" class="vertical-photo">
-      <img src="assets/images/8.png" alt="Photo 1" class="vertical-photo">
-      <img src="assets/images/3.jpg" alt="Photo 1" class="vertical-photo">
-      <img src="assets/images/11.png" alt="Photo 1" class="vertical-photo">
-      <img src="assets/images/12.png" alt="Photo 1" class="vertical-photo">
-      <img src="assets/images/2.jpg" alt="Photo 1" class="vertical-photo">
-      <img src="assets/images/zn.png" alt="Photo 2" class="vertical-photo">
-      <img src="assets/images/6.png" alt="Photo 2" class="vertical-photo">
-      <img src="assets/images/2.jpg" alt="Photo 2" class="vertical-photo">
-      <img src="assets/images/15.png" alt="Photo 3" class="vertical-photo">
+      <img src="assets/images/1.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/8.png" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/3.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/11.png" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/pcb.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/12.png" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/2.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="assets/images/zn.png" alt="Photo 2" class="vertical-photo" loading="lazy">
+      <img src="assets/images/6.png" alt="Photo 2" class="vertical-photo" loading="lazy">
+      <img src="assets/images/2.jpg" alt="Photo 2" class="vertical-photo" loading="lazy">
+      <img src="assets/images/15.png" alt="Photo 3" class="vertical-photo" loading="lazy">
     </div>
     <div class="about-section">
       <h2>About Us</h2>
-      <p>The Metropolitan Aerospace Rocket Society is TMU's premier student-led rocketry team, dedicated to pushing the boundaries of aerospace engineering through innovation and teamwork. Our mission is to design, build, and launch cutting-edge rockets while fostering a community of passionate engineers and scientists.</p>
+      <p>
+        The Metropolitan Aerospace Rocket Society (MARS) opens the doors to designing, manufacturing, and launching model rockets. The team, composed of passionate, energetic, and eager students, hosts tutorials to teach students all they need to know to create their own rockets, and they provide support throughout the process.<br><br>
+        During the summer, MARS invites the top teams of the semesters to attend the Launch Canada Conference to attain their L1 HPR certifications.<br><br>
+        This year, MARS has had over 250 students interested in entering the world of model rocketry and has 500 members in our Discord.
+      </p>
     </div>
     <div class="group-photo-container">
-      <img src="assets/images/group_photo.jpg" alt="Group Photo" class="group-photo">
+      <img src="assets/images/group_photo.jpg" alt="Group Photo" class="group-photo" loading="lazy">
     </div>
   </section>
 </body>
