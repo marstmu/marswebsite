@@ -13,6 +13,7 @@
       --mars-gold: #bc9b22;
       --mars-white: #ffffff;
       --mars-offwhite: #f1f0f0;
+      --mars-red-bright: #c7362a; /* Brighter red for hero title */
     }
 
     /* Resets */
@@ -56,17 +57,33 @@
       left: 10%;
       z-index: 3;
       max-width: 800px;
+      transition: transform 0.1s ease-out;
     }
     .hero-title {
       font-size: 4rem;
-      color: var(--mars-red);
+      color: var(--mars-red-bright); /* Brighter red for vibrancy */
       margin-bottom: 1rem;
-      text-shadow: 0 0 15px rgba(162, 33, 23, 0.7);
+      text-shadow: 
+        0 0 5px rgba(188, 155, 34, 0.5), /* Subtle gold glow */
+        0 0 10px rgba(164, 33, 23, 0.7), /* Soft red shadow */
+        0 0 20px rgba(0, 0, 0, 0.4); /* Dark outline for depth */
     }
     .hero-subtitle {
       font-size: 1.5rem;
       color: var(--mars-offwhite);
       margin-bottom: 2rem;
+      text-shadow: 0 0 5px rgba(164, 33, 23, 0.3); /* Faint red shadow */
+    }
+    .hero-subtitle a {
+      color: var(--mars-red-light);
+      text-decoration: none;
+      transition: color 0.3s ease;
+      text-shadow: 0 0 3px rgba(164, 33, 23, 0.2);
+    }
+    .hero-subtitle a:hover {
+      color: var(--mars-gold);
+      text-decoration: underline;
+      text-shadow: 0 0 5px rgba(188, 155, 34, 0.3);
     }
     .hero-btn {
       display: inline-block;
@@ -77,12 +94,13 @@
       border-radius: 5px;
       font-weight: 700;
       border: 2px solid var(--mars-gold);
+      box-shadow: 0 0 10px rgba(164, 33, 23, 0.4); /* Red shadow for cohesion */
       transition: all 0.3s ease;
     }
     .hero-btn:hover {
       background: linear-gradient(90deg, var(--mars-red-light), var(--mars-red));
       transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      box-shadow: 0 5px 15px rgba(164, 33, 23, 0.6);
       color: var(--mars-gold);
     }
 
@@ -294,5 +312,16 @@
       <img src="assets/images/group_photo.jpg" alt="Group Photo" class="group-photo" loading="lazy">
     </div>
   </section>
+
+  <!-- Parallax Script -->
+  <script>
+    const hero = document.querySelector('.hero');
+    const heroContent = document.querySelector('.hero-content');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      hero.style.transform = `translateY(${-scrollY * 0.1}px)`;
+      heroContent.style.transform = `translateY(${-scrollY * 0.2}px)`;
+    });
+  </script>
 </body>
 </html>
