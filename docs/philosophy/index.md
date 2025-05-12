@@ -1,3 +1,12 @@
+---
+hide:
+  - navigation
+  - toc
+  - path
+  - title 
+---
+
+
 # MARS Philosophy and Constitution
 
 The end goal of MARS is to make TMU have the best student rocketry in Canada. The founders of the team have come up with a long term mission to make this happen. 
