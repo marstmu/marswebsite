@@ -254,6 +254,9 @@
       .about-section p {
         font-size: 1rem;
       }
+      .hero, .hero-content {
+        will-change: transform;
+      }
     }
   </style>
 </head>
@@ -291,7 +294,7 @@
       <img src="assets/images/zn.png" alt="Photo 2" class="vertical-photo" loading="lazy">
       <img src="assets/images/6.png" alt="Photo 2" class="vertical-photo" loading="lazy">
       <img src="assets/images/2.jpg" alt="Photo 2" class="vertical-photo" loading="lazy">
-      <img src="assets/images/15.png" alt="Photo 3" class="vertical-photo" loading="lazy">
+      <img src="assets/images/15 <img src="assets/images/15.png" alt="Photo 3" class="vertical-photo" loading="lazy">
     </div>
     <div class="about-section">
       <h2>About Us</h2>
@@ -309,10 +312,25 @@
   <script>
     const hero = document.querySelector('.hero');
     const heroContent = document.querySelector('.hero-content');
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+
+    function updateParallax() {
+      const isMobile = window.innerWidth <= 768;
+      const heroFactor = isMobile ? 0.05 : 0.1;
+      const contentFactor = isMobile ? 0.1 : 0.2;
+
+      hero.style.transform = `translateY(${-lastScrollY * heroFactor}px)`;
+      heroContent.style.transform = `translateY(${-lastScrollY * contentFactor}px)`;
+      ticking = false;
+    }
+
     window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY;
-      hero.style.transform = `translateY(${-scrollY * 0.1}px)`;
-      heroContent.style.transform = `translateY(${-scrollY * 0.2}px)`;
+      lastScrollY = window.scrollY;
+      if (!ticking) {
+        requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
     });
   </script>
 </body>
