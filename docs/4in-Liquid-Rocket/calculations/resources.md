@@ -1,10 +1,14 @@
 # Resources
 
+## MACH
+
+- [MACH 2025 LC PDR](resources/machpdr2025.pdf)
+
+- [DayGlo P&ID](resources/machpid.pdf)
+
 ## Papers
 
 - [A. Karabeyoglu, J. Dyer, J. Stevens, and B. Cantwell, “Modeling of N₂O decomposition events,” in Proc. 44th AIAA/ASME/SAE/ASEE Joint Propulsion Conf., Hartford, CT, Jul. 2008, AIAA Paper 2008-4933.](https://web.stanford.edu/~cantwell/AA284A_Course_Material/AA284A_Resources/Karabeyoglu,%20Dyer,%20Stevens%20and%20Cantwell,%20Modeling%20of%20N2O%20Decomposition%20Events%20AIAA%202008-4933.pdf)
-
-- [MACH 2025 LC PDR](resources/machpdr2025.pdf)
 
 - [B. J. Solomon, Engineering Model to Calculate Mass Flow Rate of a Two-Phase Saturated Fluid Through an Injector Orifice, M.S. report, Dept. Mech. and Aerosp. Eng., Utah State Univ., Logan, UT, USA, 2011. ](https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1110&context=gradreports)
 
