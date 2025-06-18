@@ -1,363 +1,559 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://marstmu.com/</loc>
+         <loc>https://tmurocketry.com/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/</loc>
+         <loc>https://tmurocketry.com/Met-Rocketry/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/avionics/</loc>
+         <loc>https://tmurocketry.com/Met-Rocketry/blog/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/results/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/cihad/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/GSE/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/nicholas/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/cad/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/quentin/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/antenna/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/tristan/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/backplate/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/gps/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/2025/02/12/init-liquid-rocket-team/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/power/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/2025/02/21/february-21st-mcmaster-order/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/powersim/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/2025/03/18/march-18th-metal-purchase/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/recovery/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/2025/03/22/march-22nd-send-cut-send-order/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/sensors/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/2025/03/29/march-29nd-send-cut-send-order/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/PCB-Modules/status/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/calculations/calculations/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/archive/old/cad/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/calculations/resources/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/archive/old/PCB-Modules/PowerSim/0.1.0/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/archive/old/PCB-Modules/power/0.0.2/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/gallery/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/archive/old/PCB-Modules/sensors/0.1.0/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/learn/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/resources/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/links-and-resources/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/resources/dfmguide/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/Archive/2024-2025/Rocket-Guide/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/avionics/resources/standards/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/Archive/2024-2025/Avionics-Guide/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/Archive/2024-2025/Avionics-Guide/flight-computer/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/1/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/Archive/2024-2025/Avionics-Guide/ground-station/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/2/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/Archive/2024-2025/Avionics-Guide/kits/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/9/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/How-To-Contribute-To-Your-Docs/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/chipselection/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Guidelines/Website-Notes/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/dingisnext/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/rebranding/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/BDC/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/20/20/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/ICARUS/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/28/28/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/Lockheed-Interns/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/7/7/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/Los-Alamos-Laboratory/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/8/kicadvsaltium/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/Lunar-Wolves/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/december/solidworks_complaints/solidworks_complaints/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/OsaTech/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/15/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/Planetes/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/16/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2023_2024/S.R.A.G/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/17/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/2B%20Determined/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/18/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/ASYS/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/19/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Bengali%20Bulldogs/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/26/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/ERNIE/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/29/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/FOAMM/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/altiumcomplaints/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Falcon%20Flyers/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/ecad_and_mcad/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Galaxy%20Gas/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/20/20/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Garneau%20Guided%20Systems/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/21/21/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Hermes/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2024/november/24/24/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Hustle%20Thrusts/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/april/16/16/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Interstellar/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/april/7/7/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/KAAP/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/february/16/16/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/KKJS%20Astrophel/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/january/25/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Orbital%20Outlaws/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/january/7/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Project%20A119/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/january/12/12/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Project%20Urania/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/january/17/17/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Rocketron/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/january/3/3/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/SONAK/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/blog/posts/2025/may/11/11/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/STAR/</loc>
+         <loc>https://tmurocketry.com/Sonic-Avionics/join/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Space%20Cadets/</loc>
+         <loc>https://tmurocketry.com/mach/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Team%20B%20Groovin/</loc>
+         <loc>https://tmurocketry.com/mach/blog/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Team%20Last%20Minute/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Vulcan/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/avionics/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/Teams/2024_2025/F2024/Yapasaurous%20Rex/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/results/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/04/12/avionics-session-on-april-25th/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/cihad/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/04/25/avionics-session-success/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/nicholas/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/08/25/launch-canada/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/quentin/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/08/20/eng-expo/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/Open-Challenges-Archive/winter-2024-2025-avionics-challenge/participants/tristan/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/12/23/launch-day-f2024/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/blog/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/02/16/pcb-update/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/blog/posts/february/12/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/01/15/preliminary-design-review-pdr/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/blog/posts/february/21/21/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/01/17/updates-for-jan-17th/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/blog/posts/march/18/18/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/01/23/updates-for-jan-23rd/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/blog/posts/march/22/22/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/01/30/team-update/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/blog/posts/march/29/29/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/03/13/giving-out-avionics-kits-at-rocketry-conference/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/calculations/calculations/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/03/15/launching-a-rocket-in-the-quad/</loc>
+         <loc>https://tmurocketry.com/mach/mojave/calculations/resources/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/05/25/1st-launch-competition/</loc>
+         <loc>https://tmurocketry.com/mars/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/09/11/leads-assemble/</loc>
+         <loc>https://tmurocketry.com/mars/gallery/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/09/16/kickoff-meeting/</loc>
+         <loc>https://tmurocketry.com/mars/learn/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2024/09/23/rockets-101/</loc>
+         <loc>https://tmurocketry.com/mars/links-and-resources/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/2025/01/10/were-doing-it-again-w2025-kickoff-meeting/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/Archive/2024-2025/Rocket-Guide/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/philosophy/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/Archive/2024-2025/Avionics-Guide/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/philosophy/4-inch-Liquid-Rocket-Team/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/Archive/2024-2025/Avionics-Guide/flight-computer/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/philosophy/Competition-Team/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/Archive/2024-2025/Avionics-Guide/ground-station/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/archive/2025/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/Archive/2024-2025/Avionics-Guide/kits/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/archive/2024/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/How-To-Contribute-To-Your-Docs/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/category/info/</loc>
+         <loc>https://tmurocketry.com/mars/Guidelines/Website-Notes/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/page/2/</loc>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/archive/2024/page/2/</loc>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/BDC/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/MARS-Competition/blog/category/info/page/2/</loc>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/ICARUS/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/archive/2025/</loc>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/Lockheed-Interns/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
     <url>
-         <loc>https://marstmu.com/4in-Liquid-Rocket/blog/category/purchases/</loc>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/Los-Alamos-Laboratory/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/Lunar-Wolves/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/OsaTech/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/Planetes/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2023_2024/S.R.A.G/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/2B%20Determined/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/ASYS/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Bengali%20Bulldogs/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/ERNIE/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/FOAMM/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Falcon%20Flyers/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Galaxy%20Gas/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Garneau%20Guided%20Systems/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Hermes/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Hustle%20Thrusts/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Interstellar/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/KAAP/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/KKJS%20Astrophel/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Orbital%20Outlaws/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Project%20A119/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Project%20Urania/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Rocketron/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/SONAK/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/STAR/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Space%20Cadets/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Team%20B%20Groovin/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Team%20Last%20Minute/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Vulcan/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/Teams/2024_2025/F2024/Yapasaurous%20Rex/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/april/april-12/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/april/april-25/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/april/april-27/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/august/august-25/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/august/august-30/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/december/sept_23/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/feb/feb-16/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/jan/jan-15-update/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/jan/jan-17-update/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/jan/jan-23-update/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/jan/jan-30-update/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/march/march-13/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/march/march-15/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/may/may-25/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/september/sept_11/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/september/sept_16/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2024/september/sept_23/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/mars/blog/posts/2025/january/jan-10/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/Mars/blog/</loc>
+         <lastmod>2025-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://tmurocketry.com/Mach/blog/</loc>
          <lastmod>2025-06-18</lastmod>
     </url>
 </urlset>
