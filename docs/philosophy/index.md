@@ -11,7 +11,7 @@ hide:
 
 The end goal of MARS is to make TMU have the best student rocketry in Canada. The founders of the team have come up with a long term mission to make this happen. 
 
-The MARS teams, which aim to push the boundaries of student rocketry, will only thrive with a strong community that is constantly teaching and recruiting new members. This is why we make model rocketry our priority. It is the easiest to get into, and it invites you to competitions such as Launch Canada that will bring you close to experts. The 4" rocket team would not exist without the model rockets.
+The MARS teams, which aim to push the boundaries of student rocketry, will only thrive with a strong community that is constantly teaching and recruiting new members. This is why we make model rocketry our priority. It is the easiest to get into, and it invites you to competitions such as Launch Canada that will bring you close to experts. 
 
 ## Mission Statements
 
@@ -56,7 +56,7 @@ Lots will change a long the way. The most important thing is keeping the team al
 One of the primary goals of leads on the team is to find younger years to replace themselves.
 
 
-## Team Structure
+<!-- ## Team Structure
 
 - **Director of MARS: Nikolai Sydorenko** Oversees all activities, sets direction, and ensures smooth functioning of all teams. Sets major goals. Claims credit for success, and is responsible for failure. 
 - **Co-Director: Zeul**
@@ -77,6 +77,3 @@ One of the primary goals of leads on the team is to find younger years to replac
         - **Leads: Newt, Ivan, Kedron, Baron, Jan** 
             - **Leads in training** 
                 - **General Members**
-
-    - **4"-Liquid-Rocket Team**
-        - **Lead: Zeul** Leads the Advanced (4” Liquid) Team. Should have general understanding of avionics, and liquid rocketry.
