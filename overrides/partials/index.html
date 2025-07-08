@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="color-scheme" content="dark"> 
-  <title>Metropolitan Aerospace Rocket Society</title>
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    /* SPACING SYSTEM - Professional consistency */
     :root {
+      --spacing-xs: 0.5rem;   /* 8px */
+      --spacing-sm: 0.75rem;  /* 12px */
+      --spacing-md: 1rem;     /* 16px */
+      --spacing-lg: 1.5rem;   /* 24px */
+      --spacing-xl: 2rem;     /* 32px */
+      --spacing-xxl: 3rem;    /* 48px */
+      
       --mars-red: #a22117;
       --mars-red-light: #a4534c;
       --mars-gold: #bc9b22;
@@ -25,65 +31,135 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      font-family: 'Space Mono', monospace;
       color: var(--mars-offwhite);
+      background-color: #0A0E1A;
+    }
+    .md-main {
+      font-family: 'Space Mono', monospace;
     }
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Orbitron', sans-serif;
     }
 
-    .hero {
-      position: fixed;
+    .md-content {
+      padding-bottom: 0;
+    }
+
+    /* Transparent header and nav bars */
+    .md-header {
+      position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100vh;
-      background: url('assets/images/hero.jpg') center/cover no-repeat;
-      z-index: 1;
+      right: 0;
+      z-index: 10;
+      background-color: transparent !important;
+      box-shadow: none !important;
     }
-    .hero::after {
+    .md-header::before {
       content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background: linear-gradient(to bottom, rgba(10,14,26,0.95) 0%, rgba(10,14,26,0) 100%);
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .md-main__inner {
+        margin-top: 0 !important;
+    }
+    .md-content {
+        z-index: 1;
+        position: relative;
+    }
+    .md-header-nav,
+    .md-tabs {
+      background-color: transparent !important;
+    }
+
+    /* Full-screen hero section */
+    .home-hero {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+
+    .hero-bg {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: linear-gradient(0deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%);
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .home-hero__inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: var(--spacing-xxl) var(--spacing-xl);
       z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
     }
-    .hero-content {
-      position: absolute;
-      bottom: 20%;
-      left: 10%;
-      z-index: 3;
-      max-width: 800px;
-      transition: transform 0.1s ease-out;
-    }
-    .hero-title {
+
+    .home-hero__inner h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
       font-size: 4rem;
       color: #cb3126;
-      margin-bottom: 1rem;
+      margin-bottom: var(--spacing-lg);
       text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+      letter-spacing: -0.01em;
+      line-height: 1.1;
     }
-    .hero-subtitle {
+
+    .home-hero__inner p {
+      font-family: 'Space Mono', monospace;
       font-size: 1.5rem;
+      font-weight: 400;
+      margin: 0 0 var(--spacing-xl) 0;
       color: var(--mars-offwhite);
-      margin-bottom: 2rem;
       text-shadow: 0 0 5px rgba(164, 33, 23, 0.3);
+      max-width: 800px;
+      line-height: 1.6;
     }
-    .hero-subtitle a {
+
+    .home-hero__inner p a {
       color: #ff5500;
       text-decoration: none;
       transition: color 0.3s ease;
       text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
       font-weight: bold;
     }
-    .hero-subtitle a:hover {
+    .home-hero__inner p a:hover {
       color: var(--mars-gold);
       text-decoration: underline;
       text-shadow: 0 0 5px rgba(188, 155, 34, 0.3);
     }
-    .hero-btn {
+
+    /* CTA section */
+    .home-hero__cta {
+      margin-top: var(--spacing-xl);
+      padding: 0;
+      text-align: center;
+    }
+
+    .btn {
       display: inline-block;
       padding: 0.8rem 1.5rem;
       background: linear-gradient(90deg, var(--mars-red), var(--mars-red-light));
@@ -94,222 +170,255 @@
       border: 2px solid var(--mars-gold);
       box-shadow: 0 0 10px rgba(164, 33, 23, 0.4);
       transition: all 0.3s ease;
+      margin: 0 var(--spacing-xs);
     }
-    .hero-btn:hover {
+    .btn:hover {
       background: linear-gradient(90deg, var(--mars-red-light), var(--mars-red));
       transform: translateY(-3px);
       box-shadow: 0 5px 15px rgba(164, 33, 23, 0.6);
       color: var(--mars-gold);
     }
 
-    .custom-nav {
-      position: fixed;
-      top: 2rem;
-      left: 2rem;
-      z-index: 1;
-    }
-    .custom-nav-links {
-      display: flex;
-      gap: 2rem;
-      background-color: var(--mars-red);
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-    }
-    .custom-nav-link {
-      color: var(--mars-white);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 700;
-      transition: color 0.3s ease;
-      position: relative;
-    }
-    .custom-nav-link:hover {
-      color: var(--mars-gold);
-    }
-    .custom-nav-link::after {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: -5px;
-      left: 0;
-      background-color: var(--mars-gold);
-      transition: width 0.3s ease;
-    }
-    .custom-nav-link:hover::after {
-      width: 100%;
-    }
-
+    /* Gallery styling */
     .gallery-section {
-      position: relative;
-      margin-top: 100vh;
-      padding: 2rem 0;
-      background-color: #080202;
-      background: linear-gradient(45deg, #4e0101, #56004d);
-      z-index: 10;
+      background-color: var(--mars-red);
+      padding: var(--spacing-lg) 0;
+      color: var(--mars-white);
+    }
+    .gallery-section h2 {
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: var(--spacing-lg);
     }
     .vertical-photos {
       display: flex;
-      flex-wrap: nowrap;
       overflow-x: auto;
-      padding: 0 2rem;
-      scrollbar-width: thin;
-      scrollbar-color: var(--mars-red) var(--mars-offwhite);
+      padding: 0 var(--spacing-lg);
+      gap: var(--spacing-md);
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      scrollbar-width: thin; /* Firefox */
+      scrollbar-color: var(--mars-gold) #0A0E1A; /* Firefox */
     }
     .vertical-photos::-webkit-scrollbar {
       height: 8px;
     }
     .vertical-photos::-webkit-scrollbar-track {
-      background: var(--mars-offwhite);
+      background: #0A0E1A;
     }
     .vertical-photos::-webkit-scrollbar-thumb {
-      background: var(--mars-red);
+      background-color: var(--mars-gold);
       border-radius: 4px;
     }
     .vertical-photo {
-      flex: 0 0 250px;
-      height: 500px;
-      object-fit: cover;
-      margin-right: 1rem;
-      transition: transform 0.3s ease;
+      max-height: 250px;
+      width: auto;
+      border-radius: 4px;
+      object-fit: contain;
     }
-    .vertical-photo:hover {
-      transform: scale(1.02);
-    }
+
+    /* About and group photo styling */
     .about-section {
-      padding: 2rem;
+      padding: var(--spacing-xl) var(--spacing-lg);
       text-align: center;
-      margin: 2rem 0;
-    }
-    .about-section h2 {
-      font-size: 2rem;
-      color: var(--mars-red);
-      margin-bottom: 1rem;
+      margin: 0 auto;
+      max-width: 900px;
     }
     .about-section p {
-      font-size: 1.2rem;
-      color: var(--mars-offwhite);
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .group-photo-container {
-      display: flex;
-      justify-content: center;
-      padding: 0 2rem;
-      margin-top: 2rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 1.1rem;
+      line-height: 1.7;
     }
     .group-photo {
-      width: 100%;
-      max-width: 1000px;
+      max-width: 100%;
       height: auto;
       border-radius: 8px;
-      border: 2px solid var(--mars-red);
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-      transition: all 0.3s ease;
+      margin-top: var(--spacing-lg);
     }
-    .group-photo:hover {
-      border-color: var(--mars-gold);
-      box-shadow: 0 10px 20px rgba(162, 33, 23, 0.4);
+    .group-photo-container {
+      text-align: center;
+      padding: 0 var(--spacing-lg) var(--spacing-xl);
     }
 
+    /* Media queries for mobile devices */
     @media (max-width: 768px) {
-      .hero-title {
+      .home-hero {
+        height: auto;
+        min-height: 75vh;
+      }
+
+      .home-hero__inner {
+        padding: var(--spacing-xl) var(--spacing-md);
+      }
+
+      .home-hero__inner h1 {
         font-size: 2rem;
+        margin-bottom: var(--spacing-md);
+        line-height: 1.2;
       }
-      .hero-subtitle {
+
+      .home-hero__inner p {
         font-size: 1rem;
-      }
-      .hero-content {
-        left: 5%;
+        margin-bottom: var(--spacing-md);
+        line-height: 1.5;
         max-width: 90%;
       }
-      .custom-nav {
-        top: 1rem;
-        left: 1rem;
-        right: 1rem;
+
+      .hero-bg {
+        position: absolute;
+        height: 100%;
       }
-      .custom-nav-links {
-        width: 100%;
-        gap: 1rem;
-        padding: 0.5rem 1rem;
-        overflow-x: auto;
-        flex-wrap: nowrap;
-      }
-      .group-photo-container {
-        padding: 0 1rem;
-      }
-      .vertical-photos {
-        padding: 0 1rem;
-      }
-      .vertical-photo {
-        flex: 0 0 200px;
-        height: 350px;
-      }
-      .about-section {
-        padding: 1rem;
-      }
-      .about-section h2 {
-        font-size: 1.5rem;
-      }
-      .about-section p {
+
+      .btn {
+        padding: var(--spacing-sm) var(--spacing-lg);
         font-size: 1rem;
       }
-      .hero, .hero-content {
-        will-change: transform;
+
+      /* About section mobile improvements */
+      section:not(.home-hero) {
+        padding: var(--spacing-md) var(--spacing-md) var(--spacing-lg) var(--spacing-md);
+      }
+
+      section:not(.home-hero) h2 {
+        font-size: 1.8rem;
+        margin-bottom: var(--spacing-md) !important;
+        text-align: center;
+      }
+
+      section:not(.home-hero) p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: var(--spacing-md) !important;
+      }
+
+      .home-hero__cta {
+        margin-top: var(--spacing-lg) !important;
+        padding: 0 var(--spacing-md);
+      }
+
+      .home-hero__cta .btn {
+        display: block;
+        margin: var(--spacing-xs) auto;
+        width: 100%;
+        max-width: 250px;
+        text-align: center;
+      }
+
+      /* Gallery mobile adjustments */
+      .gallery-section {
+        padding: var(--spacing-lg) 0;
+      }
+      .gallery-section h2 {
+        font-size: 2rem;
+      }
+      .vertical-photos {
+        padding: 0 var(--spacing-md);
+        gap: var(--spacing-sm);
+      }
+      .vertical-photo {
+        max-height: 180px;
+      }
+      .about-section {
+        padding: var(--spacing-lg) var(--spacing-md);
+      }
+      .group-photo-container {
+        padding: 0 var(--spacing-md) var(--spacing-lg);
+      }
+
+      /* Disable parallax on mobile for performance */
+      .home-hero__inner,
+      .hero-bg {
+        transform: none !important;
       }
     }
 
-    @media (max-height: 600px) {
-      .hero-content {
-        bottom: 5%;
+    /* Extra small screens (below 480px) */
+    @media (max-width: 480px) {
+      .home-hero__inner {
+        padding: var(--spacing-lg) var(--spacing-md);
       }
-      .hero-title {
-        font-size: 2rem;
+
+      .home-hero__inner h1 {
+        font-size: 1.8rem;
+        margin-bottom: var(--spacing-sm);
       }
-      .hero-subtitle {
-        font-size: 1rem;
+
+      .home-hero__inner p {
+        font-size: 0.9rem;
+        margin-bottom: var(--spacing-sm);
+        max-width: 95%;
+      }
+
+      .btn {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 0.9rem;
+      }
+
+      /* Gallery small screen adjustments */
+      section:not(.home-hero) {
+        padding: var(--spacing-sm) var(--spacing-sm) var(--spacing-md) var(--spacing-sm);
+      }
+
+      section:not(.home-hero) h2 {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-sm) !important;
+      }
+
+      section:not(.home-hero) p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin-bottom: var(--spacing-sm) !important;
+      }
+
+      .home-hero__cta {
+        padding: 0 var(--spacing-xs);
+      }
+
+      .home-hero__cta .btn {
+        font-size: 0.9rem;
+        padding: var(--spacing-sm) var(--spacing-md);
       }
     }
   </style>
-</head>
-<body>
-  <div class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">Metropolitan Aerospace Rocket Society</h1>
-      <p class="hero-subtitle">
-        25 rocket launches per semester at a self-hosted competition.<br>
-        Tripoli certifications at <a href="https://www.launchcanada.org/" target="_blank" rel="noopener">Launch Canada</a> and <a href="https://urrg.us/" target="_blank" rel="noopener">URRG.</a><br>
-      </p>
-      <a href="https://discord.gg/BaQZkd2TKj" class="hero-btn">Join</a>
-    </div>
-  </div>
+{% endblock %}
 
-  <nav class="custom-nav">
-    <div class="custom-nav-links">
-      <a href="gallery" class="custom-nav-link">Gallery</a>
-      <a href="learn" class="custom-nav-link">Learn</a>
-      <a href="links" class="custom-nav-link">Links</a>
-      <a href="Guidelines" class="custom-nav-link">Guidelines</a>
-      <!-- <a href="Teams" class="custom-nav-link">Teams</a> -->
-      <a href="blog" class="custom-nav-link">Blog</a>
-      <a href="philosophy/" class="custom-nav-link">Philosophy</a>
+{% block hero %}
+  <!-- HERO with image background -->
+  <section class="home-hero">
+    <img class="hero-bg" src="{{ base_url }}/assets/images/mars/hero.jpg" alt="Hero Background" loading="eager">
+    
+    <div class="home-hero__inner">
+        <h1>Metropolitan Aerospace Rocket Society</h1>
+        <p>
+          25 rocket launches per semester at a self-hosted competition.<br>
+          Tripoli certifications at <a href="https://www.launchcanada.org/" target="_blank" rel="noopener">Launch Canada</a> and <a href="https://urrg.us/" target="_blank" rel="noopener">URRG.</a><br>
+        </p>
+        <div class="home-hero__cta">
+          <a href="https://discord.gg/BaQZkd2TKj" class="btn">Join</a>
+        </div>
     </div>
-  </nav>
+  </section>
+{% endblock %}
 
+{% block content %}
+
+  <!-- Gallery Section -->
   <section class="gallery-section">
+    <h2>Gallery</h2>
     <div class="vertical-photos">
-      <img src="assets/images/1.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/8.png" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/3.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/11.png" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/pcb.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/12.png" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/2.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
-      <img src="assets/images/zn.png" alt="Photo 2" class="vertical-photo" loading="lazy">
-      <img src="assets/images/6.png" alt="Photo 2" class="vertical-photo" loading="lazy">
-      <img src="assets/images/2.jpg" alt="Photo 2" class="vertical-photo" loading="lazy">
-      <img src="assets/images/15.png" alt="Photo 3" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/1.jpg" alt="Photo 1" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/8.png" alt="Photo 2" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/3.jpg" alt="Photo 3" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/11.png" alt="Photo 4" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/pcb.jpg" alt="Photo 5" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/12.png" alt="Photo 6" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/2.jpg" alt="Photo 7" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/zn.png" alt="Photo 8" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/6.png" alt="Photo 9" class="vertical-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/15.png" alt="Photo 10" class="vertical-photo" loading="lazy">
     </div>
+    
+    <!-- About Section -->
     <div class="about-section">
       <h2>About Us</h2>
       <p>
@@ -318,36 +427,10 @@
         This year, MARS has had over 250 students interested in entering the world of model rocketry and has 500 members in our Discord.
       </p>
     </div>
+    
     <div class="group-photo-container">
-      <img src="assets/images/group_photo.jpg" alt="Group Photo" class="group-photo" loading="lazy">
+      <img src="{{ base_url }}/assets/images/mars/group_photo.jpg" alt="Group Photo" class="group-photo" loading="lazy">
     </div>
   </section>
 
-  <script>
-    const hero = document.querySelector('.hero');
-    const heroContent = document.querySelector('.hero-content');
-    const customNav = document.querySelector('.custom-nav');
-    let lastScrollY = window.scrollY;
-    let ticking = false;
-
-    function updateParallax() {
-      const isMobile = window.innerWidth <= 768;
-      const heroFactor = isMobile ? 0.05 : 0.1;
-      const contentFactor = isMobile ? 0.1 : 0.2;
-
-      hero.style.transform = `translateY(${-lastScrollY * heroFactor}px)`;
-      heroContent.style.transform = `translateY(${-lastScrollY * contentFactor}px)`;
-      customNav.style.transform = `translateY(${-lastScrollY * contentFactor}px)`;
-      ticking = false;
-    }
-
-    window.addEventListener('scroll', () => {
-      lastScrollY = window.scrollY;
-      if (!ticking) {
-        requestAnimationFrame(updateParallax);
-        ticking = true;
-      }
-    });
-  </script>
-</body>
-</html>
+{% endblock %}
