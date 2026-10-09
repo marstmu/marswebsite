@@ -1,64 +1,38 @@
-# How to Contribute to Your Docs
+# Contribute to the website
 
-## What you need
-- [GitHub account](https://github.com/) 
-- To be a contributor on the [repo](https://github.com/marstmu/marswebsite). Ask Zeul to make you one if you are not already.
+The website's Markdown, images, and configuration live in [marstmu/marswebsite](https://github.com/marstmu/marswebsite). Use a branch or fork and propose a pull request; do not push straight to the live site.
 
-## How to contribute
-### Step 1
-Open up [this page](https://github.com/marstmu/marswebsite)
-![alt text](<Screenshot 2024-05-27 at 8.11.03 PM.png>)
+## Where to edit
 
-### Step 2
-Click the dot ket on your keyboard
-![alt text](<Screenshot 2024-05-27 at 8.13.14 PM.png>)
+- `docs/index.md`: homepage text.
+- `docs/competition/index.md`: competition overview and current announcements.
+- `docs/blog/posts/`: dated posts. Keep existing post paths, dates, and author IDs when editing an archive.
+- `docs/Guidelines/Archive/2024-2025/`: historical guides, not current competition rules.
+- `docs/img/`: shared images. Use descriptive alt text and credit photographers.
+- `overrides/`: custom templates; `zensical.toml`: navigation and site settings.
 
-This will open up:
-![alt text](<Screenshot 2024-05-27 at 8.14.20 PM.png>)
+The previous `docs/Teams/your_team_name/` instructions do not describe this checkout. Ask the maintainers where new team documentation should go.
 
-### Step 3
-Navigate to `docs/Teams/your_team_name/index.md`
-![alt text](<Screenshot 2024-05-27 at 8.18.25 PM.png>)
+## Preview locally
 
-### Step 4
-Click this button in the top right in order to preview your content:
+Run these commands from the repository root with Python 3.12 installed:
 
-![alt text](<Screenshot 2024-05-27 at 8.21.00 PM.png>)
+```sh
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/preview.py --build
+.venv/bin/python scripts/preview.py --serve
+```
 
-### Step 5
-Add content. Upload images by dragging and dropping image into the editor while holding down the shift key. Write text and format it using [this guide](https://www.markdownguide.org/cheat-sheet/#basic-syntax).
+The preview server listens on `127.0.0.1:8887`. Open `http://127.0.0.1:8887` on the machine running it. Preview output is marked `noindex`; these commands do not publish to the public website.
 
-### Step 6
-Commit your changed by clicking this on the left:
+For the production configuration's build check, run `.venv/bin/zensical build --strict`. This creates local output only; it is not a deployment command.
 
-![alt text](<Screenshot 2024-05-27 at 8.23.50 PM.png>)
+## Before a pull request
 
-This will show up:
+1. Check navigation, internal links, mobile layout, and light/dark modes in the preview.
+2. Source new facts with official links. Separate publication dates from historical event dates; do not invent attendance, current rosters, or registration deadlines.
+3. Keep credentials, private documents, and unapproved photos out of the repository.
+4. Review `git diff`, then submit a focused pull request for a maintainer to review.
 
-![alt text](<Screenshot 2024-05-27 at 8.25.06 PM.png>)
-
-Enter a commit message using [this grammer](https://github.com/joelparkerhenderson/git-commit-message):
-
-- Start with an imperative present active verb: Add, Drop, Fix, Refactor, Optimize, etc.
-- Use up to 50 characters.
-- Finish without a period.
-
-**Examples**
-- Add foo
-- Drop foo
-- Fix foo
-- Refactor foo
-- Optimize foo
-
-  Enter your message and click the green "Commit & Push button
-  
-  ![alt text](<Screenshot 2024-05-27 at 8.31.05 PM.png>)
-
-Your changes will be live on [the website](https://marstmu.com/) after 40 seconds. Shift-reload the page to see the changes.
-
-## Important Tips 
-- If it says this:
-    ![alt text](<Screenshot 2024-05-27 at 8.34.42 PM.png>)
-    most of the time you should click continue.
-
-- Click this button ![alt text](<Screenshot 2024-05-27 at 8.35.47 PM.png>) in the bottom left before making changes 
+Publishing requires a separate, explicitly approved deployment. Do not assume a commit or push should go live automatically.

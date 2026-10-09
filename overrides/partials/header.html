@@ -1,0 +1,22 @@
+{# One compact navigation row. Search is disabled, not merely visually hidden. #}
+{% import "partials/tabs-item.html" as item with context %}
+{% if not config.theme.palette is mapping %}
+  <script>__md_set("__palette", null);document.body.dataset.mdColorScheme=matchMedia("(prefers-color-scheme: dark)").matches?"slate":"default";</script>
+  <div hidden aria-hidden="true">{% include "partials/palette.html" %}</div>
+{% endif %}
+<header class="md-header mars-header" data-md-component="header">
+  <nav class="md-header__inner mars-header__inner" aria-label="Main navigation">
+    <a href="{{ nav.homepage.url | url }}" class="md-header__button md-logo mars-header__brand" aria-label="MARS home" data-md-component="logo">
+      {% include "partials/logo.html" %}
+    </a>
+    <ul class="mars-topnav">
+      {% for nav_item in nav.items %}
+        {% if nav_item.title != "Guides" %}{{ item.render(nav_item) }}{% endif %}
+      {% endfor %}
+    </ul>
+    <button class="md-header__button md-icon mars-menu" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mars-site-navigation" data-mars-menu>
+      <span class="mars-menu__open">{% include ".icons/lucide/menu.svg" %}</span>
+      <span class="mars-menu__close">{% include ".icons/lucide/x.svg" %}</span>
+    </button>
+  </nav>
+</header>

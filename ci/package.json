@@ -1,0 +1,14 @@
+{
+  "name": "mars-site-quality-checks",
+  "private": true,
+  "version": "1.0.0",
+  "engines": { "node": ">=22.19" },
+  "scripts": {
+    "images": "node ../scripts/image-performance-smoke.cjs",
+    "lighthouse": "node ../scripts/check_lighthouse.mjs"
+  },
+  "devDependencies": {
+    "lighthouse": "13.5.0",
+    "playwright": "1.63.0"
+  }
+}

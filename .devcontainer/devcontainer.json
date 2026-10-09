@@ -1,27 +1,13 @@
 {
-  "name": "marswebsite",
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
-  "features": {
-    "ghcr.io/devcontainers/features/python": {},
-    "ghcr.io/akhildevelops/devcontainer-features/pip": {
-      "packages": [
-        "mkdocs-material",
-        "mkdocs-git-committers-plugin-2",
-        "mkdocs-git-revision-date-localized-plugin",
-        "mkdocs-rss-plugin",
-        "mkdocs-table-reader-plugin",
-        "mkdocs-exclude"
-      ]
-    }
-  },
+  "name": "MARS website (Zensical)",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install --yes ffmpeg && python -m venv .venv && .venv/bin/python -m pip install --require-hashes -r requirements.txt",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "streetsidesoftware.code-spell-checker",
         "github.vscode-github-actions",
-        "mechatroner.rainbow-csv",
-        "MS-vsliveshare.vsliveshare",
         "GitHub.vscode-pull-request-github"
       ]
     }

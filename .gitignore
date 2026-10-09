@@ -2,4 +2,23 @@
 
 site/
 
+.venv/
+ci/node_modules/
+.preview/
+.local-media/
+.preview.zensical.toml
+__pycache__/
+research/
+tooling/
+
+# Private portrait provenance and superseded/source drafts remain locally archived.
+docs/assets/images/founders/provenance.json
+docs/assets/images/founders/nikolai-studio-v1.png
+docs/assets/images/founders/nikolai-studio-v2.png
+docs/assets/images/founders/zeulewan-studio-v1.png
+docs/assets/images/founders/nikolai-sydorenko.png
+docs/assets/images/founders/zeulewan-mordasiewicz.png
+docs/assets/images/founders/zeulewan-professional-original.jpg
+docs/assets/images/founders/zeulewan-zeuldocs-original-v2.jpg
+
 **/.DS_Store

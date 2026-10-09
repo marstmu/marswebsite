@@ -8,6 +8,8 @@ categories:
   - Info
 ---
 
+*Historical April 2024 event announcement. Credential-sharing instructions were corrected on October 8, 2026; current SSH setup guidance is in the [archived ground-station guide](../../../../Guidelines/Archive/2024-2025/Avionics-Guide/ground-station/index.md).*
+
 We're going to have our major avionics tutorial on April 25th from 2-6pm at the DME. We'll have free pizza for everyone who is on a team and who clicked interested on the [Discord event](https://discord.gg/KNCHEXu3?event=1227018763862540392)!
 
 **What you need for the session:**
@@ -17,7 +19,7 @@ We're going to have our major avionics tutorial on April 25th from 2-6pm at the 
 
 **What you should do before the session:**
 
-  - [Solder your avionics](https://marstmu.com/Guidelines/Avionics-Guide/flight-computer/)
+  - [Solder your avionics](../../../../Guidelines/Archive/2024-2025/Avionics-Guide/flight-computer/index.md)
   - [Sign up for a GitHub account](https://github.com/) (optional)
 
 We will be going over:
@@ -34,7 +36,7 @@ We will be going over:
 6. **Setting up ground stations**
     - Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
       - Select RASPBERRY PI OS LITE (64-BIT)
-      - Click the gear icon in the bottom right. Set hostname to your team name. Set password, and send it to your team's Discord chat on the Mars competition server. Enable SSH. Everything else is optional.
+      - Set a unique hostname and username in Imager's customization settings. Enable SSH with each authorized member's public key. Keep private keys and passwords private; do not share them in Discord. Follow [Raspberry Pi's SSH documentation](https://www.raspberrypi.com/documentation/computers/remote-access.html#ssh) and verify the host fingerprint before connecting.
       - Plug in SD card, select it, click write.
     - Plug in Pis to network
     - ** Linux :**

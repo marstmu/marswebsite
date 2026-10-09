@@ -1,9 +1,7 @@
-# Website Notes
+# Website notes
 
-This website is built off of [Material for MKDocs]. 
+This local refresh uses [Zensical](https://zensical.org/), replacing the website's previous Material for MkDocs build. Site configuration is in `zensical.toml`; content stays under `docs/`, and custom templates stay under `overrides/`.
 
-[Material for MKDocs]: https://squidfunk.github.io/mkdocs-material/
+See the [contribution guide](../How-To-Contribute-To-Your-Docs/index.md) for local build and preview commands. A local preview is not a public deployment.
 
-Check out [this website] for rules on how to commit changes to the website.
-
-[this website]: https://gist.github.com/Zekfad/f51cb06ac76e2457f11c80ed705c95a3
+Keep historical posts and guide URLs intact. Archived competition documents are references, not confirmation of current-semester rules. New announcements should have an explicit date and an official source.

@@ -1,4 +1,5 @@
 ---
+title: Philosophy
 hide:
   - navigation
   - toc
@@ -7,73 +8,73 @@ hide:
 ---
 
 
-# MARS Philosophy and Constitution
+# Philosophy
 
-The end goal of MARS is to make TMU have the best student rocketry in Canada. The founders of the team have come up with a long term mission to make this happen. 
+The end goal of MARS is to make TMU have the best student rocketry in Canada.
 
-The MARS teams, which aim to push the boundaries of student rocketry, will only thrive with a strong community that is constantly teaching and recruiting new members. This is why we make model rocketry our priority. It is the easiest to get into, and it invites you to competitions such as Launch Canada that will bring you close to experts. 
+## A letter from the founders
 
-## Mission Statements
+<blockquote class="mars-founders-letter" markdown="1">
 
-### Community first, technology second.
+*The Metropolitan Aerospace Rocket Society (MARS), founded by Nikolai Sydorenko and Zeulewan Mordasiewicz in 2023, is a student design team at Toronto Metropolitan University with the goal of educating students about model rocketry.*
 
-We will not develop any technology without a strong community of friends. People should hang out have disagreements, discuss and even fight, but resolve their problems. 
+*MARS opens the doors to designing, manufacturing, and launching rockets. We host tutorials to teach students all they need to know to create their own rockets!*
 
-Tips for leads: Do not discuss important matters over Discord or text messages; instead, discuss issues in person or via a call.
+*During the summer months, MARS invites the top teams to attend Launch Canada, the country’s first and only annual rocket competition, to attain their Tripoli High Power Rocketry (HPR) certifications.*
 
-Things will get progressively easier the longer the team is around, and the community and technology will draw people in.
+</blockquote>
 
-### Open Source
+<div class="mars-founders">
+  <figure>
+    <div class="mars-founder__portrait mars-founder__portrait--nikolai">
+      <img src="../assets/images/founders/nikolai-studio-v3.png" alt="Nikolai Sydorenko, MARS co-founder" width="1254" height="1254" loading="lazy" decoding="async">
+    </div>
+    <figcaption>
+      <div class="mars-founder__identity"><strong>Nikolai</strong><span>Co-founder</span></div>
+      <div class="mars-founder__links" role="group" aria-label="Nikolai's links">
+        <a class="mars-founder__link" href="https://nikolaisydorenko.com/" target="_blank" rel="noopener noreferrer" aria-label="Nikolai's website" title="Nikolai's website"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M351.9 280H161c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zm-191-48h190.9c-2.8-64.5-17.1-123.9-37.4-167.4-11.4-24.4-23.7-41.8-35.1-52.4C268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4m-48 0c3.5-85.6 25.6-165.1 57.9-217.3C78.7 47.3 10.9 131.2 1.5 232zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3zm111.4-48C501.9 131.2 434.1 47.3 342 14.7c32.3 52.2 54.4 131.7 57.9 217.3z"/></svg></a>
+        <a class="mars-founder__link" href="https://www.linkedin.com/in/nikolai-sydorenko" target="_blank" rel="noopener noreferrer" aria-label="Nikolai's LinkedIn" title="Nikolai's LinkedIn"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg></a>
+      </div>
+    </figcaption>
+  </figure>
+  <figure>
+    <div class="mars-founder__portrait">
+      <img src="../assets/images/founders/zeulewan-studio-v2.png" alt="Zeulewan Mordasiewicz, MARS co-founder" width="1254" height="1254" loading="lazy" decoding="async">
+    </div>
+    <figcaption>
+      <div class="mars-founder__identity"><strong>Zeul</strong><span>Co-founder</span></div>
+      <div class="mars-founder__links" role="group" aria-label="Zeul's links">
+        <a class="mars-founder__link" href="https://zeuldocs.com/" target="_blank" rel="noopener noreferrer" aria-label="Zeul's website" title="Zeul's website"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M351.9 280H161c2.9 64.5 17.2 123.9 37.5 167.4 11.4 24.5 23.7 41.8 35.1 52.4 11.2 10.5 18.9 12.2 22.9 12.2s11.7-1.7 22.9-12.2c11.4-10.6 23.7-28 35.1-52.4 20.3-43.5 34.6-102.9 37.5-167.4zm-191-48h190.9c-2.8-64.5-17.1-123.9-37.4-167.4-11.4-24.4-23.7-41.8-35.1-52.4C268.1 1.7 260.4 0 256.4 0s-11.7 1.7-22.9 12.2c-11.4 10.6-23.7 28-35.1 52.4-20.3 43.5-34.6 102.9-37.5 167.4m-48 0c3.5-85.6 25.6-165.1 57.9-217.3C78.7 47.3 10.9 131.2 1.5 232zM1.5 280c9.4 100.8 77.2 184.7 169.3 217.3-32.3-52.2-54.4-131.7-57.9-217.3zm398.4 0c-3.5 85.6-25.6 165.1-57.9 217.3 92.1-32.7 159.9-116.5 169.3-217.3zm111.4-48C501.9 131.2 434.1 47.3 342 14.7c32.3 52.2 54.4 131.7 57.9 217.3z"/></svg></a>
+        <a class="mars-founder__link" href="https://www.linkedin.com/in/zeulewan/" target="_blank" rel="noopener noreferrer" aria-label="Zeul's LinkedIn" title="Zeul's LinkedIn"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg></a>
+      </div>
+    </figcaption>
+  </figure>
+</div>
 
-The student rocketry community is quite open to sharing ideas. This makes it easier for new student teams such as MARS to get started. The end goal is to have a thriving space industry. The bottom line is that the more people we have that are knowledgeable in rocketry the better chance humanity has. This is largely the philosophy the rocketry teams I've spoken to have. This is one reason why MARS strives to open source everything we do. We stand on the shoulders of giants. As a small organization it is unfeasible to donate to every single open source project we gain knowledge from, so the least we can do is to contribute back the the community by open sourcing everything we do. We have everything to gain from the success of others. We strive to learn from and contribute to each step of the process. 
+## Community first, technology second
 
-#### What we open source
+MARS, which aims to push the boundaries of student rocketry, will only thrive with a strong community that is constantly teaching and recruiting new members. This is why we make model rocketry our priority.
 
-All code, PCB schematics, and CAD files should be made open source on GitHub. 
+We will not develop any technology without a strong community of friends.
 
-### Documentation
+## Open source
 
-Open source isn’t as beginner friendly as it sounds, so as the team is growing there will be documentation that never gets transferred into markdown and put on the website. But this is something we must always strive to do. 
-A few of the reasons for this are:
+We have everything to gain from the success of others. We strive to learn from and contribute to each step of the process.
 
-1. It makes the team easier to join if you know what is going on.
-2. The website is the way we build our reputation, and compete with other schools.
-3. The website is the first thing sponsors look at when checking out whether or not to sponsor us. 
-4. If you have someone watching you, you are less likely to be janky. Jankiness is one of our major enemies.
+All code, PCB schematics, and CAD files should be made open source on GitHub.
 
-#### Software
+## Documentation
 
-KiCad > Altium, but nothing foss rivals solidworks (except fusion360).
+- It makes the team easier to join if you know what is going on.
+- The website is the way we build our reputation, and compete with other schools.
+- The website is the first thing sponsors look at when checking out whether or not to sponsor us.
 
-#### Inspiration
+## Technical work
 
-We are proudly taking inspiration from a number of student teams and organizations. The very text you're reading is being ran with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) which we use for free.
+CAD, 3D printing, altitude calculations, composite layup, and avionics.
 
+## Keep the team alive, and growing
 
-### Keep the team alive, and growing
+The most important thing is keeping the team alive, not getting stressed, and keeping an open as well as open source community. MARS should also foster a bond between leads.
 
-Lots will change a long the way. The most important thing is keeping the team alive, not getting stressed, and keeping an open as well as open source community. MARS should also foster a bond between leads.
 One of the primary goals of leads on the team is to find younger years to replace themselves.
-
-
-<!-- ## Team Structure
-
-- **Director of MARS: Nikolai Sydorenko** Oversees all activities, sets direction, and ensures smooth functioning of all teams. Sets major goals. Claims credit for success, and is responsible for failure. 
-- **Co-Director: Zeul**
-    - **Director in Training: Eve Thamir**
-
-- **Logistics Team**
-    - **Lead: Eve Thamir**
-        - **Merch Lead:**
-        - **Media Lead: Mary Elle**
-        - **Sponsorship Lead**
-
-- **Sub-Teams**:
-    - **Competition Team**
-        - **Avionics Manager: Eduardo**  
-            - **Technical Lead: Anthony**  
-            - **Avionics Lead: Nathan, Kasper** In charge of altitude calculations and designing and 3D printing avionics bays
-        - **Technical lead: Miguel Gutierrz**        
-        - **Leads: Newt, Ivan, Kedron, Baron, Jan** 
-            - **Leads in training** 
-                - **General Members**

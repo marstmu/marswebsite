@@ -1,14 +1,16 @@
 ---
 title: Home
-description: Short tagline
+description: TMU Model Rocketry. A student-run community designing, building, and launching rockets together. Open to all TMU students.
 template: partials/index.html
-
 hide:
-  - navigation   # your existing rules…
+  - navigation
   - toc
   - path
-  - title        # ← this will remove the “Home” heading
-
+  - title
 search:
   exclude: true
 ---
+
+## Build rockets. Together.
+
+Applications are open to every TMU student.

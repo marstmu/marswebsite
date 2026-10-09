@@ -1,33 +1,113 @@
-name: ci 
+name: Build and validate website
+
 on:
   push:
-    branches:
-      - master 
-      - main
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the reviewed build to GitHub Pages (requires separate approval)
+        type: boolean
+        required: false
+        default: false
+
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
-          submodules: true
-          fetch-depth: 0
-      - name: Configure Git Credentials
+          python-version: '3.12'
+      - name: Install locked runtime
+        run: python -m pip install --require-hashes -r requirements.txt
+      - name: Install lossless poster-frame decoder
+        run: sudo apt-get update && sudo apt-get install --yes ffmpeg
+      - name: Test and build
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v4
+          python -m unittest discover -s scripts -p 'test_*.py'
+          zensical build --clean --strict
+      # Restore after --clean: Zensical clears its cache during a clean build.
+      - uses: actions/cache/restore@v6
+        id: media-cache
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v3
+          path: .cache/media
+          key: mars-media-${{ runner.os }}-${{ hashFiles('scripts/prepare_site.py', 'requirements.txt') }}
+          restore-keys: mars-media-${{ runner.os }}-
+      - name: Prepare display images and validate
+        run: |
+          python scripts/prepare_site.py site
+          python scripts/check_site.py site
+      - uses: actions/cache/save@v6
+        if: steps.media-cache.outputs.cache-hit != 'true'
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-git-committers-plugin-2 mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin mkdocs-exclude
-      
-      - run: mkdocs gh-deploy --force
+          path: .cache/media
+          key: ${{ steps.media-cache.outputs.cache-primary-key }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Install locked browser/lab tools
+        run: npm ci --prefix ci
+      - name: Functional, image and math regression gates; lab diagnostics
+        env:
+          MARS_PLAYWRIGHT_MODULE: ${{ github.workspace }}/ci/node_modules/playwright
+          MARS_PREVIEW_BACKEND: http://127.0.0.1:8887
+        run: |
+          mkdir -p .preview/screenshots
+          python -m http.server 8887 --bind 127.0.0.1 --directory site > .preview/ci-server.log 2>&1 &
+          task_site_pid=$!
+          trap 'kill "$task_site_pid"' EXIT
+          for task_attempt in {1..40}; do
+            if curl --fail --silent --output /dev/null http://127.0.0.1:8887/; then break; fi
+            sleep .25
+          done
+          curl --fail --silent --output /dev/null http://127.0.0.1:8887/
+          node scripts/browser-smoke.cjs --public
+          node scripts/header-smoke.cjs
+          node scripts/menu-smoke.cjs
+          node scripts/browser-layout.cjs
+          node scripts/parallax-smoke.cjs
+          node scripts/philosophy-smoke.cjs
+          node scripts/image-performance-smoke.cjs
+          node scripts/mathjax-smoke.cjs
+          node scripts/performance-smoke.cjs
+          # Public-format CI uses uncompressed stdlib HTTP transport. Keep its
+          # scores diagnostic; private-preview gzip scores are not this gate.
+          node scripts/check_lighthouse.mjs --full --report-only
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: website-image-and-lab-reports
+          path: |
+            .preview/screenshots
+            .preview/philosophy
+            .preview/performance
+            .preview/image-performance
+            .preview/lighthouse
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  # Publishing is explicit; main-branch pushes only build and validate.
+  deploy:
+    if: github.event_name == 'workflow_dispatch' && inputs.publish && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v6
+      - uses: actions/deploy-pages@v5
+        id: deployment

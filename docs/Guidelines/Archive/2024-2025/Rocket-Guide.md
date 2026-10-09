@@ -12,8 +12,10 @@ We are using F motors. We decided to go with phenolic tubes.
 
 
 <div style="display: flex; justify-content: center;">
-<iframe width="400" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTexvXlS_TQCoj--VuakJlw2FgXEVW8qgwKOV_IwisWCGN2COxgbx17rZAPSIIpS6KMJLeDdysvlwRf/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="Archived rocket kit bill of materials" width="400" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTexvXlS_TQCoj--VuakJlw2FgXEVW8qgwKOV_IwisWCGN2COxgbx17rZAPSIIpS6KMJLeDdysvlwRf/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
+
+[Open the archived rocket kit bill of materials in Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vTexvXlS_TQCoj--VuakJlw2FgXEVW8qgwKOV_IwisWCGN2COxgbx17rZAPSIIpS6KMJLeDdysvlwRf/pubhtml?widget=true&headers=false).
 
 ## OpenRocket
 

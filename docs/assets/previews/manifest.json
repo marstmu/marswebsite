@@ -1,0 +1,793 @@
+[
+  {
+    "source": "docs/gallery/1.png",
+    "originalBytes": 11984605,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-1-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 360,
+        "bytes": 29530
+      },
+      {
+        "file": "docs/assets/previews/gallery-1-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 720,
+        "bytes": 89284
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/10.png",
+    "originalBytes": 2412130,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-10-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 304,
+        "bytes": 12074
+      },
+      {
+        "file": "docs/assets/previews/gallery-10-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 608,
+        "bytes": 39746
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/11.png",
+    "originalBytes": 10664585,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-11-480.webp",
+        "maxEdge": 480,
+        "width": 361,
+        "height": 480,
+        "bytes": 24368
+      },
+      {
+        "file": "docs/assets/previews/gallery-11-960.webp",
+        "maxEdge": 960,
+        "width": 723,
+        "height": 960,
+        "bytes": 89544
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/12.png",
+    "originalBytes": 16043056,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-12-480.webp",
+        "maxEdge": 480,
+        "width": 360,
+        "height": 480,
+        "bytes": 38936
+      },
+      {
+        "file": "docs/assets/previews/gallery-12-960.webp",
+        "maxEdge": 960,
+        "width": 720,
+        "height": 960,
+        "bytes": 143902
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/13.png",
+    "originalBytes": 3673390,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-13-480.webp",
+        "maxEdge": 480,
+        "width": 360,
+        "height": 480,
+        "bytes": 27566
+      },
+      {
+        "file": "docs/assets/previews/gallery-13-960.webp",
+        "maxEdge": 960,
+        "width": 720,
+        "height": 960,
+        "bytes": 100870
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/14.png",
+    "originalBytes": 14020825,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-14-480.webp",
+        "maxEdge": 480,
+        "width": 360,
+        "height": 480,
+        "bytes": 32032
+      },
+      {
+        "file": "docs/assets/previews/gallery-14-960.webp",
+        "maxEdge": 960,
+        "width": 720,
+        "height": 960,
+        "bytes": 110918
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/15.JPG",
+    "originalBytes": 7234729,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-15-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 19172
+      },
+      {
+        "file": "docs/assets/previews/gallery-15-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 62312
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/16.JPG",
+    "originalBytes": 6199828,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-16-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 19040
+      },
+      {
+        "file": "docs/assets/previews/gallery-16-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 61608
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/17.JPG",
+    "originalBytes": 5369154,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-17-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 14790
+      },
+      {
+        "file": "docs/assets/previews/gallery-17-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 41872
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/18.JPG",
+    "originalBytes": 5240071,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-18-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 14138
+      },
+      {
+        "file": "docs/assets/previews/gallery-18-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 41236
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/19.JPG",
+    "originalBytes": 3996450,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-19-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 10760
+      },
+      {
+        "file": "docs/assets/previews/gallery-19-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 26662
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/2.png",
+    "originalBytes": 5923560,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-2-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 360,
+        "bytes": 15338
+      },
+      {
+        "file": "docs/assets/previews/gallery-2-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 720,
+        "bytes": 37290
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/20.jpg",
+    "originalBytes": 2715490,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-20-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 361,
+        "bytes": 24070
+      },
+      {
+        "file": "docs/assets/previews/gallery-20-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 723,
+        "bytes": 61752
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/21.jpg",
+    "originalBytes": 2115524,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-21-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 361,
+        "bytes": 15560
+      },
+      {
+        "file": "docs/assets/previews/gallery-21-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 723,
+        "bytes": 55504
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/22.JPG",
+    "originalBytes": 763340,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-22-480.webp",
+        "maxEdge": 480,
+        "width": 190,
+        "height": 480,
+        "bytes": 2586
+      },
+      {
+        "file": "docs/assets/previews/gallery-22-960.webp",
+        "maxEdge": 960,
+        "width": 380,
+        "height": 960,
+        "bytes": 6348
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/3.png",
+    "originalBytes": 10178308,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-3-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 12502
+      },
+      {
+        "file": "docs/assets/previews/gallery-3-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 29654
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/4.png",
+    "originalBytes": 12824160,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-4-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 19690
+      },
+      {
+        "file": "docs/assets/previews/gallery-4-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 46560
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/5.png",
+    "originalBytes": 14727097,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-5-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 360,
+        "bytes": 38372
+      },
+      {
+        "file": "docs/assets/previews/gallery-5-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 720,
+        "bytes": 125960
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/6.png",
+    "originalBytes": 13940714,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-6-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 270,
+        "bytes": 26446
+      },
+      {
+        "file": "docs/assets/previews/gallery-6-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 540,
+        "bytes": 79292
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/7.png",
+    "originalBytes": 16152656,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-7-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 360,
+        "bytes": 43226
+      },
+      {
+        "file": "docs/assets/previews/gallery-7-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 720,
+        "bytes": 151992
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/8.png",
+    "originalBytes": 42707852,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-8-480.webp",
+        "maxEdge": 480,
+        "width": 320,
+        "height": 480,
+        "bytes": 47990
+      },
+      {
+        "file": "docs/assets/previews/gallery-8-960.webp",
+        "maxEdge": 960,
+        "width": 640,
+        "height": 960,
+        "bytes": 185242
+      }
+    ]
+  },
+  {
+    "source": "docs/gallery/9.png",
+    "originalBytes": 33686763,
+    "previews": [
+      {
+        "file": "docs/assets/previews/gallery-9-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 19108
+      },
+      {
+        "file": "docs/assets/previews/gallery-9-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 63388
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/1.jpg",
+    "originalBytes": 261737,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-1-480.webp",
+        "maxEdge": 480,
+        "width": 320,
+        "height": 480,
+        "bytes": 12510
+      },
+      {
+        "file": "docs/assets/previews/home-1-960.webp",
+        "maxEdge": 960,
+        "width": 640,
+        "height": 960,
+        "bytes": 45454
+      },
+      {
+        "file": "docs/assets/previews/home-1-1600.webp",
+        "maxEdge": 1600,
+        "width": 1067,
+        "height": 1600,
+        "bytes": 124862
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/11.png",
+    "originalBytes": 424637,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-11-480.webp",
+        "maxEdge": 480,
+        "width": 361,
+        "height": 480,
+        "bytes": 24394
+      },
+      {
+        "file": "docs/assets/previews/home-11-960.webp",
+        "maxEdge": 960,
+        "width": 722,
+        "height": 960,
+        "bytes": 89434
+      },
+      {
+        "file": "docs/assets/previews/home-11-1600.webp",
+        "maxEdge": 1600,
+        "width": 1204,
+        "height": 1600,
+        "bytes": 228904
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/12.png",
+    "originalBytes": 552638,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-12-480.webp",
+        "maxEdge": 480,
+        "width": 360,
+        "height": 480,
+        "bytes": 38858
+      },
+      {
+        "file": "docs/assets/previews/home-12-960.webp",
+        "maxEdge": 960,
+        "width": 720,
+        "height": 960,
+        "bytes": 142244
+      },
+      {
+        "file": "docs/assets/previews/home-12-1600.webp",
+        "maxEdge": 1600,
+        "width": 1200,
+        "height": 1600,
+        "bytes": 333354
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/15.png",
+    "originalBytes": 41366,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-15-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 266,
+        "bytes": 3136
+      },
+      {
+        "file": "docs/assets/previews/home-15-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 532,
+        "bytes": 8400
+      },
+      {
+        "file": "docs/assets/previews/home-15-1600.webp",
+        "maxEdge": 1600,
+        "width": 1600,
+        "height": 886,
+        "bytes": 16824
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/2.jpg",
+    "originalBytes": 239448,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-2-480.webp",
+        "maxEdge": 480,
+        "width": 320,
+        "height": 480,
+        "bytes": 9674
+      },
+      {
+        "file": "docs/assets/previews/home-2-960.webp",
+        "maxEdge": 960,
+        "width": 640,
+        "height": 960,
+        "bytes": 38852
+      },
+      {
+        "file": "docs/assets/previews/home-2-1600.webp",
+        "maxEdge": 1600,
+        "width": 1067,
+        "height": 1600,
+        "bytes": 107774
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/3.jpg",
+    "originalBytes": 143964,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-3-480.webp",
+        "maxEdge": 480,
+        "width": 320,
+        "height": 480,
+        "bytes": 4706
+      },
+      {
+        "file": "docs/assets/previews/home-3-960.webp",
+        "maxEdge": 960,
+        "width": 640,
+        "height": 960,
+        "bytes": 16452
+      },
+      {
+        "file": "docs/assets/previews/home-3-1600.webp",
+        "maxEdge": 1600,
+        "width": 1067,
+        "height": 1600,
+        "bytes": 45026
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/6.png",
+    "originalBytes": 313911,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-6-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 270,
+        "bytes": 26490
+      },
+      {
+        "file": "docs/assets/previews/home-6-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 540,
+        "bytes": 78292
+      },
+      {
+        "file": "docs/assets/previews/home-6-1600.webp",
+        "maxEdge": 1600,
+        "width": 1600,
+        "height": 900,
+        "bytes": 160812
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/8.png",
+    "originalBytes": 764077,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-8-480.webp",
+        "maxEdge": 480,
+        "width": 320,
+        "height": 480,
+        "bytes": 47690
+      },
+      {
+        "file": "docs/assets/previews/home-8-960.webp",
+        "maxEdge": 960,
+        "width": 640,
+        "height": 960,
+        "bytes": 184950
+      },
+      {
+        "file": "docs/assets/previews/home-8-1600.webp",
+        "maxEdge": 1600,
+        "width": 1066,
+        "height": 1600,
+        "bytes": 491464
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/9.png",
+    "originalBytes": 351697,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-9-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 19234
+      },
+      {
+        "file": "docs/assets/previews/home-9-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 66122
+      },
+      {
+        "file": "docs/assets/previews/home-9-1600.webp",
+        "maxEdge": 1600,
+        "width": 1600,
+        "height": 1066,
+        "bytes": 178710
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/group_photo.jpg",
+    "originalBytes": 481343,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-group_photo-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 320,
+        "bytes": 24066
+      },
+      {
+        "file": "docs/assets/previews/home-group_photo-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 640,
+        "bytes": 90470
+      },
+      {
+        "file": "docs/assets/previews/home-group_photo-1600.webp",
+        "maxEdge": 1600,
+        "width": 1600,
+        "height": 1067,
+        "bytes": 256272
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/hero.jpg",
+    "originalBytes": 294861,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-hero-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 270,
+        "bytes": 12040
+      },
+      {
+        "file": "docs/assets/previews/home-hero-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 540,
+        "bytes": 50688
+      },
+      {
+        "file": "docs/assets/previews/home-hero-1600.webp",
+        "maxEdge": 1600,
+        "width": 1600,
+        "height": 899,
+        "bytes": 147582
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/pcb.jpg",
+    "originalBytes": 291710,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-pcb-480.webp",
+        "maxEdge": 480,
+        "width": 480,
+        "height": 343,
+        "bytes": 27022
+      },
+      {
+        "file": "docs/assets/previews/home-pcb-960.webp",
+        "maxEdge": 960,
+        "width": 960,
+        "height": 686,
+        "bytes": 71032
+      },
+      {
+        "file": "docs/assets/previews/home-pcb-1600.webp",
+        "maxEdge": 1600,
+        "width": 1600,
+        "height": 1143,
+        "bytes": 131454
+      }
+    ]
+  },
+  {
+    "source": "docs/assets/images/zn.png",
+    "originalBytes": 138491,
+    "previews": [
+      {
+        "file": "docs/assets/previews/home-zn-480.webp",
+        "maxEdge": 480,
+        "width": 360,
+        "height": 480,
+        "bytes": 5094
+      },
+      {
+        "file": "docs/assets/previews/home-zn-960.webp",
+        "maxEdge": 960,
+        "width": 720,
+        "height": 960,
+        "bytes": 11796
+      },
+      {
+        "file": "docs/assets/previews/home-zn-1600.webp",
+        "maxEdge": 1600,
+        "width": 1200,
+        "height": 1600,
+        "bytes": 26086
+      }
+    ]
+  }
+]

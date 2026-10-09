@@ -1,5 +1,7 @@
 # Ground Station
 
+*Archived 2024–2025 hardware guide. Confirm current hardware and requirements with the leads. SSH safety guidance was corrected on October 8, 2026.*
+
 The ground station is a raspberry pi with an HC-12.
 
 Connect the HC-12 to pins in the image below no need for the set pin, set the channel using the flight computer.
@@ -9,10 +11,10 @@ Connect the HC-12 to pins in the image below no need for the set pin, set the ch
 #### Flash and Connect to Raspberry Pi
 1. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 2. Select RASPBERRY PI OS LITE (64-BIT)
-3. Click the gear icon in the bottom right. Set hostname to your team name. Set password, and send it to your team's Discord chat on the Mars competition server. Enable SSH. Everything else is optional.
+3. Use Imager's customization settings to set a unique hostname and username. Enable SSH with public-key authentication and add each authorized member's public key. Keep private keys and passwords private; never post them in Discord or this repository. See [Raspberry Pi's SSH documentation](https://www.raspberrypi.com/documentation/computers/remote-access.html#ssh).
 4. Plug in SD card, select it, click write.
 5. Plug in Pi to network, and connect computer to same network
-6. Connect to your pi by running this in the termnial pi: `ssh username@hostname.local`
+6. Verify the Pi's SSH host-key fingerprint through a trusted local console or the device administrator before accepting it. Connect using your own key: `ssh username@hostname.local`.
 
 
 ### Enable the pins on the raspberry pi
@@ -46,6 +48,9 @@ Select finish, and reboot it now, you'll have to ssh into it again
 ### Tips
 If it says something like this while trying to SSH: 
 ![ssh-remote-host-identification-has-changed](https://github.com/marstmu/marswebsite/assets/55005377/4a9797a5-6097-42b2-bb67-7d5683c53684)
-Delete the known_hosts file your .ssh folder
+Stop and verify why the key changed. From a trusted console on the Pi, an administrator can show its Ed25519 host-key fingerprint with `ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub`. Compare it with the fingerprint shown by SSH.
 
+Only after independently confirming a legitimate change (for example, an authorized re-image), remove the entry for that specific hostname with `ssh-keygen -R hostname.local`, then reconnect and verify the fingerprint. If you connected by IP address, use that exact IP instead. Never delete the entire `known_hosts` file or bypass host-key checking.
+
+Reference: [OpenSSH's `ssh-keygen` manual](https://man.openbsd.org/ssh-keygen).
 

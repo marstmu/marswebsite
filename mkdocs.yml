@@ -1,12 +1,12 @@
 site_name: MARS
 
 site_url: https://marstmu.com/
-site_description: MARS Website.
+site_description: Metropolitan Aerospace Rocket Society at Toronto Metropolitan University — student model rocketry, hands-on learning, and competition.
 site_author: MARS
 repo_url: https://github.com/marstmu/marswebsite
 edit_uri: edit/main/docs/
 
-copyright: Metropolitan Aerospace Rocket Society © 2025 
+copyright: Metropolitan Airspace Rocket Society © 2026
 
 theme:
   name: material
@@ -35,11 +35,10 @@ theme:
         name: Switch to system preference
   icon:
     repo: fontawesome/brands/github
-  logo: img/logo-no-text.png
+  logo: img/mars-horizontal-transparent.png
   favicon: img/favicon.ico
   features:
    # - navigation.sections
-    - navigation.top
     - navigation.tabs
     - navigation.tabs.sticky
     - search.suggest
@@ -85,6 +84,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
   
   
 extra:
@@ -95,26 +99,17 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/mars.tmu/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/marstmu/?originalSubdomain=ca
+      link: https://www.linkedin.com/company/marstmu/
     - icon: fontawesome/brands/discord
       link: https://discord.com/invite/BaQZkd2TKj
     - icon: custom/notion
       link: https://marstmu.notion.site/MARS-Notion-1912fcb069e2804d92e6dc49248b4dbb
 
-# extra_css:
-#   - css/extra.css
+extra_css:
+  - css/mars.css
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
-markdown_extensions:
-  - pymdownx.caret
-  - pymdownx.mark
-  - pymdownx.tilde
-
-  - pymdownx.arithmatex:
-      generic: true
 
 
 watch:

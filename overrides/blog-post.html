@@ -1,0 +1,27 @@
+{# Posts share the same reading column as every other page, without a sidebar. #}
+{% extends "main.html" %}
+{% block container %}
+  <div class="md-content md-content--post" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+      <a id="__skip" tabindex="-1"></a>
+      <div class="mars-post-byline">
+        {% for author in page.authors %}
+          <span>
+            {% if author.url %}
+              <a href="{{ author.url | url }}">{{ author.name }}</a>
+            {% else %}
+              {{ author.name }}
+            {% endif %}
+          </span>
+        {% endfor %}
+        <time datetime="{{ page.config.date.created }}">{{ page.config.date.created | date }}</time>
+        {% if page.config.date.updated %}
+          <span>{{ lang.t("source.file.date.updated") }} <time datetime="{{ page.config.date.updated }}">{{ page.config.date.updated | date }}</time></span>
+        {% endif %}
+      </div>
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}

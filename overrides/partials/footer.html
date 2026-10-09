@@ -1,0 +1,17 @@
+<footer class="md-footer mars-footer">
+  <div class="mars-footer__inner">
+    <div class="mars-footer__identity">
+      <small>{{ config.copyright }}</small>
+    </div>
+    <nav class="md-social" aria-label="MARS social links">
+      {% for social in config.extra.social %}
+        <a href="{{ social.link }}" target="_blank" rel="noopener noreferrer" title="{{ social.name | e }}" aria-label="MARS {{ social.name | e }}" class="md-social__link">
+          <span aria-hidden="true">{% include ".icons/" ~ social.icon ~ ".svg" %}</span>
+        </a>
+      {% endfor %}
+      <a href="https://www.youtube.com/channel/UCn9Oa6NjO_Gsd0_fHeAxYIw" target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="MARS YouTube" class="md-social__link">
+        <span aria-hidden="true">{% include ".icons/fontawesome/brands/youtube.svg" %}</span>
+      </a>
+    </nav>
+  </div>
+</footer>
