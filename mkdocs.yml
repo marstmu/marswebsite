@@ -6,7 +6,7 @@ site_author: MARS
 repo_url: https://github.com/marstmu/marswebsite
 edit_uri: edit/main/docs/
 
-copyright: Metropolitan Airspace Rocket Society © 2026
+copyright: Metropolitan Aerospace Rocket Society © 2026
 
 theme:
   name: material
