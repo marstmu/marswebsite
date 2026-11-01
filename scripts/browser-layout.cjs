@@ -63,7 +63,7 @@ const base = process.env.MARS_PREVIEW_BACKEND || 'http://127.0.0.1:8887';
           assert.equal(footerStyle.paddingTop, footerStyle.paddingBottom, 'Desktop row has equal outer padding');
           assert.ok(Math.abs(footerStyle.copyCenterY - footerStyle.socialCenterY) < 1, 'Copyright and social row share a vertical center');
         }
-        assert.equal(await page.locator('.mars-footer small').innerText(), 'Metropolitan Airspace Rocket Society © 2026');
+        assert.equal(await page.locator('.mars-footer small').innerText(), 'Metropolitan Aerospace Rocket Society © 2026');
         assert.equal(await page.locator('.mars-footer .md-social__link').count(), 6);
         for (const link of await page.locator('.mars-footer .md-social__link').all()) {
           const box = await link.boundingBox();
